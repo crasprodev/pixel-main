@@ -1,4 +1,3 @@
-<?php
-echo "<script>location.assign("https://pixelprints.pt/php");</script>"
+<script>location.assign("https://pixelprints.pt/php");</script>
 
-?>
+
