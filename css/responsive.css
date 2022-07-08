@@ -559,11 +559,11 @@
     width: 100%;
   }
   .error_class {
-    transform: translate(12rem, -11.7rem) !important;
-    -webkit-transform: translate(12rem, -11.7rem) !important;
-    -moz-transform: translate(12rem, -11.7rem) !important;
-    -ms-transform: translate(12rem, -11.7rem) !important;
-    -o-transform: translate(12rem, -11.7rem) !important;
+    transform: translate(0rem, -20.7rem) !important;
+        -webkit-transform: translate(0rem, -20.7rem) !important;
+    -moz-transform:  translate(0rem, -20.7rem)  !important;
+    -ms-transform:  translate(0rem, -20.7rem)  !important;
+    -o-transform:  translate(0rem, -20.7rem)  !important;
   }
   .menu.signin {
     width: 100%;
