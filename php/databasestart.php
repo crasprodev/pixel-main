@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username ='Pixelpri_a_user_manager';
-$pass ='Profanus2022!?';
-$db_name="database_pixelprints";
+$servername = "localhost:3306";
+$username = "pixelpri_a_user_manager";
+$pass = "Profanus2022!?";
+$db_name="pixelpri_database_pixelprints";
 $conexao=mysqli_connect($servername,$username,$pass,$db_name );
 if(!$conexao)
 {
