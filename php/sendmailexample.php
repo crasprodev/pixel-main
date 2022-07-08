@@ -2,11 +2,11 @@
 
 function send_email($emailrecipiente,$titulo, $conteudo)
 {
- $from ="botaccount@pixelprints.pt";
+ $From ="botaccount@pixelprints.pt";
 $Subject = $titulo;
   $titulo = $titulo;
   $conteudo = $conteudo;
-  $header = "from no-reply-bot";
-mail($from,$Subject,$conteudo ,$header)
+  $header = "From: ".$From";
+mail($emailrecipiente,$Subject,$conteudo ,$header)
 }
 ?>
