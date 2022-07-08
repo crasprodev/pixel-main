@@ -1,11 +1,22 @@
+
 <?php
 $servername = "localhost";
+$database = "database_pixelprints";
 $username = "User_pixelprints";
-$pass = "[hwhKjQh)X{0";
-$db_name="database_pixelprints";
-$conexao=mysqli_connect($servername,$username,$pass,$db_name );
-if (!$conexao) {
-    echo "Error: Unable to connect to MySQL." . PHP_EOL;
-exit;
+$password = "[hwhKjQh)X{0";
+
+
+// Create connection using musqli_connect function
+$conn = mysqli_connect($servername, $username, $password, $database);
+// Connection Check
+if (!$conn) {
+    die("Connection failed: " . $conn->connect_error);
 }
+
+else{
+   echo "Connected Successfully!";
+   $conn->close();
+}
+
+?>
 ?>
