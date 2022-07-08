@@ -7,9 +7,9 @@ $password = "[hwhKjQh)X{0";
 
 
 // Create connection using musqli_connect function
-$conn = mysqli_connect($servername, $username, $password, $database);
+$conexao = mysqli_connect($servername, $username, $password, $database);
 // Connection Check
-if (!$conn) {
+if (!$conexao) {
     die("Connection failed: " . $conn->connect_error);
 }
 
