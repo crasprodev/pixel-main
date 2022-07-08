@@ -14,10 +14,10 @@ $mail->SMTPAuth   = TRUE;
 $mail->SMTPSecure = "tls"; 
 $mail->Port       = 587;
 $mail->Host       = "smtp.gmail.com";
-$mail->Username   = "botj6883@gmail.com";
+$mail->Username   = "botqniqnwfwfiwenf@gmail.com";
 //$mail->SMTPDebug  = 2; 
   // 5Y4Lyqn9pQf&$-?m
-$mail->Password   = "rddmpvzbxnlfjinm";
+$mail->Password   = "jkrmhhhfbcorkieg";
 $mail->IsHTML(true);
 $mail->SetLanguage("pt", 'class/phpMailer/language/');
 $mail->AddAddress($emailrecipiente, "recipient-name");
