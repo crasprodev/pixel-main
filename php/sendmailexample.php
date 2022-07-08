@@ -15,7 +15,7 @@ $mail->SMTPSecure = "tls";
 $mail->Port       = 587;
 $mail->Host       = "smtp.gmail.com";
 $mail->Username   = "botqniqnwfwfiwenf@gmail.com";
-//$mail->SMTPDebug  = 2; 
+$mail->SMTPDebug  = 2; 
   // 5Y4Lyqn9pQf&$-?m
 $mail->Password   = "jkrmhhhfbcorkieg";
 $mail->IsHTML(true);
