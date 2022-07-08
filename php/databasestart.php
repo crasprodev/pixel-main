@@ -1,8 +1,8 @@
 
 <?php
-$servername = "localhost:3360";
-$database = "pixelpri_database_pixelprints";
-$username = "pixelpri_User_pixelprints";
+$servername = "localhost";
+$database = "database_pixelprints";
+$username = "User_pixelprints";
 $password = "XD#oc.]%Z$9R";
 
 
