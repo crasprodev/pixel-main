@@ -3,7 +3,7 @@
 $servername = "localhost";
 $database = "pixelpri_database_pixelprints";
 $username = "pixelpri_User_pixelprints";
-$password = "XD#oc.]%Z$9R";
+$password = "Z3#0SIi;Uyw8";
 
 
 // Create connection using musqli_connect function
