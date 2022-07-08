@@ -1,7 +1,11 @@
-<?php $conexao=mysqli_connect('localhost','root','Profanus2022!?','Pixelpri_a_user_manager');
+<?php
+$servername = "localhost";
+$username ='Pixelpri_a_user_manager';
+$pass ='Profanus2022!?';
+$db_name="database_pixelprints";
+$conexao=mysqli_connect($servername,$username,$pass,$db_name );
 if(!$conexao)
 {
 echo 'Ligação ao servidor impossivel';exit;
 }
-mysqli_select_db($conexao, 'database_pixelprints');
 ?>
