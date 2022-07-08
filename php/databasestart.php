@@ -18,7 +18,7 @@ echo "Error: Unable to connect to MySQL." . PHP_EOL;
 }
 else{
    echo "Connected Successfully!";
-   $conn->close();
+   $conexao->close();
 }
 
 ?>
