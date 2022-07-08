@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "pixelpri_a_user_manager";
-$pass = "gG~}x4kDw59A";
+$username = "User_pixelprints";
+$pass = "[hwhKjQh)X{0";
 $db_name="database_pixelprints";
 $conexao=mysqli_connect($servername,$username,$pass,$db_name );
 if (!$conexao) {
