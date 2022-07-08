@@ -13,9 +13,5 @@ if(!$conexao)
 {
 echo 'Ligação ao servidor impossivel';exit;
 }
-else{
-   echo "Connected Successfully!";
-   $conn->close();
-}
 
 ?>
