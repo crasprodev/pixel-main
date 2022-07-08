@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost::3306";
+$servername = "localhost:3306";
 $username = "pixelpri_a_user_manager";
 $pass = "Profanus2022!?";
 $db_name="database_pixelprints";
