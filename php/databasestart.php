@@ -1,4 +1,3 @@
-
 <?php
 $servername = "localhost";
 $database = "pixelpri_database_pixelprints";

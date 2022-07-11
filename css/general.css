@@ -39,6 +39,7 @@ input.em {
   font-family: "Open Sans", sans-serif;
   color: white;
   display: flex;
+  width: -moz-available;
   justify-content: center;
   align-items: center;
   flex-direction: column;

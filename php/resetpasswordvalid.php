@@ -42,7 +42,7 @@ $insert = "INSERT INTO `resetpassword` (`Utilizador_assoc`, `uniqueid`) VALUES (
    if ($Query)
    {
   $conteudo = "Link para a recuperação de password - http://".$_SERVER['HTTP_HOST'].dirname($_SERVER["PHP_SELF"]). "/resetpassword_actual.php?code=".$secret_cod;
- send_email($email ,$titulo, $conteudo);   echo "<script>window.location.assign('emailenviado.php?result=1')</script>"; return;
+ echo send_email($email ,$titulo, $conteudo);   echo "<script>window.location.assign('emailenviado.php?result=1')</script>"; return;
 } 
  echo "<script>window.location.assign('emailenviado.php?result=0')</script>"; }echo "<script>window.location.assign('emailenviado.php?result=0')</script>";}
 

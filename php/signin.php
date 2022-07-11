@@ -93,7 +93,6 @@ if (!empty($_POST))
     $sessao = mysqli_real_escape_string($conexao,$_POST["sessao"]);
 
     $insert = "INSERT INTO `utilizador_bd` (`Cod_id`, `Nome`, `Email`, `Password`, `NIF`, `Morada`, `Codpostal`, `Telefone_pess`,`Nomeempresa`,`tipoconta`, `Nivel`, `Datadeentrada`) VALUES (NULL, '".$nome."', '".$Email."', '$hashed_password', '$NIF', '$morada', '$codigopostal', '$telefone','$empresa','$tipoconta', 'Utilizador', current_timestamp())";
-    echo $insert;
     if(seemeail($Email)==0)
 {
 
