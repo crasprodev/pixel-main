@@ -57,7 +57,7 @@ else{
 }}
 function login($email, $password, $sessao){
     include ("databasestart.php");
-    return $password;
+    return "  ".$password;
     $select = "SELECT * FROM `utilizador_bd` WHERE `utilizador_bd`.`email` = '$email'" ;
  $Query = MySQLi_query($conexao,  $select);
  if(mysqli_num_rows($Query)>=1){
