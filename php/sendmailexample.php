@@ -11,16 +11,11 @@ $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->Mailer = "smtp";
 $mail->SMTPAuth   = TRUE;
-<<<<<<< HEAD
-$mail->Host       = "smtp.gmail.com";
 $mail->SMTPAuth   = "true";                 
 $mail->SMTPSecure = "ssl";                 
-$mail->Port       = 465;
-=======
+$mail->Port       = 2080;
 $mail->SMTPSecure = "tls"; 
-$mail->Port       = 465;
-$mail->Host       = "mail.pixelprints.pt";
->>>>>>> c1ed065c021dec8e43c4ffe37ea7060c0dd4ebe6
+$mail->Host       = "https://mail.pixelprints.pt:2080";
 $mail->Username   = "botpixelprints@pixelprints.pt";
 $mail->SMTPDebug  = 2; 
 $mail->Password   = "h$.DNj{@]~5f";
