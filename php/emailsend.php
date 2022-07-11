@@ -36,7 +36,7 @@ $conteudo = "Nome: ".$nome.";<br>tipo de cliente: ".$tipoconta.";<br> Email: ".$
 $telefone.";<br> Nome da empresa: ".$empresa.";<br> NIF: ".$nif.";<br><br> Messagem: <br>".$messagem."";
 
 
-send_email($emailrecipiente,$titulo, $conteudo);
-    echo "<script>window.location.assign('Index.php')</script>";
+echo send_email($emailrecipiente,$titulo, $conteudo);
+  //  echo "<script>window.location.assign('Index.php')</script>";
 } 
 ?>
