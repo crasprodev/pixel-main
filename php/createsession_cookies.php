@@ -57,10 +57,9 @@ else{
 }}
 function login($email, $password, $sessao){
     include ("databasestart.php");
-
+    echo $password;
     $select = "SELECT * FROM `utilizador_bd` WHERE `utilizador_bd`.`email` = '$email'" ;
  $Query = MySQLi_query($conexao,  $select);
-echo $password;
  if(mysqli_num_rows($Query)>=1){
      while ($Result = MySQLi_fetch_array($Query)) {  
         if(password_verify($password, $Result["Password"]))
