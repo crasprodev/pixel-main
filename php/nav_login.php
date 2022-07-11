@@ -2,6 +2,5 @@
 $email = $_POST["email"];
 $password = $_POST["password"];
 $sessao = $_POST["sessao"];
-echo $password;
 echo login($email, $password, $sessao);
 ?>
