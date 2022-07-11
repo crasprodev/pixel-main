@@ -1,7 +1,5 @@
 <?php
 
-<?php
-
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 require 'PHPMailer-master/src/Exception.php';
@@ -14,15 +12,15 @@ $mail->IsSMTP();
 $mail->Mailer = "smtp";
 $mail->SMTPAuth   = TRUE;
 $mail->SMTPSecure = "tls"; 
-$mail->Port       = 587;
-$mail->Host       = "smtp.gmail.com";
-$mail->Username   = "botqniqnwfwfiwenf@gmail.com";
-//$mail->SMTPDebug  = 2; 
-$mail->Password   = "jkrmhhhfbcorkieg";
+$mail->Port       = 465;
+$mail->Host       = "mail.pixelprints.pt";
+$mail->Username   = "botpixelprints@pixelprints.pt";
+$mail->SMTPDebug  = 2; 
+$mail->Password   = "h$.DNj{@]~5f";
 $mail->IsHTML(true);
 $mail->SetLanguage("pt", 'class/phpMailer/language/');
 $mail->AddAddress($emailrecipiente, "recipient-name");
-$mail->SetFrom("botj6883@gmail.com", "no-replybot");
+$mail->SetFrom("botpixelprints@pixelprints.pt", "no-replybot");
 $mail->AddReplyTo($emailrecipiente, "no-reply");
 $mail->AddCC($emailrecipiente, "cc-recipient-name");
 $mail->Subject = $titulo;
