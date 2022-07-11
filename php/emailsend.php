@@ -30,7 +30,7 @@ $empresa = trim(mysqli_real_escape_string($conexao,$_POST["emp"]));
 $nif =  trim(mysqli_real_escape_string($conexao,$_POST["nif"]));
 }
 $messagem = trim(mysqli_real_escape_string($conexao,$_POST["message"]));
-$cc = ["geral@pixelprints.pt"];
+$cc = ["geral@pixelprints.pt","feroleandro@gmail.com"];
 $titulo = "Revendas";
 $conteudo = "Nome: ".$nome.";<br>tipo de cliente: ".$tipoconta.";<br> Email: ".$email.";<br> Número de telefone: ".
 $telefone.";<br> Nome da empresa: ".$empresa.";<br> NIF: ".$nif.";<br><br> Messagem: <br>".$messagem."";

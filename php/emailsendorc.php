@@ -4,7 +4,8 @@ if (!empty($_POST))
 {
     session_start();
 include("sendmailexample.php");    include ("databasestart.php");
-$emailrecipiente = "feroleandro@gmail.com";
+$emailrecipiente = "comercial@pixelprints.pt";
+$cc = ["geral@pixelprints.pt","feroleandro@gmail.com"];
 if($_SESSION["session"]==true)
 {
     $nome =$_SESSION["Nome"];
