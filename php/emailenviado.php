@@ -20,11 +20,20 @@
       {
         echo "<div class='email_enviado'> Erro - email não enviado";
       }
-      ?>
-            <br>
-            <h4><a href='login.php'>login</a></h4>
+     if($resultado>=2)
+     {
+echo " <br>
+<h4><a href='login'>login</a></h4>
+</div>";
+     }
+     else
+    {
+      echo " <br>
+<h4><a href='https://pixelprints.pt/php'>Inicio</a></h4>
+</div>";
+    } 
+ ?>
         </div>
-    </div>
     </div>
     </div>
 
