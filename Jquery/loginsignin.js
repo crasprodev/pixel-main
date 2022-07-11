@@ -68,6 +68,7 @@ $(window).on("load", function () {
     var email = $("input.email-login").val();
     var password = $("input.password-login").val();
     var checkbox = $("#paiva").is(":checked");
+    console.log(email);
     $.ajax({
       type: "POST",
 

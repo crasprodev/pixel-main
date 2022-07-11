@@ -36,7 +36,13 @@ $conteudo = "Nome: ".$nome.";<br>tipo de cliente: ".$tipoconta.";<br> Email: ".$
 $telefone.";<br> Nome da empresa: ".$empresa.";<br> NIF: ".$nif.";<br><br> Messagem: <br>".$messagem."";
 
 
-echo send_email($emailrecipiente,$titulo, $conteudo);
-  //echo "<script>window.location.assign('Index.php')</script>";
+if(send_email($email ,$titulo, $conteudo)==1)
+{
+    echo "<script>window.location.assign('emailenviado.php?result=1')</script>"; return;
+}
+else
+{
+    echo "<script>window.location.assign('emailenviado.php?result=3')</script>"; return;
+}
 } 
 ?>
