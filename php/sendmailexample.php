@@ -20,12 +20,11 @@ $mail->Mailer = "smtp";
 $mail->Username   = "botpixelprints@pixelprints.pt";
 
 $mail->Debugoutput = 'html';
-$mail->SMTPDebug  = 2; 
 $mail->Password   = "h$.DNj{@]~5f";
 $mail->IsHTML(true);
 $mail->SetLanguage("pt", 'class/phpMailer/language/');
 $mail->AddAddress($emailrecipiente, "recipient-name");
-$mail->SetFrom("botj6883@gmail.com", "no-replybot");
+$mail->SetFrom("botpixelprints@pixelprints.pt", "no-replybot");
 $mail->AddReplyTo($emailrecipiente, "no-reply");
 $mail->AddCC($emailrecipiente, "cc-recipient-name");
 $mail->Subject = $titulo;
