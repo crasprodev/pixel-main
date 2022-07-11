@@ -10,11 +10,11 @@ function send_email($emailrecipiente,$titulo, $conteudo)
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->Mailer = "smtp";
-$mail->SMTPSecure = "tls"; 
+$mail->SMTPSecure = "ssl"; 
 $mail->SMTPAuth   = TRUE;               
 $mail->Port       = 465;
 $mail->Username   = "botpixelprints@pixelprints.pt";
-$mail->Host       = "mail.pixelprints.pt";
+$mail->Host       = "smtp.gmail.com"; 
 $mail->SMTPDebug  = 2; 
 $mail->Password   = "h$.DNj{@]~5f";
 $mail->IsHTML(true);
