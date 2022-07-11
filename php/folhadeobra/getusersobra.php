@@ -457,7 +457,7 @@ while ($result = $query->fetch_array())
    " <br> Comentário de ".$_SESSION["Nome"].": <br> $comentario </h2>":"";
    $conteudo.=$comentario;
      $emailrecipiente =$result["Email"];
- echo  send_email($emailrecipiente,$titulo, $conteudo);
+ echo  send_email($emailrecipiente,$titulo, $conteudo,$cc);
 }
 
 }
