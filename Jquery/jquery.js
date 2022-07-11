@@ -117,42 +117,41 @@ $(".bars").click(function () {
 
   $(".bars").hide();
 });
-const link_start = "../php/index/";
 $(".links:eq(0)").click(function () {
-  location.href = link_start + "#inicio";
+  location.href = "../php/#inicio";
 });
 $(".links:eq(1)").click(function () {
-  location.href = link_start + "#Quemsomos";
+  location.href = "../php/#Quemsomos";
 });
 $(".links:eq(2)").click(function () {
-  location.href = link_start + "#servicos";
+  location.href = "../php/#servicos";
 });
 $(".links:eq(4)").click(function () {
-  location.href = link_start + "#revenda";
+  location.href = "../php/#revenda";
 });
 $(".links:eq(5)").click(function () {
-  location.href = link_start + "#portefolio";
+  location.href = "../php/#portefolio";
 });
 $(".links:eq(6)").click(function () {
-  location.href = link_start + "#contactos";
+  location.href = "../php/#contactos";
 });
 $(".link:eq(0)").click(function () {
-  location.href = link_start + "#inicio";
+  location.href = "../php/#inicio";
 });
 $(".link:eq(1)").click(function () {
-  location.href = link_start + "#Quemsomos";
+  location.href = "../php/#Quemsomos";
 });
 $(".link:eq(2)").click(function () {
-  location.href = link_start + "#servicos";
+  location.href = "../php/#servicos";
 });
 $(".link:eq(4)").click(function () {
-  location.href = link_start + "#revenda";
+  location.href = "../php/#revenda";
 });
 $(".link:eq(5)").click(function () {
-  location.href = link_start + "#portefolio";
+  location.href = "../php/#portefolio";
 });
 $(".link:eq(6)").click(function () {
-  location.href = link_start + "#contactos";
+  location.href = "../php/#contactos";
 });
 
 var tempo_slide = 500; //0.7 segundos
