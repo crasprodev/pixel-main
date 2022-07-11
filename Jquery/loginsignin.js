@@ -90,7 +90,7 @@ $(window).on("load", function () {
           }
         }
         if (html == 1) {
-          window.location.assign("Index.php");
+          window.location.assign("index.php");
         }
         $(".incr_pass").fadeIn();
         $("input.reg-classe").keyup(function () {

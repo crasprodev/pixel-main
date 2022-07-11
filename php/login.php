@@ -1,4 +1,11 @@
-<?php include ("navbar/navbar.php"); ?>
+<?php include ("navbar/navbar.php");
+
+if(($_SESSION["session"]== true))
+{
+    echo "<script>window.location.assign('index.php')</script>";
+}
+
+?>
 
 <body>
     <div class="blueacc_menu login">
@@ -46,17 +53,7 @@
 </html>
 <div>
 
-    <?php
-if(($_SESSION["session"]== true))
-{
-    echo "<script>window.location.assign('Index.php')</script>";
-}
-if (!empty($_POST))
-{
 
-}
-
-?>
 
     <script src="../Jquery/jquery.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
