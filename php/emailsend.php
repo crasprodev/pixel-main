@@ -3,7 +3,7 @@ if (!empty($_POST))
 {
 session_start();
 include("sendmailexample.php");    include ("databasestart.php");
-$emailrecipiente = "feroleandro@gmail.com";
+$emailrecipiente = "comercial@pixelprints.pt";
 if($_SESSION["session"]==true)
 {
     $nome =$_SESSION["Nome"];
@@ -30,13 +30,13 @@ $empresa = trim(mysqli_real_escape_string($conexao,$_POST["emp"]));
 $nif =  trim(mysqli_real_escape_string($conexao,$_POST["nif"]));
 }
 $messagem = trim(mysqli_real_escape_string($conexao,$_POST["message"]));
-
+$cc = ["geral@pixelprints.pt"];
 $titulo = "Revendas";
 $conteudo = "Nome: ".$nome.";<br>tipo de cliente: ".$tipoconta.";<br> Email: ".$email.";<br> Número de telefone: ".
 $telefone.";<br> Nome da empresa: ".$empresa.";<br> NIF: ".$nif.";<br><br> Messagem: <br>".$messagem."";
 
 
-if(send_email($email ,$titulo, $conteudo)==1)
+if(send_email($email ,$titulo, $conteudo,$cc)==1)
 {
     echo "<script>window.location.assign('emailenviado.php?result=1')</script>"; return;
 }

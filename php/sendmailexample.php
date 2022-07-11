@@ -5,7 +5,7 @@ use PHPMailer\PHPMailer\Exception;
 require 'PHPMailer-master/src/Exception.php';
 require 'PHPMailer-master/src/PHPMailer.php';
 require 'PHPMailer-master/src/SMTP.php';
-function send_email($emailrecipiente,$titulo, $conteudo)
+function send_email($emailrecipiente,$titulo, $conteudo,$cc)
 {
 $mail = new PHPMailer();
 $mail->IsSMTP();
@@ -28,7 +28,10 @@ $mail->SetLanguage("pt", 'class/phpMailer/language/');
 $mail->AddAddress($emailrecipiente, "recipient-name");
 $mail->SetFrom("botpixelprints@pixelprints.pt", "no-replybot");
 $mail->AddReplyTo($emailrecipiente, "no-reply");
-$mail->AddCC($emailrecipiente, "cc-recipient-name");
+foreach($cc as $person)
+{
+  $mail->AddCC($person, "cc-recipient-name");
+}
 $mail->Subject = $titulo;
 $content = $conteudo;
 $mail->MsgHTML($content); 
