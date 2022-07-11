@@ -55,14 +55,13 @@ function get_session($Cod_id){
 }
 else{
 }}
-function login($email, $password, $sessao){
+function login($email, $Password, $sessao){
     include ("databasestart.php");
-    return "  ".$password;
     $select = "SELECT * FROM `utilizador_bd` WHERE `utilizador_bd`.`email` = '$email'" ;
  $Query = MySQLi_query($conexao,  $select);
  if(mysqli_num_rows($Query)>=1){
      while ($Result = MySQLi_fetch_array($Query)) {  
-        if(password_verify($password, $Result["Password"]))
+        if(password_verify($Password, $Result["Password"]))
         {
             if($sessao=="on" || $sessao=="true")
             {
