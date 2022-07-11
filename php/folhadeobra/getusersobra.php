@@ -147,6 +147,7 @@ function niveluseruser()
 }
  function createuser($tipodedata,$datauser,$mensagem,$montagem,$localizacao,$aprovacao,$status,$comentario)
  {
+    return "d";
     include ("../databasestart.php");
     $codid1 = isset($_SESSION["Cod_id"])==TRUE?$_SESSION["Cod_id"]:$_COOKIE["Cod_id"];
     function approval($aprovacao,$folhadeobranum)
