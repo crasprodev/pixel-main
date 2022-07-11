@@ -98,9 +98,10 @@ lojas, viaturas e brindes">
       echo '<img class="icon" src="../img/icons/icon-person.png" alt=""></div>';
         if($_SESSION["session"]== true)
         {
+         $admin = $_SESSION["Nivel"]!="Utilizador"?' <a href="adminmenu" class="btn-whitish">Admin</a>':"";
             echo '<div class="menu-account edit">
             <a class="btn-whitish"><img src="../img/icons/cart.png" class="carrinho" alt="">CARRINHO</a>
-            <a href="editdetails.php" class="btn-whitish">DEFINIÇÕES</a>
+            <a href="editdetails.php" class="btn-whitish">DEFINIÇÕES</a>'.$admin.'
             <a class="btn-whitish" href="logout.php">LOG OUT</a>
             <a class="btn-whitish"> </a>
             </div></div>
