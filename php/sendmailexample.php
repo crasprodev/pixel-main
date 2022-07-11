@@ -9,12 +9,18 @@ function send_email($emailrecipiente,$titulo, $conteudo)
 {
 $mail = new PHPMailer();
 $mail->IsSMTP();
+$mail->SMTPDebug = 1; 
+$mail->SMTPAuth = true; 
+$mail->SMTPSecure = 'ssl'; 
+$mail->Host = "smtp.gmail.com";
 $mail->Mailer = "smtp";
-$mail->SMTPSecure = "ssl"; 
-$mail->SMTPAuth   = TRUE;               
-$mail->Port       = 465;
+ $mail->Port = 465; 
+ $mail->IsHTML(true);
+$mail->Host       = "smtp.gmail.com";               
+
 $mail->Username   = "botpixelprints@pixelprints.pt";
-$mail->Host       = "smtp.gmail.com"; 
+
+$mail->Debugoutput = 'html';
 $mail->SMTPDebug  = 2; 
 $mail->Password   = "h$.DNj{@]~5f";
 $mail->IsHTML(true);
