@@ -2,7 +2,7 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-//change
+
 <head>
     <meta charset="UTF-8">
     <meta name="keywords"
