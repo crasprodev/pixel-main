@@ -6,22 +6,26 @@
             <?php $resultado=$_GET["result"];
       if($resultado == 1)
       {
-        echo "<div class='email_enviado'> Email enviado  <br> <h4><a href='Index.php'>inicio</a></h4></div>";
+        echo "<div class='email_enviado'> Email enviado";
       }
       if($resultado == 0)
       {
-        echo "<div class='email_enviado'> Tente outra vez - email incorreto  <br> <h4><a href='Index.php'>inicio</a></h4></div>";
+        echo "<div class='email_enviado'> Tente outra vez - email incorreto";
       }
       if($resultado == 2)
       { 
-        echo "<div class='email_enviado'> Password modificada <br> <h4><a href='login.php'>login</a></h4></div>";
+        echo "<div class='email_enviado'> Password modificada ";
       }
       if($resultado == 3)
       {
-        echo "<div class='email_enviado'> Erro - email não enviado<br> <h4><a href='login.php'>login</a></h4></div>";
+        echo "<div class='email_enviado'> Erro - email não enviado";
       }
       ?>
+            <br>
+            <h4><a href='login.php'>login</a></h4>
         </div>
+    </div>
+    </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
