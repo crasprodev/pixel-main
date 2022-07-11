@@ -63,7 +63,6 @@ function login($email, $password, $sessao){
 echo $password;
  if(mysqli_num_rows($Query)>=1){
      while ($Result = MySQLi_fetch_array($Query)) {  
-        return "<br>".$Result["Password"];
         if(password_verify($password, $Result["Password"]))
         {
             if($sessao=="on" || $sessao=="true")
