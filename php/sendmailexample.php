@@ -9,7 +9,9 @@ function send_email($emailrecipiente,$titulo, $conteudo)
 {
 $mail = new PHPMailer();
 $mail->IsSMTP();
-$mail->SMTPDebug = 1; 
+
+$mail->SMTPDebug = 3;
+
 $mail->SMTPAuth = true; 
 $mail->SMTPSecure = 'tls'; 
 $mail->Host = "mail.pixelprints.pt";
