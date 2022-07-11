@@ -13,7 +13,7 @@ $mail->IsSMTP();
 $mail->SMTPDebug = 3;
 
 $mail->SMTPAuth = true; 
-$mail->SMTPSecure = 'tls'; 
+$mail->SMTPSecure = 'ssl'; 
 $mail->Host = "mail.pixelprints.pt";
 $mail->Mailer = "smtp";
  $mail->Port = 465; 
