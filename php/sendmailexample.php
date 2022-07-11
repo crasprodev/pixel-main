@@ -20,7 +20,7 @@ $mail->Mailer = "smtp";
 $mail->Username   = "botpixelprints@pixelprints.pt";
 
 $mail->Debugoutput = 'html';
-$mail->Password   = "h$.DNj{@]~5f";
+$mail->Password   = "^xLN{!Q,{u2G";
 $mail->IsHTML(true);
 $mail->SetLanguage("pt", 'class/phpMailer/language/');
 $mail->AddAddress($emailrecipiente, "recipient-name");
