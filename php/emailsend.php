@@ -37,6 +37,6 @@ $telefone.";<br> Nome da empresa: ".$empresa.";<br> NIF: ".$nif.";<br><br> Messa
 
 
 echo send_email($emailrecipiente,$titulo, $conteudo);
-  //  echo "<script>window.location.assign('Index.php')</script>";
+  //echo "<script>window.location.assign('Index.php')</script>";
 } 
 ?>

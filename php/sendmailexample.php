@@ -10,7 +10,7 @@ function send_email($emailrecipiente,$titulo, $conteudo)
 $mail = new PHPMailer();
 $mail->IsSMTP();
 
-$mail->SMTPDebug = 3;
+//$mail->SMTPDebug = 3;
 
 $mail->SMTPAuth = true; 
 $mail->SMTPSecure = 'ssl'; 
@@ -21,7 +21,7 @@ $mail->Mailer = "smtp";
 
 $mail->Username   = "botpixelprints@pixelprints.pt";
 
-$mail->Debugoutput = 'html';
+//$mail->Debugoutput = 'html';
 $mail->Password   = "^xLN{!Q,{u2G";
 $mail->IsHTML(true);
 $mail->SetLanguage("pt", 'class/phpMailer/language/');
@@ -33,9 +33,9 @@ $mail->Subject = $titulo;
 $content = $conteudo;
 $mail->MsgHTML($content); 
 if(!$mail->Send()) {
-  return;
+  return 0;
   var_dump($mail);
 } else {
-  return;
+  return 1;
 }}
 ?>
