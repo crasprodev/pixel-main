@@ -236,7 +236,7 @@ let users = function() {
                 }
             });
         });
-        $(".editbtn.save").off();
+
         $(".editbtn.edit").click(function() {
 
             if ($(".editbtn.edit").hasClass("cross") == true) {
@@ -287,7 +287,6 @@ let users = function() {
         $(".editbtn.salvar").off();
         $(".editbtn.edit").html("<span></span><span></span>")
             .addClass("cross");
-        $(".editbtn.edit").off();
         $(".editbtn.remover")
         $(".flex").css("display", "none");
     }
