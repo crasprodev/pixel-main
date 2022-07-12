@@ -106,14 +106,14 @@ if (!empty($_POST))
             if($_SESSION["session"]=="true")
             {
                 echo $_SESSION["Nome"];
-                echo "<script>window.location.assign('index.php')</script>"; 
+                echo "<script>window.location.assign('https://pixelprints.pt/php/')</script>"; 
             }
         }
         create_session($Email,1);
             get_session($_SESSION["Cod_id"]);
 
                 echo $_SESSION["Nome"];
-                echo "<script>window.location.assign('index.php')</script>"; 
+                echo "<script>window.location.assign('https://pixelprints.pt/php/')</script>"; 
             
             return;
     }
