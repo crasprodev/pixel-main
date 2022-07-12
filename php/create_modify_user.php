@@ -345,7 +345,7 @@ $(".input_appeareance.input_pld").on("input", function() {
 setInterval(() => {
     dados.search()
 
-}, 15000);
+}, 500);
 $(".btn-criar").off();
 clickerros()
 
