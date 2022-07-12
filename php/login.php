@@ -2,7 +2,7 @@
 
 if(($_SESSION["session"]== true))
 {
-    echo "<script>window.location.assign('index.php')</script>";
+    echo "<script>window.location.assign('https://pixelprints.pt/php/')</script>";
 }
 
 ?>

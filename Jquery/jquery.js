@@ -88,7 +88,7 @@ $(".entrarbtn").click(function () {
         $(".error_pas").fadeIn();
       }
       if (html == 1) {
-        window.location.assign("Index.php");
+        window.location.assign("https://pixelprints.pt/php/");
       }
       $(".incr_pass").fadeIn();
       $("input.em").keyup(function () {
