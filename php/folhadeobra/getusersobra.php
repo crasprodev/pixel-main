@@ -460,7 +460,7 @@ while ($result = $query->fetch_array())
  echo  send_email($emailrecipiente,$titulo, $conteudo,$cc);
 }
 
-}
+}                                                                    
 function update_delete($selectedindex,$tipodedata,$tarefa)
 {
     

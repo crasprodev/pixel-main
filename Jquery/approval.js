@@ -74,6 +74,7 @@ let aprrov = function (nivel) {
         codid: selectedindex[0],
       },
       success: function (html) {
+        console.log(html);
         $(".nivel").html("");
         $(html).each(function () {
           $(".nivel").append(

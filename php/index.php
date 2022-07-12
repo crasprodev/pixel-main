@@ -469,7 +469,7 @@
           <div class='flex_input'> 
                <input type='text' name ='nif' class='input_resale bg-grayish'  value='".$_SESSION["NIF"]."' disabled ='true' placeholder=' NIF'  minlength='9' maxlength='9'title='NIF não tem letras' pattern='[0-9]+'><div class='ghostinput'></div></div>
           <div class='flex_input'> 
-           <input type='text' name ='Quantidade' class='input_resale' placeholder=' Quantidade'  minlength='9' maxlength='9'title='Quantidade não tem letras' pattern='[0-9]+' required>
+           <input type='text' name ='Quantidade' class='input_resale' placeholder=' Quantidade' title='Quantidade não tem letras' pattern='[0-9]+' required>
           <input type='date' name ='data' class='input_resale date' max='2050-01-30' placeholder=' Prazo de entrega'  minlength='9' maxlength='9'title='Data não tem letras' pattern='[0-9]+' required></div>
           <textarea name='descricao' id='' cols='30' rows='5' class='input_resale_textarea' placeholder=' Descrição do produto' minlength='10' required></textarea>";
       }
