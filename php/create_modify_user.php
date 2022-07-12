@@ -236,7 +236,7 @@ let users = function() {
                 }
             });
         });
-        $(".editbtn.edit").off();
+        $(".editbtn.save").off();
         $(".editbtn.edit").click(function() {
 
             if ($(".editbtn.edit").hasClass("cross") == true) {
