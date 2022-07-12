@@ -103,7 +103,6 @@ if (!empty($_POST))
         {
             create_session($Email,0);
             get_session($_COOKIE["Cod_id"]);
-            return; 
             if($_SESSION["session"]=="true")
             {
                 echo $_SESSION["Nome"];
