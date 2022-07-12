@@ -44,7 +44,7 @@ $telefone.";<br> Nome da empresa: ".$empresa.";<br> NIF: ".$nif.";<br><br> descr
 
 
 
-send_email($emailrecipiente,$titulo, $conteudo);
+send_email($emailrecipiente,$titulo, $conteudo,$cc);
 echo "<script>window.location.assign('Index.php')</script>";
 }
 ?>
