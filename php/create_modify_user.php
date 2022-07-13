@@ -258,13 +258,17 @@ let users = function() {
                 $(".userdata_bg input:not(input:eq(0))").prop("readonly", false);
                 $(".editbtn.salvar").off();
                 $(".editbtn.salvar").click(function() {
+                    var values = [users_log.selectedindex[0]];
+                    for (var i = 0; i <= $(".userdata_bg input:not(input:eq(0))").length; i++) {
+                        values.push($(".userdata_bg input:not(input:eq(0))").eq(i).val());
+                    }
                     $.ajax({
                         type: "POST",
                         url: "folhadeobra/do_folhadetrabalho.php",
                         //     dataType: "json",
                         data: {
                             request: "updatenonlog",
-                            selectedindex: users_log.selectedindex,
+                            selectedindex: values,
                             tipo_conta: 0,
                             tarefa: "update"
                         },
