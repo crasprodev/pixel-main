@@ -175,6 +175,9 @@
   .incr_pass {
     transform: translate(6px, 90px) !important;
   }
+  .btn-enviar.btn-envem.recvpassword {
+    transform: translate(0rem, 8rem) !important;
+  }
   .resale.orcamento {
     width: 100%;
     border-radius: 0 !important;
