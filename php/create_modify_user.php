@@ -302,11 +302,9 @@ let users = function() {
                 tb: 1,
             },
             success: function(html) {
-
                 $("tbody").html("");
                 $(html).each(function(index) {
                     $("tbody").append("<tr></tr>");
-
                     this.map(function(obj, index) {
                         $("tbody>tr:last-child").append(
                             "<td class='border-right-bottom-top'>" + obj +

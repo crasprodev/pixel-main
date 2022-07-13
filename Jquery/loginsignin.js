@@ -47,7 +47,13 @@ $(window).on("load", function () {
       );
       return;
     }
-    $(".form_flex").submit();
+    $("input[type='submit']").length == false
+      ? $(".form_flex")
+          .append("<input type='submit' style='display:none'>")
+          .children("input[type='submit']")
+          .click()
+          .remove()
+      : $("input[type='submit']").click().remove();
   });
   $(".btn-enviar.btn-envem.password").click(function () {
     if (
