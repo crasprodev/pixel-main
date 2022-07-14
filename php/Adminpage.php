@@ -11,7 +11,7 @@
                     </select>
                     <input type="text" class="input_appeareance input_pld" name="search" placeholder="Pesquisa aqui">
                 </div>
-                <div class="flex">
+                <div>
                     <div class="table-data">
                         <table style="border-collapse:collapse;">
                             <thead>
