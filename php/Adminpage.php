@@ -27,86 +27,11 @@
                         <tbody></tbody>
                     </table>
                 </div>
-            </div>
-            <div class="userdata_bg" style="gap: 1rem;">
-                <div class="subtitulo_obra">N.º folhas de obra</div>
-                <div class="label-row"></div>
-                <div class="subtitulo_obra">Dados dos clientes</div>
-                <div class="flex_userdata_group">
-                    <div class="userdata_group"><label for="">Codigo de utilizador</label> <input type="text"
-                            name="nome" style="    text-align: center;
-    background: red;
-    cursor: pointer;" readonly=""></div>
-                </div>
-                <div class="flex_userdata_group">
-                    <div class="userdata_group"><label for="">Tipo de data</label> <input type="text" name="Codigo"
-                            readonly=""></div>
-                    <div class="userdata_group"> <label for="">Nome</label> <input type="text" name="nome" readonly="">
-                    </div>
 
-                </div>
-                <div class="flex_userdata_group">
-                    <div class="userdata_group"> <label for="">Email</label> <input type="text" name="Email"
-                            readonly="">
-                    </div>
-                    <div class="userdata_group"> <label for="">NIF</label> <input type="text" name="Contacto"
-                            readonly=""></div>
-                </div>
-                <div class="flex_userdata_group">
-                    <div class="userdata_group"> <label for="">Contactos</label> <input type="text" name="Email"
-                            readonly="">
-                    </div>
-                    <div class="userdata_group"> <label for="">Pessoa-contacto</label> <input type="text"
-                            name="Contacto" readonly=""></div>
-                </div>
-            </div>
-        </div>
-        <div class="parts_obra">
-
-            <div class="subtitulo_obra">Descrição</div>
-            <textarea name="" cols="30" class='txtobra' placeholder="Escrever aqui" rows="10"></textarea>
-        </div>
-        <div class="parts_obra">
-            <div class="subtitulo_obra">Montagem</div>
-            <div class="flex-mont">
-                <div class='text-center subtitulo_obra' style="font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;">Budget Montagem</div>
-                <div class='text-center subtitulo_obra' style="font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;">Custo Montagem</div>
-                <div class='text-center subtitulo_obra' style="font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;">Pessoa Montagem</div>
-                <input type="text" placeholder="Budget Montagem"
-                    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
-                    pattern="[0-9]+"></input>
-                <input type="text" placeholder="Custo Montagem"
-                    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
-                    pattern="[0-9]+">
-                <input type="text" placeholder="Pessoa Montagem">
-            </div>
-        </div>
-        <div class="parts_obra">
-            <div class="subtitulo_obra">Localização de ficheiros</div>
-            <textarea name="" cols="10" class='txtobra' placeholder="Escrever aqui" rows="10"></textarea>
-        </div>
-        <div class="parts_obra">
-            <div class="subtitulo_obra">Comentário</div>
-            <textarea name="" cols="10" class="txtobra" placeholder="Escrever aqui" rows="10"></textarea>
-        </div>
-    </div>
 </body>
 
 </html>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
-<script src="../Jquery/approval.js"></script>
 
 </html>
