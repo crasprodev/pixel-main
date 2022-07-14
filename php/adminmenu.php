@@ -124,7 +124,7 @@ function getparameter(method) {
             break;
         case "admin":
             $.get(menu[3][2], function(data, status) {
-                $(".big-col:eq(2)").addClass("Selected-big-col");
+                $(".big-col:eq(3)").addClass("Selected-big-col");
                 $(".loadexample").html("");
                 $(".loadexample").html(data);
             });
