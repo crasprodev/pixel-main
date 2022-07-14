@@ -288,9 +288,9 @@ let users = function() {
         $(".userdata_bg input").val("");
         users_log.search();
         console.log(users_log.selectedindex);
-        $(".editbtn.salvar").off();
-        $(".editbtn.edit").html("<span></span><span></span>")
-            .addClass("cross");
+        $(".editbtn.salvar").off().css("display", "none");;
+        $(".editbtn.edit").html("Editar")
+            .RemoveClass("cross");
         $(".editbtn.remover")
         $(".flex").css("display", "none");
     }
