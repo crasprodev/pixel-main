@@ -34,6 +34,7 @@
                     <div class="tab">Nome categoria horas</div>
                 </div>
             </div>
+        </div>
 </body>
 
 </html>
