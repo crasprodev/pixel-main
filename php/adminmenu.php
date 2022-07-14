@@ -41,7 +41,6 @@ const menu = [
     ["Página de administrador", "admin", "Adminpage.php"]
 ];
 
-
 function GetURLParameter(sParam) {
     var sPageURL = window.location.search.substring(1);
     var sURLVariables = sPageURL.split('&');
@@ -118,6 +117,13 @@ function getparameter(method) {
             break;
         case "user":
             $.get(menu[2][2], function(data, status) {
+                $(".big-col:eq(2)").addClass("Selected-big-col");
+                $(".loadexample").html("");
+                $(".loadexample").html(data);
+            });
+            break;
+        case "admin":
+            $.get(menu[3][2], function(data, status) {
                 $(".big-col:eq(2)").addClass("Selected-big-col");
                 $(".loadexample").html("");
                 $(".loadexample").html(data);
