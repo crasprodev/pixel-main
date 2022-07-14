@@ -497,7 +497,7 @@
                             class='bleububble' style="width: 4rem;">
                         <div class="flex-bloal">
                             <div class="text-bloal0">VIATURAS</div>
-                            <div class="text-bloal1">XXX</div>
+                            <div class="text-bloal1">+70</div>
                         </div>
                     </div>
                     <div class="bloal" data-aos="fade-up" data-aos-duration="500">
@@ -524,7 +524,7 @@
                         </svg>
                         <div class="flex-bloal">
                             <div class="text-bloal0">CLIENTES</div>
-                            <div class="text-bloal1">XXX</div>
+                            <div class="text-bloal1">+70</div>
                         </div>
                     </div>
                     <div class="bloal" data-aos="fade-up" data-aos-duration="500"><svg id="Texto"
@@ -577,7 +577,7 @@
                         </svg>
                         <div class="flex-bloal">
                             <div class="text-bloal0">PROJETOS</div>
-                            <div class="text-bloal1">XXX</div>
+                            <div class="text-bloal1">+40</div>
                         </div>
                     </div>
                 </div>
