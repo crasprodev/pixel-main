@@ -3,7 +3,7 @@
         <div class="Titulo_obra">Folhas de obras: historico de mudanças e status</div>
         <div class="parts_obra">
             <div class="subtitulo_obra" style="margin-bottom: none;">Folhas de obras</div>
-            <div class="userdata">
+            <div class="userdata" style="display: flex;">
                 <div class="searchbox">
                     <select class="category input_appeareance">
 
@@ -44,6 +44,7 @@
                 </div>
             </div>
         </div>
+
     </div>
 </body>
 
