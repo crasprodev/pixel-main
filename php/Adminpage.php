@@ -3,36 +3,33 @@
         <div class="Titulo_obra">Folhas de obras: historico de mudanças e status</div>
         <div class="parts_obra">
             <div class="subtitulo_obra" style="margin-bottom: none;">Folhas de obras</div>
-            <div class="flex">
-                <div class="userdata" style="display: flex;">
-                    <div class="searchbox ">
-                        <select class="category input_appeareance">
+            <div class="userdata" style="display: flex;">
+                <div class="searchbox ">
+                    <select class="category input_appeareance">
 
-                        </select>
-                        <input type="text" class="input_appeareance input_pld" name="search"
-                            placeholder="Pesquisa aqui">
-                    </div>
-                    <div class="table-data">
-                        <table style="border-collapse:collapse;">
-                            <thead>
-                                <tr>
-                                    <th>Codigo de folha</th>
-                                    <th>Tipo de utilizador associado</th>
-                                    <th>Código de utilizador</th>
-                                    <th>Descrição</th>
-                                    <th>Budget montagem</th>
-                                    <th>Custo montagem</th>
-                                    <th>Pessoa_Montagem</th>
-                                    <th>localização de ficheiros</th>
-                                </tr>
-                            </thead>
-                            <tbody></tbody>
-                        </table>
-                    </div>
+                    </select>
+                    <input type="text" class="input_appeareance input_pld" name="search" placeholder="Pesquisa aqui">
                 </div>
-                <div class="newwaytabselection">
-                    <div class="tab">Nome categoria horas</div>
+                <div class="table-data">
+                    <table style="border-collapse:collapse;">
+                        <thead>
+                            <tr>
+                                <th>Codigo de folha</th>
+                                <th>Tipo de utilizador associado</th>
+                                <th>Código de utilizador</th>
+                                <th>Descrição</th>
+                                <th>Budget montagem</th>
+                                <th>Custo montagem</th>
+                                <th>Pessoa_Montagem</th>
+                                <th>localização de ficheiros</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
                 </div>
+            </div>
+            <div class="newwaytabselection">
+                <div class="tab">Nome categoria horas</div>
             </div>
         </div>
 </body>
