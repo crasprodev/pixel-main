@@ -169,7 +169,6 @@ select.nivel {
 .flex {
   display: flex;
   gap: 3rem;
-
   margin-bottom: 2rem;
 }
 @keyframes coolanimation {
