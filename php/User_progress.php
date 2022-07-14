@@ -109,7 +109,7 @@
                     <circle class="incomplete" cx="40" cy="40" r="35"></circle>
                     <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;">
                     </circle>
-                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">82%</text>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">10%</text>
                 </svg>
             </div>
             <div class="titleanddescription">
@@ -137,7 +137,7 @@ $('svg.radial-progress').find($('circle.complete')).removeAttr('style');
 $('svg.radial-progress').each(function(index, value) {
 
 
-    percent = 0;
+    percent = 20;
     $(".percentage").text(percent + "%");
     console.log(percent);
     // Get radius of the svg's circle.complete
