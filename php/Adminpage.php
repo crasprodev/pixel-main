@@ -30,6 +30,7 @@
                         </table>
                     </div>
                     <div class="newwaytabselection">
+                        <div class="table_titulo">Historico de mudanças </div>
                         <div class="tab">Nome categoria horas</div>
                     </div>
                 </div>
