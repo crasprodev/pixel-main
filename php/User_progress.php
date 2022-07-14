@@ -1,7 +1,4 @@
-<?php include ("navbar/navbar.php");
-$codigo_folha = $_GET["cod"];
-
-?>
+<?php include ("navbar/navbar.php"); ?>
 
 <body>
     <style>
@@ -108,11 +105,11 @@ $codigo_folha = $_GET["cod"];
 
             <div class="progress">
 
-                <svg class="radial-progress" data-percentage="0" viewBox="0 0 80 80">
+                <svg class="radial-progress" data-percentage="50" viewBox="0 0 80 80">
                     <circle class="incomplete" cx="40" cy="40" r="35"></circle>
                     <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;">
                     </circle>
-                    <text class="percentage" x="0%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">82%</text>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">82%</text>
                 </svg>
             </div>
             <div class="titleanddescription">
