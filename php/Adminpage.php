@@ -28,11 +28,11 @@
                         <tbody></tbody>
                     </table>
                 </div>
-                <div class="newwaytabselection">
-                    <div class="tab">Nome categoria horas</div>
-                </div>
-            </div>
 
+            </div>
+            <div class="newwaytabselection">
+                <div class="tab">Nome categoria horas</div>
+            </div>
         </div>
 </body>
 
