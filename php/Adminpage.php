@@ -11,35 +11,37 @@
                     </select>
                     <input type="text" class="input_appeareance input_pld" name="search" placeholder="Pesquisa aqui">
                 </div>
-                <div class="table-data">
-                    <table style="border-collapse:collapse;">
-                        <thead>
-                            <tr>
-                                <th>Codigo de folha</th>
-                                <th>Tipo de utilizador associado</th>
-                                <th>Código de utilizador</th>
-                                <th>Descrição</th>
-                                <th>Budget montagem</th>
-                                <th>Custo montagem</th>
-                                <th>Pessoa_Montagem</th>
-                                <th>localização de ficheiros</th>
-                            </tr>
-                        </thead>
-                        <tbody></tbody>
-                    </table>
-                </div>
-                <div class="newwaytabselection">
-                    <div class="table_titulo">Historico de modificações</div>
-                    <div class="tab">Nome categoria horas</div>
-                    <div class="tab">Nome categoria horas</div>
-                    <div class="tab">Nome categoria horas</div>
-                    <div class="tab">Nome categoria horas</div>
-                    <div class="tab">Nome categoria horas</div>
-                    <div class="tab">Nome categoria horas</div>
-                    <div class="tab">Nome categoria horas</div>
-                    <div class="tab">Nome categoria horas</div>
-                    <div class="tab">Nome categoria horas</div>
-                    <div class="tab">Nome categoria horas</div>
+                <div class="flex">
+                    <div class="table-data">
+                        <table style="border-collapse:collapse;">
+                            <thead>
+                                <tr>
+                                    <th>Codigo de folha</th>
+                                    <th>Tipo de utilizador associado</th>
+                                    <th>Código de utilizador</th>
+                                    <th>Descrição</th>
+                                    <th>Budget montagem</th>
+                                    <th>Custo montagem</th>
+                                    <th>Pessoa_Montagem</th>
+                                    <th>localização de ficheiros</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <div class="newwaytabselection">
+                        <div class="table_titulo">Historico de modificações</div>
+                        <div class="tab">Nome categoria horas</div>
+                        <div class="tab">Nome categoria horas</div>
+                        <div class="tab">Nome categoria horas</div>
+                        <div class="tab">Nome categoria horas</div>
+                        <div class="tab">Nome categoria horas</div>
+                        <div class="tab">Nome categoria horas</div>
+                        <div class="tab">Nome categoria horas</div>
+                        <div class="tab">Nome categoria horas</div>
+                        <div class="tab">Nome categoria horas</div>
+                        <div class="tab">Nome categoria horas</div>
+                    </div>
                 </div>
             </div>
 
