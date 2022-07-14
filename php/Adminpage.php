@@ -1,6 +1,6 @@
 <body>
     <div class="folha_de_obra">
-        <div class="Titulo_obra">Aprovar folha de obra</div>
+        <div class="Titulo_obra">Folhas de obras: historico de mudanças e status</div>
         <div class="parts_obra">
             <div class="subtitulo_obra" style="margin-bottom: none;">Folhas de obras</div>
             <div class="userdata" style="display: flex;">
