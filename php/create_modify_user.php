@@ -286,6 +286,7 @@ let users = function() {
     this.removdefin = function() {
         users_log.selectedindex = [];
         $(".userdata_bg input").val("");
+        $(".userdata_bg input:not(input:eq(0))").prop("readonly", false);
         users_log.search();
         console.log(users_log.selectedindex);
         $(".editbtn.salvar").off().css("display", "none");;

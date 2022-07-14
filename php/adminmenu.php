@@ -37,8 +37,10 @@ width: 30rem;
 const menu = [
     ["Criar folhas de obras", "criar", "folhadeobra.php"],
     ["Aprovar folhas de obras", "aprovar", "folhadeobraapproval.php"],
-    ["Inserir e modificar dados de clientes", "user", "create_modify_user.php"]
+    ["Inserir e modificar dados de clientes", "user", "create_modify_user.php"],
+    ["Página de administrador", "admin", "Adminpage.php"]
 ];
+
 
 function GetURLParameter(sParam) {
     var sPageURL = window.location.search.substring(1);
