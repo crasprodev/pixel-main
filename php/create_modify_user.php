@@ -277,6 +277,7 @@ let users = function() {
                             if (html == 1) {
                                 users_log.removdefin();
                             }
+                            users_log.removdefin();
                         }
                     });
                 });
@@ -286,7 +287,7 @@ let users = function() {
     this.removdefin = function() {
         users_log.selectedindex = [];
         $(".userdata_bg input").val("");
-        $(".userdata_bg input:not(input:eq(0))").prop("readonly", false);
+        $(".userdata_bg input:not(input:eq(0))").prop("readonly", true);
         users_log.search();
         console.log(users_log.selectedindex);
         $(".editbtn.salvar").off().css("display", "none");;
