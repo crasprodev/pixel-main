@@ -77,6 +77,7 @@
         <br>
         <br>
         <br>
+        <div class="subtitulo_obra">Versão</div>
         <div class="version">
             <div class="descript">
                 <div class="descript_tab">Leandro Bernardo</div>
