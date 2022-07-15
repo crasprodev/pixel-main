@@ -172,30 +172,29 @@ select.nivel {
   margin-bottom: 2rem;
 }
 .descript_tab {
-  border-right: 3px solid white;
   min-width: 13rem;
   text-align: center;
 }
 .descript {
   display: flex;
-  /* gap: 1.1rem; */
-  /* width: 100%; */
-  /* border-right: 3px solid white; */
   overflow: hidden;
   border-top: 3px solid white;
-  /* background: #f1ac1d; */
-  border-left: 3px solid white;
-  /* border-right: 3px solid white; */
 }
 .version {
   overflow: hidden;
   border-radius: 11px;
+  height: 11rem;
   border-bottom: 3px solid white;
+  border-left: 3px solid white;
+
+  border-right: 3px solid white;
   -webkit-border-radius: 11px;
   -moz-border-radius: 11px;
   -ms-border-radius: 11px;
   -o-border-radius: 11px;
+  overflow-y: scroll;
 }
+
 .tab {
   width: 100%;
   text-align: center;
