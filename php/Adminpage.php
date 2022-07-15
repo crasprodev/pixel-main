@@ -28,7 +28,7 @@
                             <tbody></tbody>
                         </table>
                     </div>
-                    <div class="newwaytabselection">
+                    <div class="newwaytabselection" style="gap:0;  margin-bottom: none;">
                         <div class="tab table_titulo">Historico de modificações</div>
                         <div class="tab">Nome categoria horas</div>
                         <div class="tab">Nome categoria horas</div>
