@@ -194,6 +194,14 @@ select.nivel {
   -o-border-radius: 11px;
   overflow-y: scroll;
 }
+.version::-webkit-scrollbar {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.version::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
 
 .tab {
   width: 100%;
