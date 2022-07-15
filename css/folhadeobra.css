@@ -184,7 +184,10 @@ select.nivel {
   overflow: hidden;
   border-radius: 11px;
   height: 11rem;
-  border: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+
+  border-right: 3px solid white;
   -webkit-border-radius: 11px;
   -moz-border-radius: 11px;
   -ms-border-radius: 11px;
