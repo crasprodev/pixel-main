@@ -182,7 +182,6 @@ select.nivel {
   /* width: 100%; */
   /* border-right: 3px solid white; */
   overflow: hidden;
-  height: 100%;
   border-top: 3px solid white;
   /* background: #f1ac1d; */
   border-left: 3px solid white;
@@ -192,6 +191,10 @@ select.nivel {
   overflow: hidden;
   border-radius: 11px;
   border-bottom: 3px solid white;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
 }
 .tab {
   width: 100%;
