@@ -69,8 +69,6 @@
                         readonly="" style="text-align: center;"></div>
             </div>
         </div>
-
-
         <!-- 
         Edições e valores da folha de obra
         -->
