@@ -191,6 +191,10 @@ select.nivel {
 .newwaytabselection::-webkit-scrollbar-corner {
   background-color: transparent;
 }
+.tab {
+  width: 100%;
+  text-align: center;
+}
 @keyframes coolanimation {
 }
 .parts_obra {
