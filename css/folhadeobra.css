@@ -188,6 +188,9 @@ select.nivel {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+.newwaytabselection::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
 @keyframes coolanimation {
 }
 .parts_obra {
