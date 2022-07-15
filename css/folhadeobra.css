@@ -171,25 +171,27 @@ select.nivel {
   gap: 3rem;
   margin-bottom: 2rem;
 }
-.newwaytabselection {
-  width: 71%;
+.descript_tab {
+  border-right: 3px solid white;
+  min-width: 13rem;
+  text-align: center;
+}
+.descript {
   display: flex;
-  margin: 2rem 1rem;
-  overflow: scroll;
-  border: 3px solid;
-  /* background-color: #20bf55; */
-  border-radius: 10px;
-  /* background-image: linear-gradient(363deg, #f1ac1d 25%, #2e21d8 74%); */
-  flex-direction: column;
-  align-items: center;
+  /* gap: 1.1rem; */
+  /* width: 100%; */
+  /* border-right: 3px solid white; */
+  overflow: hidden;
+  height: 100%;
+  border-top: 3px solid white;
+  /* background: #f1ac1d; */
+  border-left: 3px solid white;
+  /* border-right: 3px solid white; */
 }
-.newwaytabselection::-webkit-scrollbar {
-  overflow-x: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-.newwaytabselection::-webkit-scrollbar-corner {
-  background-color: transparent;
+.version {
+  overflow: hidden;
+  border-radius: 11px;
+  border-bottom: 3px solid white;
 }
 .tab {
   width: 100%;
