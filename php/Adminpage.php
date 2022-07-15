@@ -96,5 +96,42 @@
             </div>
         </div>
     </div>
+    <div class="parts_obra">
 
+        <div class="subtitulo_obra">Descrição</div>
+        <textarea name="" cols="30" class="txtobra" placeholder="Escrever aqui" rows="10" readonly=""
+            style="color: rgba(255, 255, 255, 0.68);"></textarea>
+    </div>
+    <div class="parts_obra">
+        <div class="subtitulo_obra">Montagem</div>
+        <div class="flex-mont">
+            <div class="text-center subtitulo_obra" style="font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;">Budget Montagem</div>
+            <div class="text-center subtitulo_obra" style="font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;">Custo Montagem</div>
+            <div class="text-center subtitulo_obra" style="font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;">Pessoa Montagem</div>
+            <input type="text" placeholder="Budget Montagem"
+                oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
+                pattern="[0-9]+" readonly="" style="color: rgba(255, 255, 255, 0.68);">
+            <input type="text" placeholder="Custo Montagem"
+                oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
+                pattern="[0-9]+" readonly="" style="color: rgba(255, 255, 255, 0.68);">
+            <input type="text" placeholder="Pessoa Montagem" readonly="" style="color: rgba(255, 255, 255, 0.68);">
+        </div>
+    </div>
+    <div class="parts_obra">
+        <div class="subtitulo_obra">Localização de ficheiros</div>
+        <textarea name="" cols="10" class="txtobra" placeholder="Escrever aqui" rows="10" readonly=""
+            style="color: rgba(255, 255, 255, 0.68);"></textarea>
+    </div>
 </div>
