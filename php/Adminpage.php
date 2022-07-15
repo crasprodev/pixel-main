@@ -74,6 +74,9 @@
         <!-- 
         Edições e valores da folha de obra
         -->
+        <br>
+        <br>
+        <br>
         <div class="version">
             <div class="descript">
                 <div class="descript_tab">Leandro Bernardo</div>
