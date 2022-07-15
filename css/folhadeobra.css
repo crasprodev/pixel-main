@@ -172,11 +172,10 @@ select.nivel {
   margin-bottom: 2rem;
 }
 .newtabselection {
-  position: absolute;
-  right: 0;
-  transform: translate(209px, 29px);
-  text-align: center;
-  border: 2px solid red;
+  width: 71%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @keyframes coolanimation {
 }
