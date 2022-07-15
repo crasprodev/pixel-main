@@ -133,6 +133,10 @@
   -moz-transition: background-color 300ms ease-in-out;
   -ms-transition: background-color 300ms ease-in-out;
   -o-transition: background-color 300ms ease-in-out;
+  -webkit-transform: rotateZ(90deg);
+  -moz-transform: rotateZ(90deg);
+  -ms-transform: rotateZ(90deg);
+  -o-transform: rotateZ(90deg);
 }
 .btn-up:hover {
   background-color: #f1ac1d;
