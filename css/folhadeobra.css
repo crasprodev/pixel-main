@@ -201,6 +201,10 @@ select.nivel {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+.descript:hover {
+  cursor: pointer;
+  background-color: #f1ac1d;
+}
 .version::-webkit-scrollbar-corner {
   background-color: transparent;
 }
