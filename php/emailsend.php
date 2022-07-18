@@ -34,8 +34,6 @@ $cc = ["geral@pixelprints.pt","feroleandro@gmail.com"];
 $titulo = "Revendas";
 $conteudo = "Nome: ".$nome.";<br>tipo de cliente: ".$tipoconta.";<br> Email: ".$email.";<br> Número de telefone: ".
 $telefone.";<br> Nome da empresa: ".$empresa.";<br> NIF: ".$nif.";<br><br> Messagem: <br>".$messagem."";
-echo send_email($email ,$titulo, $conteudo,$cc);
- 
 if(send_email($email ,$titulo, $conteudo,$cc)==1)
 {
     echo "<script>window.location.assign('emailenviado.php?result=1')</script>"; return;
