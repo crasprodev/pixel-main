@@ -10,7 +10,7 @@ function send_email($emailrecipiente,$titulo, $conteudo,$cc)
 $mail = new PHPMailer();
 $mail->IsSMTP();
 
- $mail->SMTPDebug = 3;
+ //$mail->SMTPDebug = 3;
 
 $mail->SMTPAuth = true; 
 $mail->SMTPSecure = 'ssl'; 
