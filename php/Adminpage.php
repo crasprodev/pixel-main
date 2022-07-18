@@ -1,5 +1,4 @@
 <body>
-    <script src="adminpage.js" defer></script>
     <div class="folha_de_obra">
         <div class="Titulo_obra">Folhas de obras: historico de mudanças e status</div>
         <div class="parts_obra">
@@ -190,5 +189,5 @@
             </div>
         </div>
     </div>
-
+    <script src="adminpage.js"></script>
 </body>
