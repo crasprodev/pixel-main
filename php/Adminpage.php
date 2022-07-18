@@ -192,9 +192,7 @@
         </div>
     </div>
 
-    <script src="adminpage.js"></script>
 </body>
-
-<script src="adminpage.js"></script>
+<script src="../Jquery/adminpage.js"></script>
 
 </html>
