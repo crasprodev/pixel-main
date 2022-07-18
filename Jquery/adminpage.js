@@ -39,5 +39,6 @@ let Admin = function (nivel) {
     }
   };
 };
-const admin = new Admin();
+let method = new Admin();
 admin.folha();
+console.log("10");
