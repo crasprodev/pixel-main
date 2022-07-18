@@ -190,9 +190,10 @@
                 </div>
             </div>
         </div>
-        <script src="adminpage.js"></script>
     </div>
 
 </body>
+
+<script src="adminpage.js"></script>
 
 </html>
