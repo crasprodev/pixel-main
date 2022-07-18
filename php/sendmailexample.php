@@ -22,7 +22,7 @@ $mail->Mailer = "smtp";
 $mail->Username   = "botpixelprints@pixelprints.pt";
 
 //$mail->Debugoutput = 'html';
-$mail->Password   = "-,D2qa]+,Tyc";
+$mail->Password   = "Profanus2022!?";
 $mail->IsHTML(true);
 $mail->SetLanguage("pt", 'class/phpMailer/language/');
 $mail->AddAddress($emailrecipiente, "recipient-name");
