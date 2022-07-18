@@ -1,3 +1,5 @@
+<html>
+
 <body>
     <div class="folha_de_obra">
         <div class="Titulo_obra">Folhas de obras: historico de mudanças e status</div>
@@ -191,3 +193,5 @@
     </div>
     <script src="adminpage.js"></script>
 </body>
+
+</html>
