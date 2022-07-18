@@ -131,15 +131,6 @@
             <div class="userdata" style="display: flex;">
                 <div class="searchbox ">
                     <select class="category input_appeareance">
-
-                        <option value="codfolha">codfolha</option>
-                        <option value="Informação do utilizador">Informação do utilizador</option>
-                        <option style="display:none"></option>
-                        <option value="descricão">descricão</option>
-                        <option value="localização de ficheiros">localização de ficheiros</option>
-                        <option value="Budget montagem">Budget montagem</option>
-                        <option value="Custo montagem">Custo montagem</option>
-                        <option value="Pessoa_Montagem">Pessoa_Montagem</option>
                     </select>
                     <input type="text" class="input_appeareance input_pld" name="search" placeholder="Pesquisa aqui">
                 </div>

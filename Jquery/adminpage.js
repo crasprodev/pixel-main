@@ -1,4 +1,5 @@
 let Admin = function (nivel) {
+  const admin = this;
   this.option = function (value) {
     var array = [];
     value.map(function (obj, index) {
@@ -17,10 +18,26 @@ let Admin = function (nivel) {
           .append(end)
       : $(".searchbox.user").remove();
   };
-  this.usertype = function (type) {
+  this.folha = function () {
+    const options = [
+      "Cod_id",
+      "Nome",
+      "Email",
+      "NIF",
+      "Contacto",
+      "Pessoa-contacto",
+    ];
+    admin.option(options).map(obj, index);
+    {
+      $("userdata:eq(0) select:eq(0)").append(obj);
+    }
+  };
+  this.usertype = function (type, text, select) {
     array = [];
     if (type == 1) {
     } else {
     }
   };
 };
+const admin = new Admin();
+admin.folha();
