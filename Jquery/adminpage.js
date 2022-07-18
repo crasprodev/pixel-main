@@ -27,10 +27,9 @@ let Admin = function (nivel) {
     "Pessoa-contacto",
   ];
   this.folha = function () {
-    admin.option(options_user).map(obj, index);
-    {
+    admin.option(options_user).map(function (obj, index) {
       $(".userdata:eq(1) select:eq(0)").append(obj);
-    }
+    });
   };
   this.usertype = function (type, text, select) {
     array = [];
