@@ -193,6 +193,11 @@
                 <div class="userdata_group"> <label for="">Pessoa-contacto</label> <input type="text" name="Contacto"
                         readonly="" style="text-align: center;"></div>
             </div>
+            <div class="flex_userdata_group">
+                <div class="userdata_group"> <label for="">Status</label><select name="" id=""></select>
+                </div>
+
+            </div>
             <div class="flex" style="gap: 1rem; display: flex;">
                 <div class="editbtn salvar" style="display:none">Salvar </div>
                 <div class="editbtn edit">Editar <span></span><span></span></div>
