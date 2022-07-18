@@ -26,9 +26,21 @@ let Admin = function (nivel) {
     "Contacto",
     "Pessoa-contacto",
   ];
+  const option_folha = [
+    "codfolha",
+    "Informação do utilizador",
+    "descricão",
+    "localização de ficheiros",
+    "Budget montagem",
+    "Custo montagem",
+    "Pessoa_Montagem",
+  ];
   this.folha = function () {
     admin.option(options_user).map(function (obj, index) {
       $(".userdata:eq(1) select:eq(0)").append(obj);
+    });
+    admin.option(option_folha).map(function (obj, index) {
+      $(".userdata:eq(0) select:eq(0)").append(obj);
     });
   };
   this.usertype = function (type, text, select) {
