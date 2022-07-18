@@ -216,6 +216,7 @@ let Admin = function(nivel) {
         return array;
     }
     this.usertype(type) {
+        array = [];
         if (type == 1) {
 
         } else {
