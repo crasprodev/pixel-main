@@ -22,7 +22,7 @@ else{
 }
 else
 {
-    $tipoconta = trim(mysqli_real_escape_string($conexao,$_POST["tipoconta"]));
+    $tipoconta = trim(mysqli_real_escape_string($conexao,$_POST["tipoconta"]))==1?"Revendedor":"Cliente-final";
 $nome = trim(mysqli_real_escape_string($conexao,$_POST["nome"]));
 $email = trim(mysqli_real_escape_string($conexao,$_POST["email"]));
 $telefone = trim(mysqli_real_escape_string($conexao,$_POST["tel"]));
