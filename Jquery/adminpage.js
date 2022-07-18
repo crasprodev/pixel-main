@@ -18,16 +18,16 @@ let Admin = function (nivel) {
           .append(end)
       : $(".searchbox.user").remove();
   };
+  const options_user = [
+    "Cod_id",
+    "Nome",
+    "Email",
+    "NIF",
+    "Contacto",
+    "Pessoa-contacto",
+  ];
   this.folha = function () {
-    const options = [
-      "Cod_id",
-      "Nome",
-      "Email",
-      "NIF",
-      "Contacto",
-      "Pessoa-contacto",
-    ];
-    admin.option(options).map(obj, index);
+    admin.option(options_user).map(obj, index);
     {
       $(".userdata:eq(1) select:eq(0)").append(obj);
     }

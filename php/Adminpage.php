@@ -190,8 +190,9 @@
                 </div>
             </div>
         </div>
+        <script src="adminpage.js"></script>
     </div>
-    <script src="adminpage.js"></script>
+
 </body>
 
 </html>
