@@ -278,7 +278,6 @@ select.nivel {
   align-items: center;
   justify-content: center;
 }
-
 .userdata_group :is(input, select) {
   position: absolute;
   right: 0;
