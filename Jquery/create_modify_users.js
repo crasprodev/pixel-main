@@ -185,7 +185,7 @@ let users = function () {
     users_log.selectedindex = [];
     $(".userdata_bg input").val("");
     users_log.search();
-    $(".userdata_bg input:not(input:eq(0))").prop("readonly", false);
+    $(".userdata_bg input:not(input:eq(0))").prop("readonly", true);
     console.log(users_log.selectedindex);
     $(".editbtn.salvar").off().css("display", "none");
     $(".editbtn.edit").html("Editar").RemoveClass("cross");
