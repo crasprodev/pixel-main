@@ -2,7 +2,7 @@
 session_start();
 if ( $_SESSION["Nivel"] == "Utilizador" || $_SESSION["session"] != true)
 {
-    echo ' "<script>window.location.assign("https://pixelprints.pt/php/")</script>";';
+    echo  "<script>window.location.assign('https://pixelprints.pt/php/')</script>";
     return;
 }
 include ("navbar/navbar.php"); 

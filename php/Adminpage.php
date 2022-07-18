@@ -206,3 +206,21 @@
         </div>
     </div>
 </div>
+<script>
+let Admin = function(nivel) {
+    this.option = function(value) {
+        var array = [];
+        value.map(function(obj, index) {
+            array.push("<option value='" + obj + "'>" + obj + "</option>");
+        });
+        return array;
+    }
+    this.usertype(type) {
+        if (type == 1) {
+
+        } else {
+
+        }
+    }
+}
+</script>
