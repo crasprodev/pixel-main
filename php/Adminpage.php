@@ -194,7 +194,7 @@
                         readonly="" style="text-align: center;"></div>
             </div>
             <div class="flex_userdata_group">
-                <div class="userdata_group"> <label for="">Status</label><select name="" id=""></select>
+                <div class="userdata_group"> <label for="">Cargo</label><select name="" id=""></select>
                 </div>
 
             </div>
