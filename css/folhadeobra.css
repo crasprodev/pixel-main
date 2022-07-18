@@ -279,7 +279,7 @@ select.nivel {
   justify-content: center;
 }
 
-.userdata_group > input {
+.userdata_group :is(input, select) {
   position: absolute;
   right: 0;
   background: var(--prettywhite);
