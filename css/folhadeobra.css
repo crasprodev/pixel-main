@@ -176,8 +176,9 @@ select.nivel {
   margin-bottom: 2rem;
 }
 .descript_tab {
-  min-width: 13rem;
+  width: 13rem;
   text-align: center;
+  word-break: break-all;
 }
 .descript {
   display: flex;
