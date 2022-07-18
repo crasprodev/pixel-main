@@ -52,4 +52,6 @@ let Admin = function (nivel) {
 };
 let admin = new Admin();
 admin.folha();
-console.log("10");
+$(".userdata:eq(0) select:eq(0)").change(function () {
+  admin.userinfo(this.value);
+});
