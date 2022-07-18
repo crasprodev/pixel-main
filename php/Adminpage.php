@@ -133,7 +133,8 @@
             style="color: rgba(255, 255, 255, 0.68);"></textarea>
     </div>
     <div class="parts_obra">
-        <div class="Titulo_obra">Editar dados e mudar privilégios de utilizadores</div>
+        <div class="Titulo_obra">Editar dados e mudar privilégios de utilizadores com conta</div>
+        <div class="subtitulo_obra">Utilizadores com conta</div>
         <div class="userdata" style="display: flex;">
             <div class="searchbox ">
                 <select class="category input_appeareance">
@@ -169,7 +170,7 @@
             </div>
         </div>
         <div class="userdata_bg" style="gap: 1rem;">
-
+            <div class="subtitulo_obra">Dados dos utilizadores</div>
             <div class="flex_userdata_group">
                 <div class="userdata_group"><label for="">Codigo de utilizador</label> <input type="text" name="nome"
                         readonly="" style="text-align: center;"></div>
