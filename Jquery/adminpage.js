@@ -29,7 +29,7 @@ let Admin = function (nivel) {
     ];
     admin.option(options).map(obj, index);
     {
-      $(".userdata:eq(0) select:eq(0)").append(obj);
+      $(".userdata:eq(1) select:eq(0)").append(obj);
     }
   };
   this.usertype = function (type, text, select) {
