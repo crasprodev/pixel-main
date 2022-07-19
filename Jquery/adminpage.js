@@ -8,12 +8,13 @@ let Admin = function (nivel) {
     return array;
   };
   this.userinfo = function (value) {
-    value === "Informação do utilizador" && $(".searchbox.user").length === 0
-      ? $(".searchbox")
+    value === "Informação do utilizador" &&
+    $(".searchbox.user:eq(0)").length === 0
+      ? $(".searchbox:eq(0)")
           .after(
             "<div class='searchbox user'><select onchange='method.folhas()'class='category input_appeareance'></select><div><div style='text-align:center'>Introduzido por:</div><div style=' display: flex;align-items: center;justify-content: center;gap: 1rem;'>Ambos<input type='radio' name='same' onchange='method.folhas();'checked='checked' value='0'>administrador<input type='radio' onchange='method.folhas()' name='same' value='1'>Utilizador<input type='radio' name='same' onchange='method.folhas()' value='2'></div></div>"
           )
-          .siblings(".searchbox.user")
+          .siblings(".searchbox.user:eq(0)")
           .children(".category.input_appeareance")
           .append(...admin.option(options_user))
           .siblings("div input")
