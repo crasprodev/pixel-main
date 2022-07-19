@@ -255,7 +255,7 @@ if(!$Query)
  }
  function searchfolha($text,$select,$nivel,$gotic)
  {
-
+return $gotic;
     include ("../databasestart.php");
     $status = $_SESSION["Nivel"];
    $fields = $select[0] === "user" ? json_decode(getallfields("utilizador_non_log"))[$select[1]]: json_decode(getallfields("folha de obra"))[$select[1]];
