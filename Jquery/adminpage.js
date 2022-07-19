@@ -55,7 +55,7 @@ let Admin = function (nivel) {
             request: "column",
           },
           success: function (html) {
-            array = html;
+            array.push(...html);
           },
         });
         break;
