@@ -276,7 +276,6 @@ $conexao->multi_query( $select[0] === "user" ? $nivel:$query);
         if ($result = $conexao->store_result()) {
             while ($row = $result->fetch_row()) {
               $select[0] === "user"?$actu_result[]=$row:$Resultado[] = $row;
-              return json_encode($Resultado);
             }
         }
 
