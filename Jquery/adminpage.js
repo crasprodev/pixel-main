@@ -45,19 +45,16 @@ let Admin = function (nivel) {
   };
   this.usertype = function (type, text, select) {
     array = [];
-    if (type == 1) {
-      $.ajax({
-        type: "POST",
-        url: "folhadeobra/do_folhadetrabalho.php",
-        dataType: "json",
-        data: {
-          request: "column",
-        },
-        success: function (html) {
-          array = html;
-        },
-      });
-    } else {
+    switch (type) {
+      case 0:
+        console.log(1);
+        break;
+      case 1:
+        console.log(2);
+        break;
+      case 2:
+        console.log(3);
+        break;
     }
     return array;
   };

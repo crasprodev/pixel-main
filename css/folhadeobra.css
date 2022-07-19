@@ -183,7 +183,7 @@ select.nivel {
 .descript {
   display: flex;
   overflow-y: scroll;
-  transform: translateX(39px);
+  transform: translateX(4%);
   border-bottom: 3px solid white;
   overflow-x: hidden;
 }
