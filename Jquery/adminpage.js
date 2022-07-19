@@ -47,7 +47,17 @@ let Admin = function (nivel) {
     array = [];
     switch (type) {
       case 0:
-        console.log(1);
+        $.ajax({
+          type: "POST",
+          url: "folhadeobra/do_folhadetrabalho.php",
+          dataType: "json",
+          data: {
+            request: "column",
+          },
+          success: function (html) {
+            array = html;
+          },
+        });
         break;
       case 1:
         console.log(2);
@@ -61,7 +71,7 @@ let Admin = function (nivel) {
 };
 let admin = new Admin();
 admin.folha();
-admin.usertype(0, 0, 0);
+console.log(admin.usertype(0, 0, 0));
 $(".userdata:eq(0) select:eq(0)").change(function () {
   admin.userinfo(this.value);
 });
