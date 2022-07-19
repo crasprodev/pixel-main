@@ -70,6 +70,7 @@ let Admin = function (nivel) {
                     ).index(),
                   ],
             intr: $("input[name='same']:checked").val(),
+            gotic: 2,
           },
           success: function (html) {
             console.log(html);
