@@ -43,31 +43,46 @@ let Admin = function (nivel) {
     $(".userdata:eq(1) select:eq(0)").append(...admin.option(options_user));
     $(".userdata:eq(0) select:eq(0)").append(...admin.option(option_folha));
   };
-  this.usertype = function (type, text, select) {
+  this.usertype = function (type) {
     array = [];
     switch (type) {
       case 0:
         $.ajax({
           type: "POST",
+          type: "POST",
           url: "folhadeobra/do_folhadetrabalho.php",
           dataType: "json",
           data: {
-            request: "column",
+            request: "getfolhanivel",
+            text: $(".input_appeareance:eq(1)").val(),
+            select:
+              $(".searchbox.user").length === 1
+                ? [
+                    "user",
+                    $(
+                      ".searchbox.user>.category.input_appeareance option:checked"
+                    ).index(),
+                  ]
+                : [
+                    "folha",
+                    $(
+                      ".category.input_appeareance:eq(0) option:checked"
+                    ).index(),
+                  ],
+            intr: $("input[name='same']:checked").val(),
           },
           success: function (html) {
-            array.push(...html);
+            $("tbody:eq(0)").html("");
+            $(html).each(function (index) {
+              $("tbody").append("<tr></tr>");
+            });
           },
         });
         break;
       case 1:
-        console.log(2);
-        break;
-      case 2:
         console.log(3);
         break;
     }
-    console.log(...array);
-    return array;
   };
 };
 let admin = new Admin();
