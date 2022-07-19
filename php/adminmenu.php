@@ -73,7 +73,6 @@ function getparameter(method) {
     while (id--) {
         window.clearInterval(id);
     }
-    console.log(intervals);
 
     switch (method) {
         case "criar":
