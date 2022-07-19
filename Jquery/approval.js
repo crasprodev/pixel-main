@@ -134,6 +134,7 @@ let aprrov = function (nivel) {
       data: {
         request: "getfolhanivel",
         text: $(".input_appeareance:eq(1)").val(),
+        gotic: 0,
         select:
           $(".searchbox.user").length === 1
             ? [
