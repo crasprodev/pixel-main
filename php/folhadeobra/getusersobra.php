@@ -271,7 +271,8 @@ if(!$Query)
   if($gotic == 1)
 {
     $query =  "SELECT * FROM `folha de obra` WHERE Codfolha ='$text' AND `Status` = '$status'";
-}   $conexao->multi_query( $select[0] === "user" ? $nivel:$query);
+    
+}return $query;   $conexao->multi_query( $select[0] === "user" ? $nivel:$query);
     do {$typevalue=$select[0] === "user"?"utilizador":"admin"; 
         if ($result = $conexao->store_result()) {
             while ($row = $result->fetch_row()) {
