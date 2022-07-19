@@ -56,7 +56,6 @@ let Admin = function (nivel) {
           },
           success: function (html) {
             array = html;
-            console.log(html);
           },
         });
         break;
@@ -67,7 +66,7 @@ let Admin = function (nivel) {
         console.log(3);
         break;
     }
-    console.log(array);
+    console.log(...array);
     return array;
   };
 };
