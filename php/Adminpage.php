@@ -179,8 +179,8 @@
                             readonly="" style="text-align: center;"></div>
                 </div>
                 <div class="flex_userdata_group">
-                    <div class="userdata_group"> <label for=""> Codpostal</label> <input type="text" name="	Codpostal"
-                            readonly="" style="text-align: center;">
+                    <div class="userdata_group"> <label for=""> Código postal</label> <input type="text"
+                            name="	Codpostal" readonly="" style="text-align: center;">
                     </div>
                     <div class="userdata_group"> <label for="">Nome da empresa</label> <input type="text"
                             name="Contacto" readonly="" style="text-align: center;"></div>
