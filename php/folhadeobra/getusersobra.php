@@ -271,12 +271,12 @@ if(!$Query)
 {
     $query =  "SELECT * FROM `folha de obra` WHERE Codfolha ='$text' AND `Status` = '$status'";
 } 
-return $select[0];
 $conexao->multi_query( $select[0] === "user" ? $nivel:$query);
     do {$typevalue=$select[0] === "user"?"utilizador":"admin"; 
         if ($result = $conexao->store_result()) {
             while ($row = $result->fetch_row()) {
               $select[0] === "user"?$actu_result[]=$row:$Resultado[] = $row;
+              return json_encode($Resultado);
             }
         }
 
@@ -284,7 +284,7 @@ $conexao->multi_query( $select[0] === "user" ? $nivel:$query);
             
         }
     } while ($conexao->next_result());
-    
+    return json_encode($Resultado);
     if($select[0] === "user")
     { 
  foreach ($actu_result as $result)
