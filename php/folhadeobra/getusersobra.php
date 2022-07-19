@@ -284,7 +284,6 @@ if(!$Query)
             
         }
     } while ($conexao->next_result());
-    return json_encode($Resultado);
     if($select[0] === "user")
     { 
  foreach ($actu_result as $result)
