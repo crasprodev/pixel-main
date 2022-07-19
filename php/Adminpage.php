@@ -175,8 +175,20 @@
                     <div class="userdata_group"> <label for="">Contactos</label> <input type="text" name="Email"
                             readonly="" style="text-align: center;">
                     </div>
-                    <div class="userdata_group"> <label for="">Pessoa-contacto</label> <input type="text"
+                    <div class="userdata_group"> <label for="">Morada</label> <input type="text" name="Contacto"
+                            readonly="" style="text-align: center;"></div>
+                </div>
+                <div class="flex_userdata_group">
+                    <div class="userdata_group"> <label for=""> Codpostal</label> <input type="text" name="	Codpostal"
+                            readonly="" style="text-align: center;">
+                    </div>
+                    <div class="userdata_group"> <label for="">Nome da empresa</label> <input type="text"
                             name="Contacto" readonly="" style="text-align: center;"></div>
+                </div>
+                <div class="flex_userdata_group">
+                    <div class="userdata_group"> <label for=""> tipo de conta</label> <input type="text"
+                            name="	Codpostal" readonly="" style="text-align: center;">
+                    </div>
                 </div>
                 <div class="flex_userdata_group">
                     <div class="userdata_group"> <label for="">Cargo</label><select name="" id=""></select>
