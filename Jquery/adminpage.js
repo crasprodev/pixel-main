@@ -15,7 +15,7 @@ let Admin = function (nivel) {
           )
           .siblings(".searchbox.user")
           .children(".category.input_appeareance")
-          .append(end)
+          .append(...admin.option(options_user))
       : $(".searchbox.user").remove();
   };
   const options_user = [
