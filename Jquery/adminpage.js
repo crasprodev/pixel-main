@@ -77,6 +77,11 @@ let Admin = function (nivel) {
             $("tbody:eq(0)").html("");
             $(html).each(function (index) {
               $("tbody").append("<tr></tr>");
+              this.map(function (obj, index) {
+                $("tbody>tr:last-child").append(
+                  "<td class='border-right-bottom-top'>" + obj + "</td>"
+                );
+              });
             });
           },
         });
