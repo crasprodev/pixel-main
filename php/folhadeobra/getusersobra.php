@@ -302,7 +302,7 @@ $conexao->multi_query( $select[0] === "user" ? $nivel:$query);
     {
         $Resultado[$i][1] === NULL ? array_splice( $Resultado[$i], 1, 0, "user" ):array_splice( $Resultado[$i], 1, 0, "admin" );
 $selectdetails = "SELECT Pedido_mens,Ficheirosloc,Budget_montagem,Custo_Montagem,Pessoa_Montagem FROM `edicao` WHERE Codfolha='".$Resultado[$i][0]."' ORDER BY Codedicao  DESC LIMIT 1";
-return json_encode( $selectdetails);$query1 = MySQLi_query($conexao,$selectdetails);
+return $selectdetails;$query1 = MySQLi_query($conexao,$selectdetails);
 if($query1)
 { 
     while($Result = MySQLi_fetch_row($query1))
