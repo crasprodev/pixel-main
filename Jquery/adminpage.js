@@ -16,6 +16,9 @@ let Admin = function (nivel) {
           .siblings(".searchbox.user")
           .children(".category.input_appeareance")
           .append(...admin.option(options_user))
+          .siblings("div input")
+          .eq(0)
+          .prop("checked", true)
       : $(".searchbox.user").remove();
   };
   const options_user = [
