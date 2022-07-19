@@ -61,6 +61,7 @@ let Admin = function (nivel) {
 };
 let admin = new Admin();
 admin.folha();
+admin.usertype(0, 0, 0);
 $(".userdata:eq(0) select:eq(0)").change(function () {
   admin.userinfo(this.value);
 });
