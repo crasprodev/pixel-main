@@ -36,12 +36,8 @@ let Admin = function (nivel) {
     "Pessoa_Montagem",
   ];
   this.folha = function () {
-    admin.option(options_user).map(function (obj, index) {
-      $(".userdata:eq(1) select:eq(0)").append(obj);
-    });
-    admin.option(option_folha).map(function (obj, index) {
-      $(".userdata:eq(0) select:eq(0)").append(obj);
-    });
+    $(".userdata:eq(1) select:eq(0)").append(...admin.option(options_user));
+    $(".userdata:eq(0) select:eq(0)").append(...admin.option(option_folha));
   };
   this.usertype = function (type, text, select) {
     array = [];
