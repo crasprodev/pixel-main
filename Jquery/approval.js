@@ -150,7 +150,6 @@ let aprrov = function (nivel) {
         intr: $("input[name='same']:checked").val(),
       },
       success: function (html) {
-        console.log(html);
         $("tbody").html("");
         $(html).each(function (index) {
           $("tbody").append("<tr></tr>");
