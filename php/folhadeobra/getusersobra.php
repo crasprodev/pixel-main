@@ -275,7 +275,7 @@ if(!$Query)
 }
 if($gotic == 2)
 {
-    $query =  "SELECT * FROM `folha de obra` WHERE `$fields` ='$text'";
+    $query =  "SELECT * FROM `folha de obra` WHERE `$fields` LIKE '%$text%'";
 }
 $conexao->multi_query( $select[0] === "user" ? $nivel:$query);
     do {$typevalue=$select[0] === "user"?"utilizador":"admin"; 
