@@ -89,6 +89,8 @@ let Admin = function (nivel) {
               $("tbody").append("<tr></tr>");
               for (var i = 6; i <= this.length - 1; i++) {
                 console.log(this[i][0]);
+                console.log(index);
+                console.log(this.length);
                 edicao[index].push(this[i]);
               }
               admin.definitions(this);
