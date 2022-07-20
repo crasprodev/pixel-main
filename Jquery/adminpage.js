@@ -93,7 +93,7 @@ let Admin = function (nivel) {
                 edicao.push(this[i]);
               }
               console.log(edicao);
-              /* admin.definitions(this);*/
+              admin.definitions(this);
               this.map(function (obj, index) {
                 $("tbody>tr:last-child").append(
                   "<td class='border-right-bottom-top'>" + obj + "</td>"
