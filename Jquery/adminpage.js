@@ -83,6 +83,7 @@ let Admin = function (nivel) {
             gotic: 2,
           },
           success: function (html) {
+            console.log(html);
             let edicao = [];
             $("tbody:eq(0)").html("");
             $(html).each(function (index) {
@@ -92,7 +93,7 @@ let Admin = function (nivel) {
                 edicao.push(html[i]);
               }
               console.log(edicao);
-              admin.definitions(this);
+              /* admin.definitions(this);*/
               this.map(function (obj, index) {
                 $("tbody>tr:last-child").append(
                   "<td class='border-right-bottom-top'>" + obj + "</td>"
