@@ -326,7 +326,7 @@ if($query1)
 }
 
 }
-return json_encode($Resultado);
+return json_encode($description);
 array_splice( $Resultado[$i], 4, 0,...$description[$i] );
 }
     return json_encode($Resultado);
