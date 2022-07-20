@@ -130,5 +130,6 @@ $(".parts_obra:not(.parts_obra:eq(4)):not(.parts_obra:eq(0)) .txtobra,.parts_obr
 $(".userdata_bg input").css("text-align", "center")
 </script>
 <script src="../Jquery/approval.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
 </html>
