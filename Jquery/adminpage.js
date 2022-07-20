@@ -83,21 +83,19 @@ let Admin = function (nivel) {
             gotic: 2,
           },
           success: function (html) {
-            $("tbody:eq(0)").html("");
-            let edicao = [[]];
+            console.log(html);
+            $("tbody").html("");
             $(html).each(function (index) {
               $("tbody").append("<tr></tr>");
-              for (var i = 6; i <= this.length - 1; i++) {
-                console.log(this[i][0]);
-                console.log(index);
-                console.log(this.length - 1);
-                edicao[index].push(this[i]);
-              }
               admin.definitions(this);
               this.map(function (obj, index) {
                 $("tbody>tr:last-child").append(
                   "<td class='border-right-bottom-top'>" + obj + "</td>"
                 );
+              });
+              var current = this;
+              $("tbody>tr:last-child").click(function () {
+                approv.indexclickfunction(current);
               });
             });
           },
