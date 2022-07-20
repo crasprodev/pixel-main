@@ -130,20 +130,8 @@ $(".parts_obra:not(.parts_obra:eq(4)):not(.parts_obra:eq(0)) .txtobra,.parts_obr
 $(".userdata_bg input").css("text-align", "center")
 </script>
 <script src="../Jquery/approval.js"></script>
-<script src="js/jsPDF/dist/jspdf.min.js"></script>
 <script>
-var doc = new jsPDF();
-var doc = new jsPDF();
 
-doc.text(20, 20, 'Hello world!');
-doc.text(20, 30, 'This is client-side Javascript to generate a PDF.');
-
-// Add new page
-doc.addPage();
-doc.text(20, 20, 'Visit CodexWorld.com');
-
-// Save the PDF
-doc.save('document.pdf');
 </script>
 
 </html>
