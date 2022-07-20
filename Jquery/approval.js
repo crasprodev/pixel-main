@@ -2,10 +2,11 @@ let aprrov = function (nivel) {
   const approv = this;
   this.definitions = function (html) {
     html[2] === null ? html.splice(2, 1) : html.splice(3, 1);
+    html.splice(3, 2, ...html[5]);
     //html.pop();
     //html.pop();
 
-    //html.splice(4, 4, html[5], html[6], html[7], html[4]);
+    //html.splice(3, 2, html[5], html[6], html[7], html[4]);
   };
   this.indexclickfunction = function (index) {
     let selectedindex = index;
