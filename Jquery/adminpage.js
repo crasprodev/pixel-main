@@ -87,9 +87,9 @@ let Admin = function (nivel) {
             $("tbody:eq(0)").html("");
             $(html).each(function (index) {
               $("tbody").append("<tr></tr>");
-
+              var actind = parseInt(index - 1);
               for (var i = 5; i <= html.length; i++) {
-                edicao[index].push(html[i]);
+                edicao[actind].push(html[i]);
               }
               console.log(edicao);
               admin.definitions(this);
