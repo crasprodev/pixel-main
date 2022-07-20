@@ -83,14 +83,15 @@ let Admin = function (nivel) {
             gotic: 2,
           },
           success: function (html) {
-            let edicao = [[[]]];
             $("tbody:eq(0)").html("");
+            let edicao = [[]];
             $(html).each(function (index) {
               $("tbody").append("<tr></tr>");
               for (var i = 6; i <= this.length - 1; i++) {
                 edicao[index].push(this[i]);
+                console.log(edicao);
               }
-              console.log(edicao);
+
               admin.definitions(this);
               this.map(function (obj, index) {
                 $("tbody>tr:last-child").append(
