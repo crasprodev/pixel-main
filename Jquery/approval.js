@@ -2,7 +2,7 @@ let aprrov = function (nivel) {
   const approv = this;
   this.definitions = function (html) {
     html[2] === null ? html.splice(2, 1) : html.splice(3, 1);
-    html.splice(3, 2, ...html[5]);
+    html.splice(3, 3, ...html[5]);
     //html.pop();
     //html.pop();
 
