@@ -83,11 +83,12 @@ let Admin = function (nivel) {
             gotic: 2,
           },
           success: function (html) {
-            console.log(html);
             $("tbody:eq(0)").html("");
             $(html).each(function (index) {
+              console.log(index);
               $("tbody").append("<tr></tr>");
               for (var i = 5; i <= html.length; i++) {}
+
               admin.definitions(this);
               this.map(function (obj, index) {
                 $("tbody>tr:last-child").append(
