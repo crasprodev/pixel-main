@@ -16,7 +16,6 @@
 
 </html>
 <div>
-
     <?php
 
 if (!empty($_POST))
