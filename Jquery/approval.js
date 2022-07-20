@@ -9,6 +9,7 @@ let aprrov = function (nivel) {
     html[5].splice(5, 3);
     html.splice(3, 2, ...html[5]);
     html.pop();
+    html.splice(3, 4, html[5], html[6]);
   };
   this.indexclickfunction = function (index) {
     let selectedindex = index;
