@@ -313,7 +313,8 @@ else {
         $Resultado[$i][1] === NULL ? array_splice( $Resultado[$i], 1, 0, "user" ):array_splice( $Resultado[$i], 1, 0, "admin" );
 
     $selectdetails = "SELECT Pedido_mens,Ficheirosloc,Budget_montagem,Custo_Montagem,Pessoa_Montagem FROM `edicao` WHERE Codfolha='".$Resultado[$i][0]."' ORDER BY Codedicao  DESC";
-if($gotic != 2)
+return $selectdetails;
+    if($gotic != 2)
 {
     $selectdetails.=" LIMIT 1";
 }
