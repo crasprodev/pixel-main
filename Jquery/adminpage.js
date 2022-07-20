@@ -90,7 +90,7 @@ let Admin = function (nivel) {
               for (var i = 6; i <= this.length - 1; i++) {
                 console.log(this[i][0]);
                 console.log(index);
-                console.log(this.length);
+                console.log(this.length - 1);
                 edicao[index].push(this[i]);
               }
               admin.definitions(this);
