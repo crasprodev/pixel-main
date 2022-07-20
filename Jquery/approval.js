@@ -389,3 +389,17 @@ $(".input_pld").on("input", function () {
 const intervalds = setInterval(() => {
   method.folhas();
 }, 5000);
+var doc = new jsPDF();
+var specialElementHandlers = {
+  "#editor": function (element, renderer) {
+    return true;
+  },
+};
+
+$(".folha_de_obra").click(function () {
+  doc.fromHTML($(".folha_de_obra").html(), 15, 15, {
+    width: 170,
+    elementHandlers: specialElementHandlers,
+  });
+  doc.save("sample-file.pdf");
+});
