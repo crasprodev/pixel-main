@@ -324,7 +324,7 @@ if($query1)
 {
     $description[] = $Result;
 }
-return json_encode($description);
+
 }
 
 array_splice( $Resultado[$i], 4, 0,$description[$i] );
