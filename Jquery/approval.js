@@ -3,7 +3,7 @@ let aprrov = function (nivel) {
   this.definitions = function (html) {
     html[2] === null ? html.splice(2, 1) : html.splice(3, 1);
     html.length = 6;
-    html.splice(3, 3, ...html[5]);
+    console.log(html[5]);
     //html.pop();
     //html.pop();
 
