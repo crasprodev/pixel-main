@@ -84,17 +84,17 @@ let Admin = function (nivel) {
           },
           success: function (html) {
             console.log(html);
-            $("tbody").html("");
+            $("tbody:eq(0)").html("");
             $(html).each(function (index) {
-              $("tbody").append("<tr></tr>");
+              $("tbody:eq(0)").append("<tr></tr>");
               admin.definitions(this);
               this.map(function (obj, index) {
-                $("tbody>tr:last-child").append(
+                $("tbody:eq(0)>tr:last-child").append(
                   "<td class='border-right-bottom-top'>" + obj + "</td>"
                 );
               });
               var current = this;
-              $("tbody>tr:last-child").click(function () {
+              $("tbody:eq(0)>tr:last-child").click(function () {
                 approv.indexclickfunction(current);
               });
             });
