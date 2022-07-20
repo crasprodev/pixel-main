@@ -8,7 +8,7 @@ let Admin = function (nivel) {
     return array;
   };
   this.definitions = function (html) {
-    html[2] === null ? html.splice(2, 1) : html.splice(3, 1);
+    /*html[2] === null ? html.splice(2, 1) : html.splice(3, 1);
     html.length = 6;
 
     html[5].shift();
@@ -16,7 +16,7 @@ let Admin = function (nivel) {
     html[5].splice(5, 3);
     html.splice(3, 2, ...html[5]);
     html.pop();
-    html.splice(4, 4, html[5], html[6], html[7], html[4]);
+    html.splice(4, 4, html[5], html[6], html[7], html[4]);*/
   };
   this.userinfo = function (value) {
     value === "Informação do utilizador" &&
@@ -87,6 +87,7 @@ let Admin = function (nivel) {
             $("tbody:eq(0)").html("");
             $(html).each(function (index) {
               $("tbody").append("<tr></tr>");
+              for (var i = 5; i <= html.length; i++) {}
               admin.definitions(this);
               this.map(function (obj, index) {
                 $("tbody>tr:last-child").append(
