@@ -376,6 +376,10 @@ function Aprovarfolha($codid,$req)
         {
             return 2;
         }
+        if(count($aprovacoes_necessarios)==count($aprovacoes))
+        {
+            return 3;
+        }
         return 1;
       } else {
        return $conexao->error;

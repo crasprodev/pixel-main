@@ -233,6 +233,9 @@ let aprrov = function (nivel) {
           if (html == 2) {
             mudarestado("faturacao", codfolha);
           }
+          if (html == 3) {
+            mudarestado("Arquivado", codfolha);
+          }
         },
         error: function (xhr, ajaxOptions, thrownError) {
           alert(xhr.status);
