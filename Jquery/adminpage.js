@@ -91,7 +91,6 @@ let Admin = function (nivel) {
               for (var i = 6; i <= this.length - 2; i++) {
                 edicao[index].push(this[i]);
               }
-              console.log(edicao);
               admin.definitions(this);
               this.map(function (obj, index) {
                 $("tbody>tr:last-child").append(
