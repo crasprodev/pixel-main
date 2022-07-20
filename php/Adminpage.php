@@ -147,6 +147,7 @@
                                 <th>Custo montagem</th>
                                 <th>Pessoa_Montagem</th>
                                 <th>localização de ficheiros</th>
+                                <th>Status</th>
                             </tr>
                         </thead>
                         <tbody>
