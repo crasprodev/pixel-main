@@ -83,7 +83,6 @@ let Admin = function (nivel) {
             gotic: 2,
           },
           success: function (html) {
-            console.log(html);
             let edicao = [];
             $("tbody:eq(0)").html("");
             $(html).each(function (index) {
