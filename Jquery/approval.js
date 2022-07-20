@@ -6,9 +6,7 @@ let aprrov = function (nivel) {
 
     html[5].shift();
     html[5].splice(4, 3);
-
-    //html.pop();
-    //html.pop();
+    html.splice(2, 2);
     console.log(html[5]);
     // html.splice(3, 2, html[5], html[6], html[7], html[4]);
     //
