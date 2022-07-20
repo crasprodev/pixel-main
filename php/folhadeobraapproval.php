@@ -133,19 +133,17 @@ $(".userdata_bg input").css("text-align", "center")
 <script src="js/jsPDF/dist/jspdf.min.js"></script>
 <script>
 var doc = new jsPDF();
-var specialElementHandlers = {
-    "#editor": function(element, renderer) {
-        return true;
-    },
-};
+var doc = new jsPDF();
 
-$(".folha_de_obra").click(function() {
-    doc.fromHTML($(".folha_de_obra").html(), 15, 15, {
-        width: 170,
-        elementHandlers: specialElementHandlers,
-    });
-    doc.save("sample-file.pdf");
-});
+doc.text(20, 20, 'Hello world!');
+doc.text(20, 30, 'This is client-side Javascript to generate a PDF.');
+
+// Add new page
+doc.addPage();
+doc.text(20, 20, 'Visit CodexWorld.com');
+
+// Save the PDF
+doc.save('document.pdf');
 </script>
 
 </html>
