@@ -320,14 +320,14 @@ else {
 $query1 = MySQLi_query($conexao,$selectdetails);
 if($query1)
 { 
+    $description = [];
     while($Result = MySQLi_fetch_row($query1))
 {
     $description[] = $Result;
 }
 
 }
-return json_encode($description);
-array_splice( $Resultado[$i], 4, 0,...$description[$i] );
+array_splice( $Resultado[$i], 4, 0,...$description );
 }
     return json_encode($Resultado);
 }           
