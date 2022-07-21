@@ -2,6 +2,31 @@
 
 <body>
 
+    <div class="image_total"><img src="" alt="">
+        <div class="shoptitle">Bem vindo á nossa loja online!</div>
+    </div>
+    <div class="selectcat">
+        <a href="" class="">
+            <div class="textselect"></div>
+            <div class="imgtext"></div>
+        </a>
+        <a href="" class="">
+            <div class="textselect"></div>
+            <div class="imgtext"></div>
+        </a>
+        <a href="" class="">
+            <div class="textselect"></div>
+            <div class="imgtext"></div>
+        </a>
+        <a href="" class="">
+            <div class="textselect"></div>
+            <div class="imgtext"></div>
+        </a>
+        <a href="" class="">
+            <div class="textselect"></div>
+            <div class="imgtext"></div>
+        </a>
+    </div>
 </body>
 
 </html>
