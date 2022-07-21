@@ -74,6 +74,14 @@
                 <div class="imgtext"></div>
             </a>
             <a href="" class="">
+                <div class="textselect">GRANDE FORMATO</div>
+                <div class="imgtext"></div>
+            </a>
+            <a href="" class="">
+                <div class="textselect">PEQUENO FORMATO</div>
+                <div class="imgtext"></div>
+            </a>
+            <a href="" class="">
                 <div class="textselect">VINIL</div>
                 <div class="imgtext"></div>
             </a>
@@ -85,10 +93,7 @@
                 <div class="textselect">BRINDES</div>
                 <div class="imgtext"></div>
             </a>
-            <a href="" class="">
-                <div class="textselect"></div>
-                <div class="imgtext"></div>
-            </a>
+
         </div>
     </div>
 </body>
