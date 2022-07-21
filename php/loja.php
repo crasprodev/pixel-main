@@ -28,6 +28,11 @@
 
     font-size: calc(3rem + 1vw);
 }
+
+.shoppingstore {
+    background: white;
+    height: 18rem;
+}
 </style>
 
 <body>
