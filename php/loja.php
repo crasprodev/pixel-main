@@ -1,13 +1,15 @@
 <?php include ("navbar/navbar.php"); ?>
 <style>
 .image_total {
-
+    position: relative;
+    height: fit-content;
     background: url("../img/Background/computerguy.jpg");
     height: 24rem;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     background-position: center;
+    filter: hue-rotate(210deg) contrast(0.7);
 }
 
 
