@@ -49,11 +49,11 @@
     align-content: center;
 }
 
-.textselect:nth-child(n+1) {
+.textselect:nth-child(2n) {
     background: #E4398C;
 }
 
-.textselect:nth-child(n+2) {
+.textselect:nth-child(3n) {
     background: #234F9D;
 }
 
