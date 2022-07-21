@@ -127,7 +127,7 @@ $(".links:eq(2)").click(function () {
   location.href = "../php/#servicos";
 });
 $(".links:eq(3)").click(function () {
-  location.href = "../php/loja.";
+  location.href = "../php/loja.php";
 });
 $(".links:eq(4)").click(function () {
   location.href = "../php/#revenda";
@@ -148,7 +148,7 @@ $(".link:eq(2)").click(function () {
   location.href = "../php/#servicos";
 });
 $(".link:eq(3)").click(function () {
-  location.href = "../php/loja";
+  location.href = "../php/loja.php";
 });
 $(".link:eq(4)").click(function () {
   location.href = "../php/#revenda";
