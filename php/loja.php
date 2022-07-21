@@ -1,4 +1,10 @@
 <?php include ("navbar/navbar.php"); ?>
+<style>
+.image_total img {
+    width: 100%;
+    height: 11rem;
+}
+</style>
 
 <body>
 
