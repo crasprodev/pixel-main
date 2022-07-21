@@ -38,27 +38,29 @@
             <div class="txtbig"> Bem vindo</div> á nossa loja online!
         </div>
     </div>
-    <div class="selectcat">
-        <a href="" class="">
-            <div class="textselect">VER TUDO</div>
-            <div class="imgtext"></div>
-        </a>
-        <a href="" class="">
-            <div class="textselect">VINIL</div>
-            <div class="imgtext"></div>
-        </a>
-        <a href="" class="">
-            <div class="textselect">TÊXTIL</div>
-            <div class="imgtext"></div>
-        </a>
-        <a href="" class="">
-            <div class="textselect">BRINDES</div>
-            <div class="imgtext"></div>
-        </a>
-        <a href="" class="">
-            <div class="textselect"></div>
-            <div class="imgtext"></div>
-        </a>
+    <div class="shoppingstore">
+        <div class="selectcat">
+            <a href="" class="">
+                <div class="textselect">VER TUDO</div>
+                <div class="imgtext"></div>
+            </a>
+            <a href="" class="">
+                <div class="textselect">VINIL</div>
+                <div class="imgtext"></div>
+            </a>
+            <a href="" class="">
+                <div class="textselect">TÊXTIL</div>
+                <div class="imgtext"></div>
+            </a>
+            <a href="" class="">
+                <div class="textselect">BRINDES</div>
+                <div class="imgtext"></div>
+            </a>
+            <a href="" class="">
+                <div class="textselect"></div>
+                <div class="imgtext"></div>
+            </a>
+        </div>
     </div>
 </body>
 
