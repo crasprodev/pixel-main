@@ -71,27 +71,21 @@
         <div class="selectcat">
             <a href="" class="">
                 <div class="textselect">VER TUDO</div>
-                <div class="imgtext"></div>
             </a>
             <a href="" class="">
                 <div class="textselect">GRANDE FORMATO</div>
-                <div class="imgtext"></div>
             </a>
             <a href="" class="">
                 <div class="textselect">PEQUENO FORMATO</div>
-                <div class="imgtext"></div>
             </a>
             <a href="" class="">
                 <div class="textselect">VINIL</div>
-                <div class="imgtext"></div>
             </a>
             <a href="" class="">
                 <div class="textselect">TÊXTIL</div>
-                <div class="imgtext"></div>
             </a>
             <a href="" class="">
                 <div class="textselect">BRINDES</div>
-                <div class="imgtext"></div>
             </a>
 
         </div>
