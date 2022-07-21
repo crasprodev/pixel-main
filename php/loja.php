@@ -39,8 +39,8 @@
 }
 
 .textselect {
-    background: green;
-    width: 10rem;
+    background: #F1AC1D;
+    width: 15rem;
     display: flex;
     height: 2rem;
     border-radius: 25rem;
@@ -49,13 +49,25 @@
     align-content: center;
 }
 
+.textselect:nth-child(n+1) {
+    background: #E4398C;
+}
+
+.textselect:nth-child(n+2) {
+    background: #234F9D;
+}
+
+
 .selectcat {
     width: 80%;
     background: red;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    column-gap: 1rem;
+    /* row-gap: 0.2rem; */
+    /* align-items: center; */
 }
 </style>
 
