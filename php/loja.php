@@ -48,6 +48,15 @@
     justify-content: center;
     align-content: center;
 }
+
+.selectcat {
+    width: 80%;
+    background: red;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
 </style>
 
 <body>
