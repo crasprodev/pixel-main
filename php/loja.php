@@ -48,7 +48,7 @@
     align-content: center;
 }
 
-.textselect:nth-child(odd) {
+.textselect:nth-child(1) {
     background: #F1AC1D;
 }
 
