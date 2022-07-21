@@ -43,12 +43,12 @@ lojas, viaturas e brindes">
             <div class="link">INICIO</div>
             <div class="link">QUEM SOMOS?</div>
             <div class="link">SERVIÇOS</div>
-            <div class="link">LOJA<div>
-                    <div class="link">REVENDA</div>
-                    <div class="link">PORTEFÓLIO</div>
-                    <div class="link">CONTACTOS</div>
+            <div class="link"><a href="">LOJA</a></div>
+            <div class="link">REVENDA</div>
+            <div class="link">PORTEFÓLIO</div>
+            <div class="link">CONTACTOS</div>
 
-                    <?php if($_SESSION["session"]== true)
+            <?php if($_SESSION["session"]== true)
         {
       
              echo "<div class='link'><img class='icon' src='../img/icons/icon-person.png'>".$_SESSION["Email"]."</div><div class='totalbtn'>
@@ -61,36 +61,36 @@ lojas, viaturas e brindes">
         else{
         echo "<a href='login.php' class='log_in link'><img class='icon ' src='../img/icons/icon-person.png' alt=''>LOGIN/SIGN UP</a>";}
       ?>
-                </div>
-                <div class="bars logo">
-                </div>
+        </div>
+        <div class="bars logo">
+        </div>
 
-                <div class="navbar bg_white">
+        <div class="navbar bg_white">
 
-                    <div class="links">
-                        <div class='logo'></div>
-                    </div>
-                    <div class="links">
-                        <div class="text-link">QUEM SOMOS?</div>
-                    </div>
-                    <div class="links">
-                        <div class="text-link">SERVIÇOS</div>
-                    </div>
-                    <div class="links">
-                        <div class="text-link">LOJA</div>
-                    </div>
-                    <div class="links">
-                        <div class="text-link">REVENDA</div>
-                    </div>
-                    <div class="links">
-                        <div class="text-link">PORTEFÓLIO</div>
-                    </div>
-                    <div class="links">
-                        <div class="text-link">CONTACTOS</div>
-                    </div>
+            <div class="links">
+                <div class='logo'></div>
+            </div>
+            <div class="links">
+                <div class="text-link">QUEM SOMOS?</div>
+            </div>
+            <div class="links">
+                <div class="text-link">SERVIÇOS</div>
+            </div>
+            <div class="links">
+                <div class="text-link">LOJA</div>
+            </div>
+            <div class="links">
+                <div class="text-link">REVENDA</div>
+            </div>
+            <div class="links">
+                <div class="text-link">PORTEFÓLIO</div>
+            </div>
+            <div class="links">
+                <div class="text-link">CONTACTOS</div>
+            </div>
 
-                    <div class="links img">
-                        <div class="text-link "><?php if($_SESSION["session"]== true)
+            <div class="links img">
+                <div class="text-link "><?php if($_SESSION["session"]== true)
         {
             echo "<div class='text-username'>".$_SESSION["Email"]."</div>";
            
