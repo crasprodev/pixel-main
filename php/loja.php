@@ -3,6 +3,7 @@
 .image_total {
     position: relative;
     height: fit-content;
+    margin-top: 14rem;
 }
 
 .imgshop {
