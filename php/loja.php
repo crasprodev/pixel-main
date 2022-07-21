@@ -22,7 +22,9 @@
 <body>
 
     <div class="image_total">
-        <div class="shoptitle">Bem vindo á nossa loja online!</div>
+        <div class="shoptitle">
+            <div class="txtbig"> Bem vindo</div> á nossa loja online!
+        </div>
     </div>
     <div class="selectcat">
         <a href="" class="">
