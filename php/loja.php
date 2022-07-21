@@ -37,6 +37,18 @@
 .selectcat {
     background: red;
 }
+
+.textselect {
+    background: green;
+    width: 10rem;
+    display: flex;
+    height: 2rem;
+    /* text-align: center; */
+    border-radius: 25rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
 </style>
 
 <body>
