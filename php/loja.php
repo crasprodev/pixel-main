@@ -1,8 +1,18 @@
 <?php include ("navbar/navbar.php"); ?>
 <style>
+.image_total {
+    position: relative;
+    height: fit-content;
+}
+
 .image_total img {
     width: 100%;
     height: 11rem;
+}
+
+.image_total.imgtext {
+    position: relative;
+    bottom: 0;
 }
 </style>
 
