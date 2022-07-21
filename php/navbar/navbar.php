@@ -110,8 +110,7 @@ lojas, viaturas e brindes">
           </div>';
            
         }
-        else{
-            //saS
+        else{ 
         echo ' <div class="menu-account"><div class="menu-title">Login</div>
        
         <div class="completelogin"> <div class="texts"><div class="text-login">Email</div><div class="text-login">Password</div></div>
