@@ -1034,7 +1034,7 @@ input.input_text {
   align-content: center;
 }
 
-a:nth-child(2n) .textselect {
+a:nth-child(3n + 2) .textselect {
   background: #e4398c;
 }
 
@@ -1043,13 +1043,13 @@ a:nth-child(3n) .textselect {
 }
 
 .selectcat {
-  width: 80%;
-  background: red;
+  display: grid;
   margin-left: auto;
   margin-right: auto;
-  display: grid;
+  width: 80%;
   grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
   column-gap: 1rem;
-  /* row-gap: 0.2rem; */
-  /* align-items: center; */
+  row-gap: 0.2rem;
+  align-items: center;
+  justify-items: center;
 }
