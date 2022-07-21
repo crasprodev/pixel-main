@@ -7,19 +7,19 @@
     </div>
     <div class="selectcat">
         <a href="" class="">
-            <div class="textselect"></div>
+            <div class="textselect">VER TUDO</div>
             <div class="imgtext"></div>
         </a>
         <a href="" class="">
-            <div class="textselect"></div>
+            <div class="textselect">VINIL</div>
             <div class="imgtext"></div>
         </a>
         <a href="" class="">
-            <div class="textselect"></div>
+            <div class="textselect">TÊXTIL</div>
             <div class="imgtext"></div>
         </a>
         <a href="" class="">
-            <div class="textselect"></div>
+            <div class="textselect">BRINDES</div>
             <div class="imgtext"></div>
         </a>
         <a href="" class="">
