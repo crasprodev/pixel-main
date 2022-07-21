@@ -33,6 +33,10 @@
     background: white;
     height: 18rem;
 }
+
+.selectcat {
+    background: red;
+}
 </style>
 
 <body>
