@@ -1078,7 +1078,12 @@ a:nth-child(3n) .textselect {
   justify-items: center;
   align-items: center;
 }
-img.imgshop-product {
-  width: 15rem;
+.imgshop-product {
+  width: 18rem;
   height: 20rem;
+  background-image: url("https://capricho.abril.com.br/wp-content/uploads/2022/05/BTS-BigHit-Divulgacao.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* position: relative; */
+  background-position: center;
 }
