@@ -50,11 +50,11 @@
 }
 
 .textselect:nth-child(2n) {
-    background: #E4398C;
+    background: #E4398C !important;
 }
 
 .textselect:nth-child(3n) {
-    background: #234F9D;
+    background: #234F9D !important;
 }
 
 
