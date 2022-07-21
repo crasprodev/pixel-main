@@ -49,12 +49,16 @@
     align-content: center;
 }
 
-.textselect:nth-child(2n) {
-    background: #E4398C !important;
+.textselect:nth-child(odd) {
+    background: #F1AC1D;
+}
+
+.textselect:nth-child(even) {
+    background: #E4398C;
 }
 
 .textselect:nth-child(3n) {
-    background: #234F9D !important;
+    background: #234F9D;
 }
 
 
