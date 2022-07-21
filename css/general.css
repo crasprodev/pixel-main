@@ -1025,11 +1025,13 @@ input.input_text {
 
 .textselect {
   background: #f1ac1d;
+  padding: 0rem 0.5rem;
   width: 15rem;
   display: flex;
   height: 3rem;
   border-radius: 25rem;
   align-items: center;
+  font-size: 1rem;
   justify-content: center;
   align-content: center;
 }
@@ -1047,8 +1049,7 @@ a:nth-child(3n) .textselect {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
-  column-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   row-gap: 0.2rem;
   align-items: center;
   justify-items: center;
