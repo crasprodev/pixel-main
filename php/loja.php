@@ -11,7 +11,7 @@
 }
 
 .image_total.shoptitle {
-    position: relative;
+    position: absolute;
     bottom: 0;
 }
 </style>
