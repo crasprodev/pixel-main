@@ -5,7 +5,7 @@
     height: fit-content;
 }
 
-.imgshop {
+.image_total.imgshop {
     background: url("../img/Background/computerguy.jpg");
     height: 24rem;
     width: 100%;
@@ -17,8 +17,15 @@
 }
 
 .image_total.shoptitle {
+    font-size: 1.7rem;
     position: absolute;
-    bottom: 0;
+    bottom: 30%;
+    left: 10%;
+}
+
+.image_total.shoptitle.txtbig {
+
+    font-size: 3rem;
 }
 </style>
 
