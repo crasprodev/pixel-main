@@ -43,7 +43,7 @@ lojas, viaturas e brindes">
             <div class="link">INICIO</div>
             <div class="link">QUEM SOMOS?</div>
             <div class="link">SERVIÇOS</div>
-            <div class="link"><a href="">LOJA</a></div>
+            <div class="link"><a>LOJA</a></div>
             <div class="link">REVENDA</div>
             <div class="link">PORTEFÓLIO</div>
             <div class="link">CONTACTOS</div>
@@ -76,7 +76,7 @@ lojas, viaturas e brindes">
             <div class="links">
                 <div class="text-link">SERVIÇOS</div>
             </div>
-            <div class="links"><a href="">LOJA</a></div>
+            <div class="links"><a>LOJA</a></div>
             <div class="links">
                 <div class="text-link">REVENDA</div>
             </div>
