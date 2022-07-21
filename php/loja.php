@@ -1,8 +1,13 @@
 <?php include ("navbar/navbar.php"); ?>
 <style>
 .image_total {
+
+    background: url("../img/Background/computerguy.jpg");
+    height: 24rem;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
-    height: fit-content;
+    background-position: center;
 }
 
 .image_total img {
