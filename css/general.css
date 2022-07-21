@@ -1053,4 +1053,5 @@ a:nth-child(3n) .textselect {
   row-gap: 0.2rem;
   align-items: center;
   justify-items: center;
+  transform: translateY(-22px);
 }
