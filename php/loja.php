@@ -35,6 +35,23 @@
             <div class="filtro">
                 Filtro
             </div>
+            <div class="grid-container">
+                <div class="product-grid">
+                    <div class="img-container"><img src="" alt=""></div>
+                    <div class="description-container">
+                        <div class="name">Nome</div>
+                        <div class="name">Preço</div>
+                    </div>
+                </div>
+                <div class="product-grid">
+                    <div class="name">Nome</div>
+                    <div class="name">Preço</div>
+                </div>
+                <div class="product-grid"></div>
+                <div class="product-grid"></div>
+                <div class="product-grid"></div>
+                <div class="product-grid"></div>
+            </div>
         </div>
     </div>
 </body>
