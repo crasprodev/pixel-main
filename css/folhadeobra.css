@@ -576,7 +576,6 @@ th {
   font-size: 1rem;
   resize: none;
 }
-
 select.category {
   background: var(--prettywhite);
   font-family: "Open Sans", sans-serif;

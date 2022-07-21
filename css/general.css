@@ -1028,24 +1028,21 @@ input.input_text {
 }
 
 .textselect {
+  background: #f1ac1d;
   width: 15rem;
   display: flex;
-  height: 2rem;
+  height: 3rem;
   border-radius: 25rem;
   align-items: center;
   justify-content: center;
   align-content: center;
 }
 
-.textselect:nth-child(1) {
-  background: #f1ac1d;
-}
-
-.textselect:nth-child(even) {
+a:nth-child(2n) .textselect {
   background: #e4398c;
 }
 
-.textselect:nth-child(3n) {
+a:nth-child(3n) .textselect {
   background: #234f9d;
 }
 
