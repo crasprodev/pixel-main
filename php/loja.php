@@ -10,7 +10,7 @@
     height: 15rem;
 }
 
-.image_total.imgtext {
+.image_total.shoptitle {
     position: relative;
     bottom: 0;
 }
