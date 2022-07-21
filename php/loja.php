@@ -7,7 +7,7 @@
 
 .image_total img {
     width: 100%;
-    height: 11rem;
+    height: 15rem;
 }
 
 .image_total.imgtext {
