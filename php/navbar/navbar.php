@@ -76,7 +76,9 @@ lojas, viaturas e brindes">
             <div class="links">
                 <div class="text-link">SERVIÇOS</div>
             </div>
-            <div class="links"><a href="">LOJA</a></div>
+            <div class="links">
+                <div class="text-link">LOJA</div>
+            </div>
             <div class="links">
                 <div class="text-link">REVENDA</div>
             </div>
