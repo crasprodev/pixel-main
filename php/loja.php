@@ -18,7 +18,7 @@
 }
 
 .shoptitle {
-    font-size: 1.7rem + 1vw;
+    font-size: calc(1.7rem + 1vw);
     position: absolute;
     bottom: 30%;
     left: 10%;
@@ -26,7 +26,7 @@
 
 .txtbig {
 
-    font-size: 3rem + 1vw;
+    font-size: calc(3rem + 1vw);
 }
 </style>
 
