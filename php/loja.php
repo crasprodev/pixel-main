@@ -37,62 +37,56 @@
             </div>
             <div class="grid-container">
                 <div class="product-grid">
-                    <div class="img-container"><img
-                            src="https://capricho.abril.com.br/wp-content/uploads/2022/05/BTS-BigHit-Divulgacao.jpg"
-                            alt="" class='imgshop-product'></div>
-                    <div class="description-container">
-                        <div class="name">Nome</div>
-                        <div class="name">Preço</div>
+                    <div class="img-container">
+                        <div alt="" class='imgshop-product'></div>
+                        <div class="description-container">
+                            <div class="name">Nome</div>
+                            <div class="name">Preço</div>
+                        </div>
                     </div>
-                </div>
-                <div class="product-grid">
-                    <div class="img-container"><img
-                            src="https://capricho.abril.com.br/wp-content/uploads/2022/05/BTS-BigHit-Divulgacao.jpg"
-                            alt="" class='imgshop-product'></div>
-                    <div class="description-container">
-                        <div class="name">Nome</div>
-                        <div class="name">Preço</div>
-                    </div>
-                </div>
-                <div class="product-grid">
-                    <div class="img-container"><img
-                            src="https://capricho.abril.com.br/wp-content/uploads/2022/05/BTS-BigHit-Divulgacao.jpg"
-                            alt="" class='imgshop-product'></div>
-                    <div class="description-container">
-                        <div class="name">Nome</div>
-                        <div class="name">Preço</div>
-                    </div>
-                </div>
-                <div class="product-grid">
-                    <div class="img-container"><img
-                            src="https://capricho.abril.com.br/wp-content/uploads/2022/05/BTS-BigHit-Divulgacao.jpg"
-                            alt="" class='imgshop-product'></div>
-                    <div class="description-container">
-                        <div class="name">Nome</div>
-                        <div class="name">Preço</div>
-                    </div>
-                </div>
-                <div class="product-grid">
-                    <div class="img-container"><img
-                            src="https://capricho.abril.com.br/wp-content/uploads/2022/05/BTS-BigHit-Divulgacao.jpg"
-                            alt="" class='imgshop-product'></div>
-                    <div class="description-container">
-                        <div class="name">Nome</div>
-                        <div class="name">Preço</div>
-                    </div>
-                </div>
-                <div class="product-grid">
-                    <div class="img-container"><img
-                            src="https://capricho.abril.com.br/wp-content/uploads/2022/05/BTS-BigHit-Divulgacao.jpg"
-                            alt="" class='imgshop-product'></div>
-                    <div class="description-container">
-                        <div class="name">Nome</div>
-                        <div class="name">Preço</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                    <div class="product-grid">
+                        <div class="img-container">
+                            <div alt="" class='imgshop-product'></div>
+                            <div class="description-container">
+                                <div class="name">Nome</div>
+                                <div class="name">Preço</div>
+                            </div>
+                        </div>
+                        <div class="product-grid">
+                            <div class="img-container">
+                                <div alt="" class='imgshop-product'></div>
+                                <div class="description-container">
+                                    <div class="name">Nome</div>
+                                    <div class="name">Preço</div>
+                                </div>
+                            </div>
+                            <div class="product-grid">
+                                <div class="img-container">
+                                    <div alt="" class='imgshop-product'></div>
+                                    <div class="description-container">
+                                        <div class="name">Nome</div>
+                                        <div class="name">Preço</div>
+                                    </div>
+                                </div>
+                                <div class="product-grid">
+                                    <div class="img-container">
+                                        <div alt="" class='imgshop-product'></div>
+                                        <div class="description-container">
+                                            <div class="name">Nome</div>
+                                            <div class="name">Preço</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-grid">
+                                        <div class="img-container">
+                                            <div alt="" class='imgshop-product'></div>
+                                            <div class="description-container">
+                                                <div class="name">Nome</div>
+                                                <div class="name">Preço</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 </body>
 
 </html>
