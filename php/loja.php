@@ -39,7 +39,6 @@
 }
 
 .textselect {
-    background: #F1AC1D;
     width: 15rem;
     display: flex;
     height: 2rem;
