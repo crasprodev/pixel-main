@@ -19,7 +19,6 @@
 <body>
 
     <div class="image_total">
-        <img src="../img/Background/computerguy.jpg" alt="">
         <div class="shoptitle">Bem vindo á nossa loja online!</div>
     </div>
     <div class="selectcat">
