@@ -1020,7 +1020,7 @@ input.input_text {
 
 .shoppingstore {
   background: white;
-  height: 18rem;
+  height: fit-content;
 }
 
 .textselect {
