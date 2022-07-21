@@ -3,15 +3,18 @@
 .image_total {
     position: relative;
     height: fit-content;
+}
+
+.imgshop {
     background: url("../img/Background/computerguy.jpg");
     height: 24rem;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     background-position: center;
     filter: hue-rotate(210deg) contrast(0.7);
 }
-
 
 .image_total.shoptitle {
     position: absolute;
@@ -22,6 +25,7 @@
 <body>
 
     <div class="image_total">
+        <div class="imgshop"></div>
         <div class="shoptitle">
             <div class="txtbig"> Bem vindo</div> á nossa loja online!
         </div>
