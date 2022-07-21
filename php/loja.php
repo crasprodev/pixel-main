@@ -5,7 +5,7 @@
     height: fit-content;
 }
 
-.image_total.imgshop {
+.imgshop {
     background: url("../img/Background/computerguy.jpg");
     height: 24rem;
     width: 100%;
@@ -16,14 +16,14 @@
     filter: hue-rotate(210deg) contrast(0.7);
 }
 
-.image_total.shoptitle {
+.shoptitle {
     font-size: 1.7rem;
     position: absolute;
     bottom: 30%;
     left: 10%;
 }
 
-.image_total.shoptitle.txtbig {
+.txtbig {
 
     font-size: 3rem;
 }
