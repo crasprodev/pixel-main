@@ -44,49 +44,55 @@
                             <div class="name">Preço</div>
                         </div>
                     </div>
-                    <div class="product-grid">
-                        <div class="img-container">
-                            <div alt="" class='imgshop-product'></div>
-                            <div class="description-container">
-                                <div class="name">Nome</div>
-                                <div class="name">Preço</div>
-                            </div>
+                </div>
+                <div class="product-grid">
+                    <div class="img-container">
+                        <div alt="" class='imgshop-product'></div>
+                        <div class="description-container">
+                            <div class="name">Nome</div>
+                            <div class="name">Preço</div>
                         </div>
-                        <div class="product-grid">
-                            <div class="img-container">
-                                <div alt="" class='imgshop-product'></div>
-                                <div class="description-container">
-                                    <div class="name">Nome</div>
-                                    <div class="name">Preço</div>
-                                </div>
-                            </div>
-                            <div class="product-grid">
-                                <div class="img-container">
-                                    <div alt="" class='imgshop-product'></div>
-                                    <div class="description-container">
-                                        <div class="name">Nome</div>
-                                        <div class="name">Preço</div>
-                                    </div>
-                                </div>
-                                <div class="product-grid">
-                                    <div class="img-container">
-                                        <div alt="" class='imgshop-product'></div>
-                                        <div class="description-container">
-                                            <div class="name">Nome</div>
-                                            <div class="name">Preço</div>
-                                        </div>
-                                    </div>
-                                    <div class="product-grid">
-                                        <div class="img-container">
-                                            <div alt="" class='imgshop-product'></div>
-                                            <div class="description-container">
-                                                <div class="name">Nome</div>
-                                                <div class="name">Preço</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="product-grid">
+                    <div class="img-container">
+                        <div alt="" class='imgshop-product'></div>
+                        <div class="description-container">
+                            <div class="name">Nome</div>
+                            <div class="name">Preço</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-grid">
+                    <div class="img-container">
+                        <div alt="" class='imgshop-product'></div>
+                        <div class="description-container">
+                            <div class="name">Nome</div>
+                            <div class="name">Preço</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-grid">
+                    <div class="img-container">
+                        <div alt="" class='imgshop-product'></div>
+                        <div class="description-container">
+                            <div class="name">Nome</div>
+                            <div class="name">Preço</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-grid">
+                    <div class="img-container">
+                        <div alt="" class='imgshop-product'></div>
+                        <div class="description-container">
+                            <div class="name">Nome</div>
+                            <div class="name">Preço</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
