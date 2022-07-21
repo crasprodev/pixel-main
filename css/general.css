@@ -1055,3 +1055,15 @@ a:nth-child(3n) .textselect {
   justify-items: center;
   transform: translateY(-22px);
 }
+.filtro {
+  background: #f1ac1d87;
+  border-radius: 5rem;
+  width: fit-content;
+  padding: 0.4rem 1.1rem;
+  margin-left: 80%;
+  cursor: pointer;
+}
+.selectfiltro {
+  height: fit-content;
+  padding-bottom: 1rem;
+}
