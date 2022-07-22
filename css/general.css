@@ -1092,5 +1092,17 @@ a:nth-child(3n) .textselect {
   color: black;
 }
 .name {
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+.preco {
+  color: #979797;
+}
+.cartbtn {
+  border: 1px solid black;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  width: fit-content;
 }
