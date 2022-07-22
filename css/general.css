@@ -1121,9 +1121,17 @@ a:nth-child(3n) .textselect {
   background: #e4398c;
   border: 1px solid #e4398c;
 }
+.product-grid:nth-child(3n + 2) .product-grid {
+  background: #e4398c38;
+  border: 1px solid #e4398c38;
+}
 .product-grid:nth-child(3n) .cartbtn {
   background: #234f9d;
   border: 1px solid #234f9d;
+}
+.product-grid:nth-child(3n) .product-grid {
+  background: #23509d27;
+  border: 1px solid #23509d2a;
 }
 .description-container {
   text-align: center;
