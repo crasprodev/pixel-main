@@ -43,6 +43,9 @@
                     <div class="description-container">
                         <div class="name">Nome</div>
                         <div class="preco">Preço</div>
+                        <div class="descricaoshop">descricao descricao descricao descricao descricao descricao descricao
+                            descricao descricao descricao descricao descricao
+                        </div>
                         <div class="cartbtn">Adicionar ao cart</div>
                     </div>
 
@@ -54,6 +57,9 @@
                     <div class="description-container">
                         <div class="name">Nome</div>
                         <div class="preco">Preço</div>
+                        <div class="descricaoshop">descricao descricao descricao descricao descricao descricao descricao
+                            descricao descricao descricao descricao descricao
+                        </div>
                         <div class="cartbtn">Adicionar ao cart</div>
 
                     </div>
@@ -65,6 +71,9 @@
                     <div class="description-container">
                         <div class="name">Nome</div>
                         <div class="preco">Preço</div>
+                        <div class="descricaoshop">descricao descricao descricao descricao descricao descricao descricao
+                            descricao descricao descricao descricao descricao
+                        </div>
                         <div class="cartbtn">Adicionar ao cart</div>
                     </div>
 
@@ -76,6 +85,9 @@
                     <div class="description-container">
                         <div class="name">Nome</div>
                         <div class="preco">Preço</div>
+                        <div class="descricaoshop">descricao descricao descricao descricao descricao descricao descricao
+                            descricao descricao descricao descricao descricao
+                        </div>
                         <div class="cartbtn">Adicionar ao cart</div>
                     </div>
 
@@ -87,6 +99,9 @@
                     <div class="description-container">
                         <div class="name">Nome</div>
                         <div class="preco">Preço</div>
+                        <div class="descricaoshop">descricao descricao descricao descricao descricao descricao descricao
+                            descricao descricao descricao descricao descricao
+                        </div>
                         <div class="cartbtn">Adicionar ao cart</div>
 
                     </div>
@@ -98,6 +113,9 @@
                     <div class="description-container">
                         <div class="name">Nome</div>
                         <div class="preco">Preço</div>
+                        <div class="descricaoshop">descricao descricao descricao descricao descricao descricao descricao
+                            descricao descricao descricao descricao descricao
+                        </div>
                         <div class="cartbtn">Adicionar ao cart</div>
                     </div>
 
