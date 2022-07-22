@@ -1176,11 +1176,16 @@ a:nth-child(3n) .textselect {
   position: absolute;
   right: 0;
   height: fit-content;
-  /* width: fit-content; */
-  /* display: flex; */
+  /*width: fit-content;
+  */ /*display: flex;
+  */
   top: 0;
   font-size: 3rem;
-  transform: rotate(330deg) translateY(-1rem);
+  transform: rotate(317deg) translateY(-1rem);
+  -webkit-transform: rotate(317deg) translateY(-1rem);
+  -moz-transform: rotate(317deg) translateY(-1rem);
+  -ms-transform: rotate(317deg) translateY(-1rem);
+  -o-transform: rotate(317deg) translateY(-1rem);
 }
 .section-img {
   position: absolute;
@@ -1189,4 +1194,51 @@ a:nth-child(3n) .textselect {
   margin-left: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+.imgtotalcss {
+  background: white;
+  width: 90%;
+  height: 20rem;
+  margin-top: 2rem;
+  margin-left: 10%;
+}
+.imgslider-total {
+  background: green;
+  width: 90%;
+  height: 5rem;
+  margin-top: 2rem;
+  position: relative;
+  margin-left: 10%;
+}
+.arrowleft {
+  width: 6rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 5rem;
+  position: absolute;
+  /* aspect-ratio: 1/1; */
+  /* background: white; */
+  background-image: url(../img/icons/left.png);
+}
+.arrowright {
+  width: 6rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 5rem;
+  position: absolute;
+  right: 0;
+  /* background: white; */
+  background-image: url(../img/icons/left.png);
+  transform: rotate(180deg);
+}
+.totalimgsm {
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: hidden;
+}
+.freerangeimg {
+  width: fit-content;
+  height: 100%;
 }
