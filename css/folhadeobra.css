@@ -586,3 +586,6 @@ select.category option {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
+.name {
+  font-size: 2rem;
+}
