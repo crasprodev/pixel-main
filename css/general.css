@@ -1115,6 +1115,7 @@ a:nth-child(3n) .textselect {
   margin-right: auto;
   background: #f1ac1d;
   color: white;
+  cursor: pointer;
 }
 .product-grid:nth-child(3n + 2) .cartbtn {
   background: #e4398c;
