@@ -1093,10 +1093,12 @@ a:nth-child(3n) .textselect {
 }
 .name {
   font-size: 1.5rem;
+  width: fit-content;
 }
 .preco {
   margin-top: 0.6rem;
   color: #6b6b6b;
+  width: fit-content;
 }
 .cartbtn {
   border: 1px solid black;
