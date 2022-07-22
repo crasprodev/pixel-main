@@ -1108,4 +1108,9 @@ a:nth-child(3n) .textselect {
   width: fit-content;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.description-container {
+  text-align: center;
 }
