@@ -1160,3 +1160,33 @@ a:nth-child(3n) .textselect {
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
 }
+.totalproducts {
+  width: 95%;
+  position: fixed;
+  min-height: 95%;
+  height: fit-content;
+  background: red;
+  /* position: fixed; */
+  /* z-index: 1000; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.closebtn {
+  position: absolute;
+  right: 0;
+  height: fit-content;
+  /* width: fit-content; */
+  /* display: flex; */
+  top: 0;
+  font-size: 3rem;
+  transform: rotate(330deg) translateY(-1rem);
+}
+.section-img {
+  position: absolute;
+  width: 50%;
+  height: 35rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
