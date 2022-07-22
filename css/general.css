@@ -1095,6 +1095,7 @@ a:nth-child(3n) .textselect {
   font-size: 1.5rem;
 }
 .preco {
+  margin-top: 1rem;
   color: #979797;
 }
 .cartbtn {
@@ -1105,4 +1106,6 @@ a:nth-child(3n) .textselect {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   width: fit-content;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
 }
