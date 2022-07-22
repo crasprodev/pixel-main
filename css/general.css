@@ -1127,3 +1127,19 @@ a:nth-child(3n) .textselect {
   justify-content: center;
   align-content: center;
 }
+.descricaoshop {
+  /* background-color: skyblue; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 3;
+  -moz-line-clamp: 5;
+  -ms-line-clamp: 5;
+  line-clamp: 5;
+  overflow: hidden;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
