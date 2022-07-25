@@ -179,7 +179,7 @@
     $(".textselect").on("click", function() {
         const textselect = $(this).prop("aes-prop");
         var link = "categoria = ".textselect;
-        inserturl(link);
+        inserturl(textselect);
     });
     </script>
 </div>
