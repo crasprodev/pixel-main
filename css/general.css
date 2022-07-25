@@ -1161,12 +1161,16 @@ a:nth-child(3n) .textselect {
   margin-top: 0.5rem;
 }
 .totalproducts {
-  width: 95%;
+  width: 89%;
   position: fixed;
-  min-height: 95%;
+  min-height: 69%;
   height: fit-content;
+  margin-top: 3rem;
+  overflow-y: scroll;
+  /* margin-top: 5rem; */
   background: red;
-  /* position: fixed; */
+  overflow-x: hidden;
+  d: fixed;
   /* z-index: 1000; */
   top: 50%;
   left: 50%;
