@@ -92,6 +92,7 @@ let Admin = function (nivel) {
               console.log([index, this.length]);
               for (var i = 6; i <= this.length - 1; i++) {
                 console.log(this[i]);
+                console.log([index, index_mini]);
                 description[index][index_mini] = this[i];
                 index_mini++;
               }
