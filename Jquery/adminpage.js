@@ -90,7 +90,7 @@ let Admin = function (nivel) {
                 description.push(this[i]);
               }
               $("tbody:eq(0)").append("<tr></tr>");
-              admin.definitions(this);
+              // admin.definitions(this);
               this.map(function (obj, index) {
                 $("tbody:eq(0)>tr:last-child").append(
                   "<td class='border-right-bottom-top'>" + obj + "</td>"
