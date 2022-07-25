@@ -1175,9 +1175,10 @@ a:nth-child(3n) .textselect {
   position: absolute;
   right: 0;
   height: fit-content;
-  /*width: fit-content;
-  */ /*display: flex;
-  */
+  /* width: fit-content; */
+  user-select: none;
+  cursor: pointer;
+  /* display: flex; */
   top: 0;
   font-size: 3rem;
   transform: rotate(317deg) translateY(-1rem);
@@ -1280,4 +1281,11 @@ a:nth-child(3n) .textselect {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
   justify-items: center;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+}
+.section-total::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
 }
