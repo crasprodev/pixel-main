@@ -88,6 +88,7 @@ let Admin = function (nivel) {
             var description = [[[]]];
             var index_mini = 0;
             $(html).each(function (index) {
+              console.log(this.length);
               for (var i = 6; i <= this.length - 1; i++) {
                 console.log(this[i]);
                 description[index][index_mini] = this[i];
