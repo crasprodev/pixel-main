@@ -1162,22 +1162,14 @@ a:nth-child(3n) .textselect {
 }
 .totalproducts {
   width: 95%;
-  /* position: fixed; */
-  /* min-height: 95%; */
   height: 36rem;
-  overflow-y: scroll;
-  grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
   background: red;
-  /* position: fixed; */
   z-index: 1000;
   padding-bottom: 1rem;
   top: 50%;
   position: fixed;
-  overflow-x: hidden;
-  display: grid;
   left: 50%;
   transform: translate(-50%, -50%);
-  justify-items: center;
 }
 .closebtn {
   position: absolute;
@@ -1280,4 +1272,16 @@ a:nth-child(3n) .textselect {
   margin-top: 4rem;
   justify-content: center;
   align-content: center;
+}
+.section-total {
+  overflow: scroll;
+  /* height: 36rem; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* height: fit-content; */
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+  justify-items: center;
 }
