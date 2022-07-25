@@ -1166,7 +1166,7 @@ a:nth-child(3n) .textselect {
   /* min-height: 95%; */
   height: 36rem;
   overflow-y: scroll;
-  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
   background: red;
   /* position: fixed; */
   z-index: 1000;
