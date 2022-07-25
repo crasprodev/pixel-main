@@ -1163,15 +1163,21 @@ a:nth-child(3n) .textselect {
 .totalproducts {
   width: 95%;
   /* position: fixed; */
-  min-height: 95%;
-  height: fit-content;
+  /* min-height: 95%; */
+  height: 36rem;
+  overflow-y: scroll;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   background: red;
   /* position: fixed; */
   z-index: 1000;
+  padding-bottom: 1rem;
   top: 50%;
   position: fixed;
+  overflow-x: hidden;
+  display: grid;
   left: 50%;
   transform: translate(-50%, -50%);
+  justify-items: center;
 }
 .closebtn {
   position: absolute;
@@ -1198,18 +1204,20 @@ a:nth-child(3n) .textselect {
 }
 .imgtotalcss {
   background: white;
-  width: 90%;
-  height: 20rem;
+  width: 25rem;
+  /* height: 20rem; */
+  aspect-ratio: 1 / 1;
   margin-top: 2rem;
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 .imgslider-total {
   background: green;
-  width: 90%;
+  width: 25rem;
   height: 5rem;
+  /* display: flex; */
   margin-top: 2rem;
   position: relative;
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 .arrowleft {
   width: 6rem;
@@ -1255,13 +1263,17 @@ a:nth-child(3n) .textselect {
   height: 2rem;
 }
 .sectiontext {
-  position: absolute;
-  right: 0;
-  width: 45%;
-  margin-top: 3rem;
+  /* position: absolute; */
+  /* right: 0; */
+  width: fit-content;
+  width: 29rem;
+  /* margin-top: 3rem; */
   display: flex;
   height: fit-content;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
   flex-direction: column;
   align-items: center;
+  margin-top: 2rem;
+  justify-content: center;
+  align-content: center;
 }
