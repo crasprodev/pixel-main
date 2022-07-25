@@ -12,18 +12,24 @@
     <div class="shoppingstore">
         <div class="selectfiltro">
             <div class="selectcat">
-                <div class="textselect">VER TUDO</div>
-
-                <div class="textselect">GRANDE FORMATO</div>
-
-                <div class="textselect">PEQUENO FORMATO</div>
-
-                <div class="textselect">VINIL</div>
-
-                <div class="textselect">TÊXTIL</div>
-
-                <div class="textselect">BRINDES</div>
-
+                <div class="aroundselect">
+                    <div class="textselect">VER TUDO</div>
+                </div>
+                <div class="aroundselect">
+                    <div class="textselect">GRANDE FORMATO</div>
+                </div>
+                <div class="aroundselect">
+                    <div class="textselect">PEQUENO FORMATO</div>
+                </div>
+                <div class="aroundselect">
+                    <div class="textselect">VINIL</div>
+                </div>
+                <div class="aroundselect">
+                    <div class="textselect">TÊXTIL</div>
+                </div>
+                <div class="aroundselect">
+                    <div class="textselect">BRINDES</div>
+                </div>
 
             </div>
             <div class="filtro">
