@@ -8,15 +8,16 @@ let Admin = function (nivel) {
     return array;
   };
   this.definitions = function (html) {
-    html[2] === null ? html.splice(2, 1) : html.splice(3, 1);
-    html.length = 6;
+    var newhtml = html;
+    newhtml[2] === null ? html.splice(2, 1) : newhtml.splice(3, 1);
+    newhtml.length = 6;
 
-    html[5].shift();
-    html[5].shift();
-    html[5].splice(5, 3);
-    html.splice(3, 2, ...html[5]);
-    html.pop();
-    html.splice(4, 4, html[5], html[6], html[7], html[4]);
+    newhtml[5].shift();
+    newhtml[5].shift();
+    newhtml[5].splice(5, 3);
+    newhtml.splice(3, 2, ...newhtml[5]);
+    newhtml.pop();
+    newhtml.splice(4, 4, newhtml[5], newhtml[6], newhtml[7], newhtml[4]);
   };
   this.userinfo = function (value) {
     value === "Informação do utilizador" &&
