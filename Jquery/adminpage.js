@@ -17,7 +17,6 @@ let Admin = function (nivel) {
     newhtml.splice(8, 3);
     newhtml.pop();
     newhtml.splice(4, 4, newhtml[5], newhtml[6], newhtml[7], newhtml[4]);
-    return newhtml;
   };
   this.userinfo = function (value) {
     value === "Informação do utilizador" &&
