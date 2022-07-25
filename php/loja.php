@@ -13,22 +13,22 @@
         <div class="selectfiltro">
             <div class="selectcat">
                 <div class="aroundselect">
-                    <div class="textselect">VER TUDO</div>
+                    <div class="textselect" aes-prop="VER TUDO">VER TUDO</div>
                 </div>
                 <div class="aroundselect">
-                    <div class="textselect">GRANDE FORMATO</div>
+                    <div class="textselect" aes-prop="GRANDE FORMATO">GRANDE FORMATO</div>
                 </div>
                 <div class="aroundselect">
-                    <div class="textselect">PEQUENO FORMATO</div>
+                    <div class="textselect" aes-prop="PEQUENO FORMATO">PEQUENO FORMATO</div>
                 </div>
                 <div class="aroundselect">
-                    <div class="textselect">VINIL</div>
+                    <div class="textselect" aes-prop="VINIL">VINIL</div>
                 </div>
                 <div class="aroundselect">
-                    <div class="textselect">TÊXTIL</div>
+                    <div class="textselect" aes-prop="TÊXTIL">TÊXTIL</div>
                 </div>
                 <div class="aroundselect">
-                    <div class="textselect">BRINDES</div>
+                    <div class="textselect" aes-prop="BRINDES">BRINDES</div>
                 </div>
 
             </div>
@@ -157,8 +157,28 @@
     AOS.init();
     </script>
     <script>
+    function GetURLParameter(sParam) {
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split('&');
+        for (var i = 0; i < sURLVariables.length; i++) {
+            var sParameterName = sURLVariables[i].split('=');
+            if (sParameterName[0] == sParam) {
+                return decodeURIComponent(sParameterName[1]);
+            }
+        }
+    }
+
+    function inserturl(value) {
+        var currentURL = window.location.protocol + "//" + window.location.host + window
+            .location.pathname + "?" + value;
+        window.history.pushState({
+            path: currentURL
+        }, '', currentURL);
+    }
+
     $(".textselect").on("click", function() {
-        console.log("dsa")
+        var link = "categoria = ".$(this).prop("aes-prop");
+        inserturl(value);
     });
     </script>
 </div>
