@@ -83,11 +83,9 @@ let Admin = function (nivel) {
             gotic: 2,
           },
           success: function (html) {
-            console.log(html);
             $("tbody:eq(0)").html("");
             var description = [];
             $(html).each(function (index) {
-              console.log([index, this.length]);
               for (var i = 6; i <= this.length - 1; i++) {
                 description.push(this[i]);
               }
