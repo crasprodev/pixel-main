@@ -156,4 +156,9 @@
     <script>
     AOS.init();
     </script>
+    <script>
+    $(".textselect").on("click", function() {
+        console.log("dsa")
+    });
+    </script>
 </div>
