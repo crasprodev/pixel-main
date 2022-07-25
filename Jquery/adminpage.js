@@ -100,7 +100,6 @@ let Admin = function (nivel) {
               var current = this;
               $("tbody:eq(0)>tr:last-child").click(function () {});
             });
-            console.log(description);
           },
         });
         break;
