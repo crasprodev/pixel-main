@@ -89,8 +89,8 @@ let Admin = function (nivel) {
             var index_mini = 0;
             $(html).each(function (index) {
               for (var i = 6; i <= this.length - 1; i++) {
-                description[index][index_mini] = this[i];
                 console.log(this[i]);
+                description[index][index_mini] = this[i];
               }
               $("tbody:eq(0)").append("<tr></tr>");
               // admin.definitions(this);
