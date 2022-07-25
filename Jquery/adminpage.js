@@ -10,7 +10,10 @@ let Admin = function (nivel) {
   this.definitions = function (html) {
     var newhtml = html;
     newhtml[2] === null ? html.splice(2, 1) : newhtml.splice(3, 1);
-    console.log(html.length);
+
+    newhtml[5].shift();
+    newhtml[5].shift();
+    newhtml[5].splice(5, 3);
     newhtml.splice(3, 2, ...newhtml[5]);
     newhtml.pop();
     newhtml.splice(4, 4, newhtml[5], newhtml[6], newhtml[7], newhtml[4]);
