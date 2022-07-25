@@ -206,9 +206,6 @@ let users = function () {
       success: function (html) {
         $("tbody").html("");
         $(html).each(function (index) {
-          for (var i = 6; i <= this.length - 1; i++) {
-            console.log(this[i]);
-          }
           $("tbody").append("<tr></tr>");
           this.map(function (obj, index) {
             $("tbody>tr:last-child").append(
