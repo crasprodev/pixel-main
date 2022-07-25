@@ -1253,3 +1253,25 @@ a:nth-child(3n) .textselect {
   width: fit-content;
   height: 100%;
 }
+.text-description {
+  width: 20rem;
+  background: white;
+  height: 15rem;
+  margin-top: 3rem;
+}
+.text_title {
+  width: 20rem;
+  background: white;
+  height: 2rem;
+}
+.sectiontext {
+  position: absolute;
+  right: 0;
+  width: 45%;
+  margin-top: 3rem;
+  display: flex;
+  height: fit-content;
+  margin-right: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
