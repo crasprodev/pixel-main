@@ -8,17 +8,15 @@ let Admin = function (nivel) {
     return array;
   };
   this.definitions = function (html) {
-    const object = html;
-    object[2] === null ? object.splice(2, 1) : object.splice(3, 1);
-    object.length = 6;
+    html[2] === null ? html.splice(2, 1) : html.splice(3, 1);
+    html.length = 6;
 
-    object[5].shift();
-    object[5].shift();
-    object[5].splice(5, 3);
-    object.splice(3, 2, ...object[5]);
-    object.pop();
-    object.splice(4, 4, object[5], object[6], object[7], object[4]);
-    return object;
+    html[5].shift();
+    html[5].shift();
+    html[5].splice(5, 3);
+    html.splice(3, 2, ...html[5]);
+    html.pop();
+    html.splice(4, 4, html[5], html[6], html[7], html[4]);
   };
   this.userinfo = function (value) {
     value === "Informação do utilizador" &&
@@ -92,8 +90,8 @@ let Admin = function (nivel) {
                 description.push(this[i]);
               }
               $("tbody:eq(0)").append("<tr></tr>");
-              var object = admin.definitions(this);
-              object.map(function (obj, index) {
+              var varlog = admin.definitions(this);
+              this.map(function (obj, index) {
                 $("tbody:eq(0)>tr:last-child").append(
                   "<td class='border-right-bottom-top'>" + obj + "</td>"
                 );
