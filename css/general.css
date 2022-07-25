@@ -1036,11 +1036,11 @@ input.input_text {
   align-content: center;
 }
 
-a:nth-child(3n + 2) .textselect {
+.textselect:nth-child(3n + 2) .textselect {
   background: #e4398c;
 }
 
-a:nth-child(3n) .textselect {
+.textselect:nth-child(3n) .textselect {
   background: #234f9d;
 }
 
