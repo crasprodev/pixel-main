@@ -85,7 +85,7 @@ let Admin = function (nivel) {
           success: function (html) {
             console.log(html);
             $("tbody:eq(0)").html("");
-            var description = [[]];
+            var description = [[[]]];
             $(html).each(function (index) {
               for (var i = 6; i <= this.length - 1; i++) {
                 description[index].push(this[i]);
