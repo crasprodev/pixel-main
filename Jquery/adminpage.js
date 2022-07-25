@@ -88,11 +88,13 @@ let Admin = function (nivel) {
             var description = [[[]]];
             var index_mini = 0;
             $(html).each(function (index) {
+              index_mini = 0;
               console.log([index, this.length]);
-              /*    for (var i = 6; i <= this.length - 1; i++) {
+              for (var i = 6; i <= this.length - 1; i++) {
                 console.log(this[i]);
                 description[index][index_mini] = this[i];
-              }*/
+                index_mini++;
+              }
               $("tbody:eq(0)").append("<tr></tr>");
               // admin.definitions(this);
               this.map(function (obj, index) {
