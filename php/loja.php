@@ -140,7 +140,8 @@
             </div>
         </div>
         <div class="sectiontext">
-            
+            <div class="text_title"></div>
+            <div class="text-description"></div>
         </div>
     </div>
 </body>
