@@ -142,9 +142,9 @@
             </div>
             <div class="sectiontitle">
                 <div class="text_title">Titulo titulo titulo tutilo titulo titulo titulo</div>
-                <div class="text-description"></div>
             </div>
             <div class="sectiondescription">
+                <div class="titulo_geral">descrição</div>
                 <div class="title_description">Descrição Descrição Descrição Descrição Descrição Descrição</div>
             </div>
         </div>
