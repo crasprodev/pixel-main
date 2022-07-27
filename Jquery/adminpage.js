@@ -88,7 +88,7 @@ let Admin = function (nivel) {
                     "folha",
                     $(
                       ".category.input_appeareance:eq(0) option:checked"
-                    ).index(),
+                    ).index() + 1,
                   ],
             intr: $("input[name='same']:checked").val(),
             gotic: 2,
