@@ -131,8 +131,6 @@ $(".userdata:eq(0) select:eq(0)").change(function () {
   admin.userinfo(this.value);
   admin.usertype(0);
 });
-$(".userdata:eq(0) .input_appeareance.input_pld")
-  .delay(300)
-  .on("input", function () {
-    admin.usertype(0);
-  });
+$(".userdata:eq(0) .input_appeareance.input_pld").on("input", function () {
+  admin.usertype(0);
+});
