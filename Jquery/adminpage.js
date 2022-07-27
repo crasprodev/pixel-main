@@ -142,7 +142,9 @@ let Admin = function (nivel) {
                 );
               });
               var current = this;
-              $("tbody:eq(0)>tr:last-child").click(function () {});
+              $("tbody:eq(0)>tr:last-child").click(function () {
+                admin_this.indexclickfunction;
+              });
             });
           },
         });
