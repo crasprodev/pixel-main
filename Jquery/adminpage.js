@@ -11,6 +11,7 @@ let Admin = function (nivel) {
     var newhtml = html;
     newhtml[2] === null ? html.splice(2, 1) : newhtml.splice(3, 1);
     var status = newhtml[3];
+    newhtml.splice(7, 1, status);
     newhtml.length = 7;
 
     newhtml.splice(3, 2, ...newhtml[5]);
@@ -18,7 +19,6 @@ let Admin = function (nivel) {
     newhtml.splice(8, 3);
     newhtml.pop();
     newhtml.splice(4, 4, newhtml[5], newhtml[6], newhtml[7], newhtml[4]);
-    newhtml.splice(7, 1, status);
   };
   this.userinfo = function (value) {
     if (
