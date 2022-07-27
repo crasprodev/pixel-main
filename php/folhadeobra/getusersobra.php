@@ -268,13 +268,14 @@ if(!$Query)
   if($select[1]>=3 && $select[0] != "user")
 {
     $Edicaoexcpt = "SELECT  Codfolha FROM `edicao` WHERE  `$fields` LIKE '%$text%'"; 
-    $query ="SELECT * FROM `folha de obra` WHERE $act_status AND `Codfolha` IN ($Edicaoexcpt)";
+    $query ="SELECT * FROM `folha de obra` WHERE $act_status $and `Codfolha` IN ($Edicaoexcpt)";
 }
   if($gotic == 1)
 {
     $query =  "SELECT * FROM `folha de obra` WHERE Codfolha ='$text' AND `Status` = '$status'";
     
 }
+return $query;
 $conexao->multi_query( $select[0] === "user" ? $nivel:$query);
     do {$typevalue=$select[0] === "user"?"utilizador":"admin"; 
         if ($result = $conexao->store_result()) {
