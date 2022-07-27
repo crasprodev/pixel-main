@@ -59,6 +59,7 @@ let Admin = function (nivel) {
     "Budget montagem",
     "Custo montagem",
     "Pessoa_Montagem",
+    "status",
   ];
   this.folha = function () {
     $(".userdata:eq(1) select:eq(0)").append(
