@@ -31,6 +31,100 @@ let Admin = function (nivel) {
       $(".parts_obra:eq(2) input").eq(x).val(selectedindex[i]);
       x++;
     }
+    $(".editbtn").off();
+    $(".editbtn").removeClass("cross").text("Editar");
+    $(".editbtn").click(function () {
+      if ($(this).hasClass("cross") == false) {
+        $(
+          ".parts_obra:not(.parts_obra:eq(4)):not(.parts_obra:eq(0)) .txtobra,.parts_obra:not(.parts_obra:eq(4)):not(.parts_obra:eq(0)) input"
+        )
+          .prop("readonly", false)
+          .css("color", "white");
+        $(this).addClass("cross").html("<span></span><span></span>");
+      } else {
+        $(
+          ".parts_obra:not(.parts_obra:eq(4)):not(.parts_obra:eq(0)) .txtobra,.parts_obra:not(.parts_obra:eq(4)):not(.parts_obra:eq(0)) input"
+        )
+          .prop("readonly", true)
+          .css("color", "#ffffffad");
+        $(this).removeClass("cross").text("Editar");
+        $(".label-row").text(selectedindex[0]);
+        $(".txtobra").eq(0).val(selectedindex[3]);
+        var x = 0;
+        $(".txtobra").eq(1).val(selectedindex[7]);
+        for (var i = 4; i <= 6; i++) {
+          $(".parts_obra:eq(2) input").eq(x).val(selectedindex[i]);
+          x++;
+        }
+      }
+    });
+
+    $(".flex_total").css("display", "block");
+    $(".btnaprovar").off();
+    approvar(2, selectedindex[0]);
+    $(".btnaprovar").click(function () {
+      approvar(1, selectedindex[0]);
+    });
+    $.ajax({
+      type: "POST",
+      url: "folhadeobra/do_folhadetrabalho.php",
+      dataType: "json",
+      data: {
+        request: "getnivelfolha",
+        codid: selectedindex[0],
+      },
+      success: function (html) {
+        $(".nivel").html("");
+        $(html).each(function () {
+          $(".nivel").append(
+            JSON.stringify(
+              "<option value='" +
+                JSON.stringify(this[1]).replace(/\"/g, "") +
+                "'>" +
+                JSON.stringify(this[1]).replace(/\"/g, "") +
+                "</option>"
+            )
+          );
+        });
+      },
+    });
+    $.ajax({
+      type: "POST",
+      url: "folhadeobra/do_folhadetrabalho.php",
+      dataType: "json",
+      data: {
+        request: "folhaobraabs",
+        codid: selectedindex[2],
+        field: selectedindex[1],
+      },
+      success: function (html) {
+        const link = `result=true&usercode=${html[0]}&type=${html[1]}`;
+
+        $(".userdata_bg input").each(function (index) {
+          $(this).val(html[index]);
+        });
+        $(".userdata_bg input:eq(0)").click(function () {
+          var currentURL =
+            window.location.protocol +
+            "//" +
+            window.location.host +
+            window.location.pathname +
+            `?metodo=aprovar&${link}`;
+          window.history.pushState(
+            {
+              path: currentURL,
+            },
+            "",
+            currentURL
+          );
+          getparameter(GetURLParameter("metodo"));
+        });
+      },
+    });
+    $(".submitobra").off();
+    $(".submitobra").click(function () {
+      mudarestado($(".nivel option:selected").text(), selectedindex[0]);
+    });
   };
   this.definitions = function (html) {
     var newhtml = html;
