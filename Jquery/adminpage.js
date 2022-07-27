@@ -7,6 +7,31 @@ let Admin = function (nivel) {
     });
     return array;
   };
+  this.indexclickfunction = function (index, description) {
+    let selectedindex = index;
+    const link = `codfolha=${selectedindex[0]}`;
+    var currentURL =
+      window.location.protocol +
+      "//" +
+      window.location.host +
+      window.location.pathname +
+      `?metodo=aprovar&${link}`;
+    window.history.pushState(
+      {
+        path: currentURL,
+      },
+      "",
+      currentURL
+    );
+    $(".label-row").text(selectedindex[0]);
+    $(".txtobra").eq(0).val(selectedindex[3]);
+    var x = 0;
+    $(".txtobra").eq(1).val(selectedindex[7]);
+    for (var i = 4; i <= 6; i++) {
+      $(".parts_obra:eq(2) input").eq(x).val(selectedindex[i]);
+      x++;
+    }
+  };
   this.definitions = function (html) {
     var newhtml = html;
     newhtml[2] === null ? html.splice(2, 1) : newhtml.splice(3, 1);

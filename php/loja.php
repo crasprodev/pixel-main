@@ -140,9 +140,12 @@
                     </div>
                 </div>
             </div>
-            <div class="sectiontext">
-                <div class="text_title"></div>
+            <div class="sectiontitle">
+                <div class="text_title">Titulo titulo titulo tutilo titulo titulo titulo</div>
                 <div class="text-description"></div>
+            </div>
+            <div class="sectiondescription">
+                <div class="title_description">Descrição Descrição Descrição Descrição Descrição Descrição</div>
             </div>
         </div>
     </div>
