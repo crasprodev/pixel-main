@@ -79,7 +79,7 @@ let Admin = function (nivel) {
         $.ajax({
           type: "POST",
           url: "folhadeobra/do_folhadetrabalho.php",
-          //dataType: "json",
+          dataType: "json",
           data: {
             request: "getfolhanivel",
             text: $(".input_appeareance:eq(1)").val(),
