@@ -433,7 +433,7 @@ function email($status,$codid,$comentario)
 {
 
 include ("../databasestart.php");
-$link ="http://localhost/Websitetrb/php/adminmenu.php?metodo=aprovar&codfolha=$codid";
+$link ="https://pixelprints.pt/php/adminmenu.php?metodo=aprovar&codfolha=$codid";
 $select ="SELECT * FROM `folha de obra` WHERE `Codfolha` = '$codid'";
 $query = $conexao->query($select);
 while($Result = $query->fetch_array())
