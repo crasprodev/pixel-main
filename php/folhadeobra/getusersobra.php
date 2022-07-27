@@ -262,7 +262,7 @@ if(!$Query)
     $nivel = isset($nivel)?( $nivel === "0" ? "SELECT * FROM `utilizador_bd` WHERE `$fields` LIKE
      '%$text%';SELECT * FROM `utilizador_non_log` WHERE `$fields` LIKE '%$text%'" : ($nivel === "2"?"SELECT * FROM `utilizador_bd` WHERE `$fields` LIKE
      '%$text%'":"SELECT * FROM `utilizador_non_log` WHERE `$fields` LIKE '%$text%'")):"";
-     $act_status = $gotic ===2?"":"`Status` = '$status'";
+     $act_status = $gotic ==2?"":"`Status` = '$status'";
   $query = $select[0] === "user" ? "SELECT * FROM `folha de obra` WHERE ": "SELECT * FROM `folha de obra` WHERE `$fields` LIKE '%$text%' AND $act_status";
   if($select[1]>=3 && $select[0] != "user")
 {
