@@ -81,7 +81,7 @@ let Admin = function (nivel) {
           url: "folhadeobra/do_folhadetrabalho.php",
           dataType: "json",
           data: {
-            request: "getfolhanivel",
+            //    request: "getfolhanivel",
             text: $(".input_appeareance:eq(1)").val(),
             select:
               $(".searchbox.user").length === 1
