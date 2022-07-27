@@ -66,7 +66,7 @@ let Admin = function (nivel) {
     );
     $(
       ".userdata:eq(0) select:eq(0) option[value='Informação do utilizador']"
-    ).after("<option style='dysplay:none'></option>");
+    ).after("<option style='display:none'></option>");
   };
   this.usertype = function (type) {
     array = [];
