@@ -114,4 +114,5 @@ admin.folha();
 console.log(admin.usertype(0, 0, 0));
 $(".userdata:eq(0) select:eq(0)").change(function () {
   admin.userinfo(this.value);
+  admin.folha();
 });
