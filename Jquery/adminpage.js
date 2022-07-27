@@ -15,7 +15,7 @@ let Admin = function (nivel) {
       "//" +
       window.location.host +
       window.location.pathname +
-      `?metodo=aprovar&${link}`;
+      `?metodo=admin&${link}`;
     window.history.pushState(
       {
         path: currentURL,
