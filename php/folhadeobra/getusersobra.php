@@ -268,7 +268,7 @@ if(!$Query)
   if($select[1]>=3 && $select[0] != "user")
 {
     $Edicaoexcpt = "SELECT  Codfolha FROM `edicao` WHERE  `$fields` LIKE '%$text%'"; 
-    $select[1]==8 && $gotic ==2?  $query ="SELECT * FROM `folha de obra` WHERE `Status` LIKE  '%$text%": $query ="SELECT * FROM `folha de obra` WHERE $act_status $and `Codfolha` IN ($Edicaoexcpt)";
+    $select[1]==8 && $gotic ==2?  $query ="SELECT * FROM `folha de obra` WHERE `Status` LIKE  '%$text%'": $query ="SELECT * FROM `folha de obra` WHERE $act_status $and `Codfolha` IN ($Edicaoexcpt)";
 }
   if($gotic == 1)
 {
