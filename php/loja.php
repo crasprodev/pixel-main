@@ -123,7 +123,7 @@
             </div>
         </div>
     </div>
-    <div class="totalproducts" style='display:none'>
+    <div class="totalproducts">
         <div class="closebtn">+</div>
         <div class="section-total">
             <div class="section-img">
