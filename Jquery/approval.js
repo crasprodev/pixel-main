@@ -95,7 +95,7 @@ let aprrov = function (nivel) {
     $.ajax({
       type: "POST",
       url: "folhadeobra/do_folhadetrabalho.php",
-      //   dataType: "json",
+      dataType: "json",
       data: {
         request: "folhaobraabs",
         codid: selectedindex[2],
@@ -138,7 +138,6 @@ let aprrov = function (nivel) {
       data: {
         request: "getfolhanivel",
         text: $(".input_appeareance:eq(1)").val(),
-        gotic: 0,
         select:
           $(".searchbox.user").length === 1
             ? [
