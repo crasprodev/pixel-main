@@ -12,7 +12,8 @@ let Admin = function (nivel) {
     newhtml[2] === null ? html.splice(2, 1) : newhtml.splice(3, 1);
     newhtml.splice(3, 0, ...newhtml[5]);
     newhtml.length = 14;
-    newhtml.splice(10, 2);
+    newhtml.splice(10, 3);
+    newhtml.splice(3, 1);
     /*
     newhtml.splice(3, 2);
     newhtml.splice(8, 3);
