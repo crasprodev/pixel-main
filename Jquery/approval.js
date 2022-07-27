@@ -95,7 +95,7 @@ let aprrov = function (nivel) {
     $.ajax({
       type: "POST",
       url: "folhadeobra/do_folhadetrabalho.php",
-      dataType: "json",
+      //   dataType: "json",
       data: {
         request: "folhaobraabs",
         codid: selectedindex[2],
