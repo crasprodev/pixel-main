@@ -9,6 +9,7 @@ let Admin = function (nivel) {
   };
   this.definitions = function (html) {
     var newhtml = html;
+    console.log(newhtml[3]);
     newhtml[2] === null ? html.splice(2, 1) : newhtml.splice(3, 1);
     /* var status = newhtml[3];
     newhtml.splice(7, 1, status);
