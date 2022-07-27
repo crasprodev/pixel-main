@@ -64,6 +64,9 @@ let Admin = function (nivel) {
     $(".userdata:eq(0) select:eq(0)").append(
       ...admin_this.option(option_folha)
     );
+    $(
+      ".userdata:eq(0) select:eq(0) option[value='Informação do utilizador']"
+    ).after("<option style='dysplay:none'></option>");
   };
   this.usertype = function (type) {
     array = [];
