@@ -275,7 +275,6 @@ if(!$Query)
     $query =  "SELECT * FROM `folha de obra` WHERE Codfolha ='$text' AND `Status` = '$status'";
     
 }
-return $query;
 $conexao->multi_query( $select[0] === "user" ? $nivel:$query);
     do {$typevalue=$select[0] === "user"?"utilizador":"admin"; 
         if ($result = $conexao->store_result()) {
@@ -293,7 +292,7 @@ $conexao->multi_query( $select[0] === "user" ? $nivel:$query);
  foreach ($actu_result as $result)
     {
         $queryact =count($result) === 6 ?  $query."user_notlogin = '$result[0]'": $query."Utilizador_assoc = '$result[0]'";
-        $queryact.=$act_status;
+        $queryact.="$and $act_status";
         $query1 =  MySQLi_query($conexao, $queryact);
         while ($row = MySQLi_fetch_row($query1)) { 
             $Resultado[] = $row;
