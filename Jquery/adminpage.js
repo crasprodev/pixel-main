@@ -1,5 +1,5 @@
 let Admin = function (nivel) {
-  const admin = this;
+  const admin_this = this;
   this.option = function (value) {
     var array = [];
     value.map(function (obj, index) {
@@ -19,29 +19,19 @@ let Admin = function (nivel) {
     newhtml.splice(4, 4, newhtml[5], newhtml[6], newhtml[7], newhtml[4]);
   };
   this.userinfo = function (value) {
-    if (
-      value === "Informação do utilizador" &&
-      $(".searchbox.user:eq(0)").length === 0
-    ) {
-      $(".searchbox:eq(0)")
-        .after(
-          "<div class='searchbox user'><select onchange='admin.folha()'class='category input_appeareance'></select><div><div style='text-align:center'>Introduzido por:</div><div style=' display: flex;align-items: center;justify-content: center;gap: 1rem;'>Ambos<input type='radio' name='same' onchange='admin.folhas();'checked='checked' value='0'>administrador<input type='radio' onchange='admin.folhas()' name='same' value='1'>Utilizador<input type='radio' name='same' onchange='admin.folha()' value='2'></div></div>"
-        )
-        .siblings(".searchbox.user:eq(0)")
-        .children(".category.input_appeareance")
-        .append(...admin.option(options_user))
-        .siblings("div input")
-        .eq(0)
-        .prop("checked", true);
-      $(".userdata:eq(0) input:radio[name=same]:checked").change(function () {
-        method.folhas();
-      });
-      $(".userdata:eq(0).searchbox.user").change(function () {
-        method.folhas();
-      });
-    } else {
-      $(".searchbox.user").remove();
-    }
+    value === "Informação do utilizador" &&
+    $(".searchbox.user:eq(0)").length === 0
+      ? $(".searchbox:eq(0)")
+          .after(
+            "<div class='searchbox user'><select onchange='admin.folha()'class='category input_appeareance'></select><div><div style='text-align:center'>Introduzido por:</div><div style=' display: flex;align-items: center;justify-content: center;gap: 1rem;'>Ambos<input type='radio' name='same' onchange='admin.folhas();'checked='checked' value='0'>administrador<input type='radio' onchange='admin.folhas()' name='same' value='1'>Utilizador<input type='radio' name='same' onchange='admin.folha()' value='2'></div></div>"
+          )
+          .siblings(".searchbox.user:eq(0)")
+          .children(".category.input_appeareance")
+          .append(...admin_this.option(options_user))
+          .siblings("div input")
+          .eq(0)
+          .prop("checked", true)
+      : $(".searchbox.user").remove();
   };
   const options_user = [
     "Cod_id",
@@ -61,8 +51,12 @@ let Admin = function (nivel) {
     "Pessoa_Montagem",
   ];
   this.folha = function () {
-    $(".userdata:eq(1) select:eq(0)").append(...admin.option(options_user));
-    $(".userdata:eq(0) select:eq(0)").append(...admin.option(option_folha));
+    $(".userdata:eq(1) select:eq(0)").append(
+      ...admin_this.option(options_user)
+    );
+    $(".userdata:eq(0) select:eq(0)").append(
+      ...admin_this.option(option_folha)
+    );
   };
   this.usertype = function (type) {
     array = [];
@@ -100,7 +94,7 @@ let Admin = function (nivel) {
                 description.push(this[i]);
               }
               $("tbody:eq(0)").append("<tr></tr>");
-              var varlog = admin.definitions(this);
+              var varlog = admin_this.definitions(this);
               console.log(varlog);
               this.map(function (obj, index) {
                 $("tbody:eq(0)>tr:last-child").append(
@@ -125,7 +119,4 @@ console.log(admin.usertype(0, 0, 0));
 $(".userdata:eq(0) select:eq(0)").change(function () {
   admin.userinfo(this.value);
   admin.folha();
-});
-$(".userdata:eq(0).input_pld").on("input", function () {
-  admin.folhas();
 });
