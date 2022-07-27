@@ -87,6 +87,7 @@ let Admin = function (nivel) {
             gotic: 2,
           },
           success: function (html) {
+            console.log(html);
             $("tbody:eq(0)").html("");
             var description = [];
             $(html).each(function (index) {
@@ -115,7 +116,7 @@ let Admin = function (nivel) {
 };
 let admin = new Admin();
 admin.folha();
-console.log(admin.usertype(0, 0, 0));
+admin.usertype(0);
 $(".userdata:eq(0) select:eq(0)").change(function () {
   admin.userinfo(this.value);
   admin.folha();
