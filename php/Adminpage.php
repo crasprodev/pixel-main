@@ -72,21 +72,7 @@
             <br>
             <div class="subtitulo_obra">Histórico de edições</div>
             <div class="version">
-                <div class="descript">
-                    <div class="descript_tab">Leandro Bernardo</div>
-                    <div class="descript_tab"> designer </div>
-                    <div class="descript_tab"> 19:00</div>
-                </div>
-                <div class="descript">
-                    <div class="descript_tab">Leandro Bernardo</div>
-                    <div class="descript_tab"> designer </div>
-                    <div class="descript_tab"> 19:00</div>
-                </div>
-                <div class="descript">
-                    <div class="descript_tab">Leandro Bernardo</div>
-                    <div class="descript_tab">designer </div>
-                    <div class="descript_tab">19:00</div>
-                </div>
+
             </div>
         </div>
         <div class="parts_obra">
