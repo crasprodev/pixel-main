@@ -17,9 +17,8 @@ let Admin = function (nivel) {
     var descriptionfilter = description.forEach((element) => {
       element.filter(filter_element(element[0], selectedindex[0]));
     });
-    console.log(
-      ` isto é descrição: ${description} , isto é filtro: ${descriptionfilter}`
-    );
+    console.log(description);
+    console.log(descriptionfilter);
     const link = `codfolha=${selectedindex[0]}`;
     var currentURL =
       window.location.protocol +
