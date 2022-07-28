@@ -10,8 +10,9 @@ let Admin = function (nivel) {
   const filter_element = (element, target) => {
     return element === target;
   };
-  let selectedindex = index;
+
   this.indexclickfunction = function (index, description) {
+    let selectedindex = index;
     var descriptionfilter = description.forEach((element) => {
       element.filter(filter_element(element, selectedindex[0]));
     });
