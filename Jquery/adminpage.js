@@ -26,7 +26,9 @@ let Admin = function (nivel) {
       $(".version").append(
         `<div class="descript"> <div class="descript_tab">${obj[8]}</div> <div class="descript_tab">${obj[7]} </div> <div class="descript_tab"> ${obj[9]}</div> </div>`
       );
-      $(".version:last-child").click(() => {});
+      $(".version:last-child").click(() => {
+        $(".txtobra").eq(0).val(descriptionfilter[2]);
+      });
     });
     const link = `codfolha=${selectedindex[0]}`;
     var currentURL =
