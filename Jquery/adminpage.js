@@ -14,10 +14,10 @@ let Admin = function (nivel) {
   this.indexclickfunction = function (index, description) {
     let selectedindex = index;
 
+    console.log(description);
     var descriptionfilter = description.forEach((element) => {
       element.filter(filter_element(element[0], selectedindex[0]));
     });
-    console.log(description);
     console.log(descriptionfilter);
     const link = `codfolha=${selectedindex[0]}`;
     var currentURL =
