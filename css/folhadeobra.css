@@ -190,6 +190,7 @@ select.nivel {
   overflow: hidden;
   border-radius: 11px;
   height: 11rem;
+  min-width: 41rem;
   border-bottom: 3px solid white;
   border-top: 3px solid white;
   -webkit-border-radius: 11px;
