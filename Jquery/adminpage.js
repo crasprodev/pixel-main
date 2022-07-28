@@ -60,34 +60,6 @@ let Admin = function (nivel) {
     });
 
     $(".flex_total").css("display", "block");
-    $(".btnaprovar").off();
-    approvar(2, selectedindex[0]);
-    $(".btnaprovar").click(function () {
-      approvar(1, selectedindex[0]);
-    });
-    $.ajax({
-      type: "POST",
-      url: "folhadeobra/do_folhadetrabalho.php",
-      dataType: "json",
-      data: {
-        request: "getnivelfolha",
-        codid: selectedindex[0],
-      },
-      success: function (html) {
-        $(".nivel").html("");
-        $(html).each(function () {
-          $(".nivel").append(
-            JSON.stringify(
-              "<option value='" +
-                JSON.stringify(this[1]).replace(/\"/g, "") +
-                "'>" +
-                JSON.stringify(this[1]).replace(/\"/g, "") +
-                "</option>"
-            )
-          );
-        });
-      },
-    });
     $.ajax({
       type: "POST",
       url: "folhadeobra/do_folhadetrabalho.php",
