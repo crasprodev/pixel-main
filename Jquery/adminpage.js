@@ -13,7 +13,7 @@ let Admin = function (nivel) {
 
   this.indexclickfunction = function (index, description) {
     let selectedindex = index;
-    var filter = [];
+    var descriptionfilter = [];
     description.forEach((element, index) => {
       if (filter_element(element[0], selectedindex[0]) == true)
         descriptionfilter.push(description[index]);
