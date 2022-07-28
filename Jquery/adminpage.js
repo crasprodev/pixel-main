@@ -19,7 +19,6 @@ let Admin = function (nivel) {
       if (filter_element(element[1], selectedindex[0]) == true)
         descriptionfilter.push(description[index]);
     });
-    console.log(index);
 
     console.log(description);
     descriptionfilter.map(function (obj, index) {
@@ -28,6 +27,10 @@ let Admin = function (nivel) {
       );
       $(".descript:last-child").click(() => {
         $(".txtobra").eq(0).val(obj[2]);
+        for (var i = 4; i <= 6; i++) {
+          $(".parts_obra:eq(2) input").eq(x).val(obj[i]);
+          x++;
+        }
       });
     });
     const link = `codfolha=${selectedindex[0]}`;
