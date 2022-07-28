@@ -7,9 +7,15 @@ let Admin = function (nivel) {
     });
     return array;
   };
+  const filter_element = (element, target) => {
+    return element === target;
+  };
+  let selectedindex = index;
   this.indexclickfunction = function (index, description) {
-    console.log(description);
-    let selectedindex = index;
+    var descriptionfilter = description.forEach((element) => {
+      element.filter(filter_element(element, selectedindex[0]));
+    });
+    console.log(descriptionfilter);
     const link = `codfolha=${selectedindex[0]}`;
     var currentURL =
       window.location.protocol +
