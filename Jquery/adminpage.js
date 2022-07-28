@@ -22,12 +22,11 @@ let Admin = function (nivel) {
     console.log(index);
 
     console.log(description);
-    descriptionfilter.map(function (obj) {
+    descriptionfilter.map(function (obj, index) {
       $(".version").append(
         `<div class="descript"> <div class="descript_tab">${obj[8]}</div> <div class="descript_tab">${obj[7]} </div> <div class="descript_tab"> ${obj[9]}</div> </div>`
       );
-      $(".version:last-child").off();
-      $(".version:last-child").click(() => {
+      $(".descript:last-child").click(() => {
         $(".txtobra").eq(0).val(obj[2]);
       });
     });
