@@ -15,7 +15,7 @@ let Admin = function (nivel) {
     let selectedindex = index;
     var descriptionfilter = [];
     description.forEach((element, index) => {
-      if (filter_element(element[0], selectedindex[0]) == true)
+      if (filter_element(element[1], selectedindex[0]) == true)
         descriptionfilter.push(description[index]);
     });
     console.log(description);
