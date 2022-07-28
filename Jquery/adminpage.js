@@ -8,6 +8,7 @@ let Admin = function (nivel) {
     return array;
   };
   this.indexclickfunction = function (index, description) {
+    console.log(description);
     let selectedindex = index;
     const link = `codfolha=${selectedindex[0]}`;
     var currentURL =
@@ -92,10 +93,6 @@ let Admin = function (nivel) {
           getparameter(GetURLParameter("metodo"));
         });
       },
-    });
-    $(".submitobra").off();
-    $(".submitobra").click(function () {
-      mudarestado($(".nivel option:selected").text(), selectedindex[0]);
     });
   };
   this.definitions = function (html) {
