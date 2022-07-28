@@ -199,7 +199,6 @@ let Admin = function (nivel) {
             gotic: 2,
           },
           success: function (html) {
-            console.log(html);
             $("tbody:eq(0)").html("");
             var description = [];
             $(html).each(function (index) {
