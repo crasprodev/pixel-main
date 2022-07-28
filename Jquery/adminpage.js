@@ -13,10 +13,13 @@ let Admin = function (nivel) {
 
   this.indexclickfunction = function (index, description) {
     let selectedindex = index;
+
     var descriptionfilter = description.forEach((element) => {
-      element.filter(filter_element(element, selectedindex[0]));
+      element.filter(filter_element(element[0], selectedindex[0]));
     });
-    console.log(descriptionfilter);
+    console.log(
+      ` isto é descrição: ${description} , isto é filtro: ${descriptionfilter}`
+    );
     const link = `codfolha=${selectedindex[0]}`;
     var currentURL =
       window.location.protocol +
