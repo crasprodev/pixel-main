@@ -12,14 +12,18 @@ let Admin = function (nivel) {
   };
 
   this.indexclickfunction = function (index, description) {
+    $(".version").html("");
     let selectedindex = index;
     var descriptionfilter = [];
     description.forEach((element, index) => {
       if (filter_element(element[1], selectedindex[0]) == true)
         descriptionfilter.push(description[index]);
     });
-    console.log(description);
-    console.log(descriptionfilter);
+    description.map(function (obj) {
+      $(".version").append(
+        `<div class="descript"> <div class="descript_tab">${descriptionfilter[1]}</div> <div class="descript_tab">${descriptionfilter[7]} </div> <div class="descript_tab"> ${descriptionfilter[9]}</div> </div>`
+      );
+    });
     const link = `codfolha=${selectedindex[0]}`;
     var currentURL =
       window.location.protocol +
