@@ -100,10 +100,10 @@ let Admin = function (nivel) {
       success: function (html) {
         const link = `result=true&usercode=${html[0]}&type=${html[1]}`;
 
-        $(".userdata_bg input").each(function (index) {
+        $(".userdata_bg:eq(0) input").each(function (index) {
           $(this).val(html[index]);
         });
-        $(".userdata_bg input:eq(0)").click(function () {
+        $(".userdata_bg:eq(0) input:eq(0)").click(function () {
           var currentURL =
             window.location.protocol +
             "//" +
