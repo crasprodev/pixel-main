@@ -22,7 +22,7 @@ let Admin = function (nivel) {
     console.log(descriptionfilter);
     description.map(function (obj) {
       $(".version").append(
-        `<div class="descript"> <div class="descript_tab">${descriptionfilter[1]}</div> <div class="descript_tab">${descriptionfilter[7]} </div> <div class="descript_tab"> ${descriptionfilter[9]}</div> </div>`
+        `<div class="descript"> <div class="descript_tab">${obj[1]}</div> <div class="descript_tab">${obj[7]} </div> <div class="descript_tab"> ${obj[9]}</div> </div>`
       );
     });
     const link = `codfolha=${selectedindex[0]}`;
