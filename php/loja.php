@@ -123,32 +123,7 @@
             </div>
         </div>
     </div>
-    <div class="totalproducts">
-        <div class="closebtn">+</div>
-        <div class="section-total">
-            <div class="section-img">
-                <div class="image-containertotal">
-                    <div class="imgtotalcss"></div>
-                </div>
-                <div class="imgslider-total">
-                    <div class="arrow-left"></div>
-                    <div class="arrow-right"></div>
-                    <div class="totalimgsm">
-                        <div class="freerangeimg">
-                            <div class="imgtotalsm"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="sectiontitle">
-                <div class="text_title">Titulo titulo titulo tutilo titulo titulo titulo</div>
-            </div>
-            <div class="sectiondescription">
-                <div class="titulo_geral">descrição</div>
-                <div class="title_description">Descrição Descrição Descrição Descrição Descrição Descrição</div>
-            </div>
-        </div>
-    </div>
+
 </body>
 
 </html>
