@@ -20,7 +20,7 @@ let Admin = function (nivel) {
         descriptionfilter.push(description[index]);
     });
 
-    console.log(description);
+    console.log(descriptionfilter);
     descriptionfilter.map(function (obj, index) {
       $(".version").append(
         `<div class="descript"> <div class="descript_tab">${obj[8]}</div> <div class="descript_tab">${obj[7]} </div> <div class="descript_tab"> ${obj[9]}</div> </div>`
