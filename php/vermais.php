@@ -8,11 +8,7 @@
         <img src="../img/portefolio.png" class='portfolioimg'>
         <div class="clflex">
             <div class="img-log" data-aos="fade-down-right">
-                <picture>
-                    <source srcset="image.webp" type="image/webp">
-                    <source srcset="image.jpg" type="image/jpeg">
-                    <img src="../img/portefolio/3.jpeg" class='img_carousel textuu'>
-                </picture>
+                <img src="../img/portefolio/abilways.jpeg" class='img_carousel text_carousel'>
                 <div class='descricion_img'>Stand feira do franchising</div>
             </div>
             <div class="img-log">
