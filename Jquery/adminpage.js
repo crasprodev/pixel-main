@@ -261,10 +261,12 @@ let Admin = function (nivel) {
 let admin = new Admin();
 admin.folha();
 admin.usertype(0);
+admin.usertype(1);
 $(".userdata:eq(0) select:eq(0)").change(function () {
   admin.userinfo(this.value);
   admin.usertype(0);
 });
 $(".userdata:eq(0) .input_appeareance.input_pld").on("input", function () {
   admin.usertype(0);
+  admin.usertype(1);
 });
