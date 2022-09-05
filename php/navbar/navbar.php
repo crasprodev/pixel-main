@@ -70,7 +70,7 @@ lojas, viaturas e brindes">
             <div class="links">
                 <div class='logo'></div>
             </div>
-            <div class="links">
+            <div class="links" style='width:8rem'>
                 <div class="text-link">QUEM SOMOS?</div>
             </div>
             <div class="links">
@@ -108,8 +108,7 @@ lojas, viaturas e brindes">
           </div>';
            
         }
-        else{
-            //saS
+        else{ 
         echo ' <div class="menu-account"><div class="menu-title">Login</div>
        
         <div class="completelogin"> <div class="texts"><div class="text-login">Email</div><div class="text-login">Password</div></div>
