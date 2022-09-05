@@ -55,33 +55,6 @@ let Admin = function (nivel) {
       $(".parts_obra:eq(2) input").eq(x).val(selectedindex[i]);
       x++;
     }
-    $(".editbtn").off();
-    $(".editbtn").removeClass("cross").text("Editar");
-    $(".editbtn").click(function () {
-      if ($(this).hasClass("cross") == false) {
-        $(
-          ".parts_obra:not(.parts_obra:eq(4)):not(.parts_obra:eq(0)) .txtobra,.parts_obra:not(.parts_obra:eq(4)):not(.parts_obra:eq(0)) input"
-        )
-          .prop("readonly", false)
-          .css("color", "white");
-        $(this).addClass("cross").html("<span></span><span></span>");
-      } else {
-        $(
-          ".parts_obra:not(.parts_obra:eq(4)):not(.parts_obra:eq(0)) .txtobra,.parts_obra:not(.parts_obra:eq(4)):not(.parts_obra:eq(0)) input"
-        )
-          .prop("readonly", true)
-          .css("color", "#ffffffad");
-        $(this).removeClass("cross").text("Editar");
-        $(".label-row").text(selectedindex[0]);
-        $(".txtobra").eq(0).val(selectedindex[3]);
-        var x = 0;
-        $(".txtobra").eq(1).val(selectedindex[7]);
-        for (var i = 4; i <= 6; i++) {
-          $(".parts_obra:eq(2) input").eq(x).val(selectedindex[i]);
-          x++;
-        }
-      }
-    });
 
     $(".flex_total").css("display", "block");
     $.ajax({
