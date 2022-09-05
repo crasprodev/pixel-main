@@ -235,7 +235,52 @@ let Admin = function (nivel) {
         });
         break;
       case 1:
-        console.log(3);
+        $.ajax({
+          type: "POST",
+          url: "folhadeobra/do_folhadetrabalho.php",
+          dataType: "json",
+          data: {
+            request: "getfolhanivel",
+            text: $(".input_appeareance:eq(1)").val(),
+            select:
+              $(".searchbox.user").length === 1
+                ? [
+                    "user",
+                    $(
+                      ".searchbox.user>.category.input_appeareance option:checked"
+                    ).index(),
+                  ]
+                : [
+                    "folha",
+                    $(
+                      ".category.input_appeareance:eq(0) option:checked"
+                    ).index(),
+                  ],
+            intr: $("input[name='same']:checked").val(),
+            gotic: 2,
+          },
+          success: function (html) {
+            $("tbody:eq(0)").html("");
+            var description = [];
+            $(html).each(function (index) {
+              for (var i = 6; i <= this.length - 1; i++) {
+                description.push(this[i]);
+              }
+              $("tbody:eq(0)").append("<tr></tr>");
+              admin_this.definitions(this);
+
+              this.map(function (obj, index) {
+                $("tbody:eq(0)>tr:last-child").append(
+                  "<td class='border-right-bottom-top'>" + obj + "</td>"
+                );
+              });
+              var current = this;
+              $("tbody:eq(0)>tr:last-child").click(function () {
+                admin_this.indexclickfunction(current, description);
+              });
+            });
+          },
+        });
         break;
     }
   };
