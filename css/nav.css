@@ -19,7 +19,7 @@ html {
   font-size: 1rem;
   z-index: 100;
   width: fit-content;
-  gap: 1.5rem;
+  gap: 3rem;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
   height: 2.5rem;
@@ -147,7 +147,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 8rem;
 }
 .nav_cart {
   width: 0;
