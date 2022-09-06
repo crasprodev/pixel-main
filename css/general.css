@@ -1303,6 +1303,7 @@ input.input_text {
 }
 .mn_principal {
 }
-.imagens_compra {
-  display: flex;
+.imagem_cmp {
+  width: 5rem;
+  height: 5rem;
 }
