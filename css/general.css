@@ -1304,7 +1304,7 @@ input.input_text {
 .mn_principal {
 }
 .imagem_cmp {
-  width: 29rem;
-  height: 22rem;
+  width: 100%;
+  height: 5rem;
   background-color: red;
 }
