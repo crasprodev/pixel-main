@@ -1,3 +1,5 @@
+<?php include ("navbar/navbar.php"); ?>
+
 <body>
     <div class="category"></div>
     <div class="mn_principal">
