@@ -1301,3 +1301,8 @@ input.input_text {
   width: 0;
   height: 0;
 }
+.mn_principal {
+}
+.imagens_compra {
+  display: flex;
+}
