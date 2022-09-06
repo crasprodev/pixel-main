@@ -1309,7 +1309,15 @@ input.input_text {
   background-color: red;
 }
 .multiple_img {
-  background: white;
-  width: 100%;
+  width: 94%;
+  /* left: 50%; */
   height: 3rem;
+  margin-left: 3%;
+  margin-right: 3%;
+  background: black;
+}
+.img_sm_mult {
+  background-color: green;
+  height: 100%;
+  width: 3rem;
 }
