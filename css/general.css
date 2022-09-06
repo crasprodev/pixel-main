@@ -1322,8 +1322,12 @@ input.input_text {
   width: 3rem;
 }
 .multiplefreeimg {
-  width: 80%;
+  background: black;
+  width: calc(100% - 2rem);
   height: 3rem;
   margin-left: 1rem;
   margin-right: 1rem;
+}
+.imagens_compra {
+  max-width: 27rem;
 }
