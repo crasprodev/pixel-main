@@ -1306,4 +1306,5 @@ input.input_text {
 .imagem_cmp {
   width: 5rem;
   height: 5rem;
+  background-color: red;
 }
