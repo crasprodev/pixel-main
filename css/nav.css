@@ -6,7 +6,6 @@ body {
 html {
   background-attachment: fixed;
   background-repeat: no-repeat;
-
   overscroll-behavior: none;
   background-size: cover;
   background-image: url("https://pixelprints.pt/img/Background/bg.jpg");
