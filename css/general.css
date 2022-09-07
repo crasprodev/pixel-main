@@ -1314,7 +1314,7 @@ input.input_text {
   height: 3rem;
   overflow: hidden;
   margin-left: 1rem;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
   background: white;
 }
 .img_sm_mult {
