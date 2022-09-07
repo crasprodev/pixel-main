@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  scroll-behavior: smooth;
+  scroll-behavior: none;
+  padding: 0;
 }
 body {
   overflow-x: hidden;
