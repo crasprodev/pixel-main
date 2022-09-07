@@ -1309,10 +1309,11 @@ input.input_text {
   background-color: red;
 }
 .multiple_img {
-  width: calc(100% - 2rem);
+  width: 23rem;
   /* left: 50%; */
   height: 3rem;
-  margin-left: 0.5rem;
+  overflow: hidden;
+  margin-left: 1rem;
   margin-right: 0.5rem;
   background: white;
 }
@@ -1323,10 +1324,9 @@ input.input_text {
 }
 .multiplefreeimg {
   background: black;
-  width: calc(100% - 2rem);
-  height: 3rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  width: fit-content;
+  display: flex;
+  gap: 1rem;
 }
 .imagens_compra {
   max-width: 27rem;
