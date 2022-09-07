@@ -3,24 +3,24 @@
 <body>
     <div class="category"></div>
     <div class="mn_principal">
-        <div class="flex_market">
-            <div class="imagens_compra">
-                <div class="imagem_cmp">
-                </div>
-                <div class="multiple_img">
-                    <div class="multiplefreeimg">
-                        <div class="img_sm_mult"></div>
-                    </div>
-                </div>
+
+        <div class="imagens_compra">
+            <div class="imagem_cmp">
             </div>
-            <div class="title_text">Pack Portátil LENOVO IdeaPad 3 15ITL05 (15.6'' - Intel Core i5-1135G7 - RAM: 12 GB -
-                512
-                GB SSD - Intel Iris Xe Graphics) + Mochila + Rato</div>
-            <div class="loja_comprar">
-                <div class="loja_money">59€</div>
-                <div class="adicionarcart">Adicionar ao cart</div>
+            <div class="multiple_img">
+                <div class="multiplefreeimg">
+                    <div class="img_sm_mult"></div>
+                </div>
             </div>
         </div>
+        <div class="title_text">Pack Portátil LENOVO IdeaPad 3 15ITL05 (15.6'' - Intel Core i5-1135G7 - RAM: 12 GB -
+            512
+            GB SSD - Intel Iris Xe Graphics) + Mochila + Rato</div>
+        <div class="loja_comprar">
+            <div class="loja_money">59€</div>
+            <div class="adicionarcart">Adicionar ao cart</div>
+        </div>
+
 
         <div class="description">Berbequim/ Aparafusadora a bateria TC-CD 18-2 Li (1x1,5Ah) Caixa de 2 velocidades para
             um aparafusamento potente e uma perfuração rápida 18 + 1 regulações de binário Bloqueio automático de fuso
