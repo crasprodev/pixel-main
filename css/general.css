@@ -1337,3 +1337,11 @@ input.input_text {
 .loja_comprar {
   display: flex;
 }
+.mn_principal {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  left: 10%;
+  right: 10%;
+}
