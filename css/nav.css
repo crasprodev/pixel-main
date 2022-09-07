@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,500&display=swap");
 body {
   height: 100%;
-  overscroll-behavior: none;
 }
 html {
   background-attachment: fixed;
