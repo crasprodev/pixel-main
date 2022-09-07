@@ -1,5 +1,7 @@
 <?php include ("navbar/navbar.php"); ?>
 
+<body>
+
 </body>
 <script>
 AOS.init();
@@ -7,5 +9,3 @@ AOS.init();
 <script src="../Jquery/jquery.js"></script>
 
 </html>
-<script>
-</script>
