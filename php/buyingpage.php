@@ -20,8 +20,6 @@
             <div class="loja_money">59€</div>
             <div class="adicionarcart">Adicionar ao cart</div>
         </div>
-
-
         <div class="description">Berbequim/ Aparafusadora a bateria TC-CD 18-2 Li (1x1,5Ah) Caixa de 2 velocidades para
             um aparafusamento potente e uma perfuração rápida 18 + 1 regulações de binário Bloqueio automático de fuso
             para troca simples de ferramentas Design fino com pega suave ergonómica Mandril sem chave de manga única
