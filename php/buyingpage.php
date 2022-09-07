@@ -20,7 +20,21 @@
         <div class="loja_comprar">
             <div class="loja_money">59€</div>
         </div>
-        <div class="description"></div>
-        <div class="comment"></div>
+        <div class="description">Berbequim/ Aparafusadora a bateria TC-CD 18-2 Li (1x1,5Ah) Caixa de 2 velocidades para
+            um aparafusamento potente e uma perfuração rápida 18 + 1 regulações de binário Bloqueio automático de fuso
+            para troca simples de ferramentas Design fino com pega suave ergonómica Mandril sem chave de manga única
+            Incl. Luz LED para iluminar a área de trabalho Inclui Jogo de 34 Bits sortidas Acumulador 18 V | 1500 mAh |
+            LiIo Tempo de carregamento 3-5h Número de velocidades 2 Rotações em vazio (velocidade 1) 0-350 min^-1
+            Rotações em vazio (velocidade 2) 0-1250 min^-1 Binário máx. junta dura 38 Nm Número de Níveis de Ajuste 19
+            settings Bucha 10 mm | manga única O berbequim aparafusador sem fios TC-CD 18-2 Li da Einhell é uma
+            ferramenta versátil para aparafusamento potente e perfuração rápida. Equipado com uma engrenagem de duas
+            velocidades, é a ajuda perfeita em casa, na oficina e na garagem. Independentemente de o berbequim
+            aparafusador sem fios TC-CD 18-2 Li da Einhell servir para perfurar madeira, pedra ou metal, ou de a
+            ferramenta ser usada para soltar e fixar parafusos: graças à forma estreita com áreas Softgrip ergonómicas,
+            o berbequim aparafusador adapta-se bem à mão e tem uma operação agradável. O berbequim aparafusador sem fios
+            TC-CD 18-2 Li da Einhell está equipado com um bloqueio de fuso automático para uma troca simples da
+            ferramenta e um mandril de aperto rápido de uma manga com dez milímetros. O berbequim aparafusador sem fios
+            acaba com o flagelo da má iluminação do local de utilização: a luz LED clara ilumina a área de trabalho de
+            forma ideal. Inclui Jogo de 22 Peças sortidas (brocas e Bits).</div>
     </div>
 </body>
