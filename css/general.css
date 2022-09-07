@@ -1345,3 +1345,6 @@ input.input_text {
   left: 10%;
   right: 10%;
 }
+.title_text {
+  height: fit-content;
+}
