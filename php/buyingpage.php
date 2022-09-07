@@ -1,4 +1,3 @@
-</style>
 <!DOCTYPE html>
 <html>
 
