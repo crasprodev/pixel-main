@@ -1331,3 +1331,6 @@ input.input_text {
 .imagens_compra {
   max-width: 27rem;
 }
+.flex_market {
+  display: flex;
+}
