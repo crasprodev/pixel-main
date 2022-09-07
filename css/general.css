@@ -1301,19 +1301,3 @@ input.input_text {
   width: 0;
   height: 0;
 }
-.mn_principal {
-  /* display: grid; */
-  grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-  background: black;
-  height: 100vh;
-}
-.black {
-  background-color: black;
-}
-.green {
-  background-color: green;
-}
-.blue {
-  background-color: blue;
-}

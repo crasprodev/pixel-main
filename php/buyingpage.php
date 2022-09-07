@@ -1,33 +1,32 @@
-<!DOCTYPE html>
-<html>
+<?php include ("navbar/navbar.php"); ?>
 
-<head>
-    <style>
-    .grid-container {
-        display: grid;
-        gap: 10px;
-        background-color: #2196F3;
-        padding: 10px;
-    }
+<style>
+.grid-container {
+    display: grid;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
 
-    .grid-item {
-        background-color: rgba(255, 255, 255, 0.8);
-        text-align: center;
-        padding: 20px;
-        font-size: 30px;
-    }
+}
 
-    .item1 {
-        grid-column: 1;
-        grid-row: span 2;
-    }
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.item1 {
+    grid-column: 1;
+    grid-row: span 2;
+}
 
 
-    .item5 {
-        grid-column: 1 / span 2;
-        grid-row: 3;
-    }
-    </style>
+.item5 {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+</style>
 </head>
 
 <body>
@@ -46,5 +45,11 @@
     <p>Item 1, 2, and 5 are set to span multiple columns or rows.</p>
 
 </body>
+<script>
+AOS.init();
+</script>
+<script src="../Jquery/jquery.js"></script>
 
 </html>
+<script>
+</script>
