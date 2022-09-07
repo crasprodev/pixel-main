@@ -1302,9 +1302,11 @@ input.input_text {
   height: 0;
 }
 .mn_principal {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
+  background: black;
+  height: 100vh;
 }
 .black {
   background-color: black;
