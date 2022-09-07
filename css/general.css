@@ -1303,4 +1303,15 @@ input.input_text {
 }
 .mn_principal {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+.black {
+  background-color: black;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
 }
