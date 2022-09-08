@@ -4,7 +4,7 @@
 
     </div>
     <div class="pathwaysecundary"></div>
-    <div class="title_shop">Choclate</div>
+    <div class="title_shop">TITULO</div>
     <div class="comprar">
         <div class="Preco">100</div>
         <div class="comprarbtn">Adicionar ao cart</div>
