@@ -1302,12 +1302,12 @@ input.input_text {
   height: 0;
 }
 .menuprincipal {
+  position: relative;
   width: 80%;
   background: red;
   height: 100vh;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
 }
 .imagemprincipal {
   background: green;
