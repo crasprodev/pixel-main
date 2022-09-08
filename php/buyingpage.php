@@ -5,6 +5,10 @@
     </div>
     <div class="pathwaysecundary"></div>
     <div class="title_shop">Choclate</div>
+    <div class="comprar">
+        <div class="Preco">100</div>
+        <div class="comprarbtn">Adicionar ao cart</div>
+    </div>
     <div class="description"></div>
 </div>
 
